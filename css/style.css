@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: white;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 3.6rem;
+}
+
+.container {
+  background-color: purple;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 5rem;
+  width: 90%;
+}
+
+section {
+  background-color: #f99999;
+  color: black;
+  height: 20rem;
+  margin-top: .5rem;
+  padding: 10rem 0;
+}
+
+section.hero {
+  padding: 15rem 0;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .container {
+    background-color: yellow;
+    width: 80%;
+  }
+
+  section {
+      float: left;
+      margin: 1%;
+      width: 98%;
+  }
+
+@media screen and (min-width: 1025px) {
+  .container {
+    background-color: red;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  section {
+    float: left;
+    margin: 1%;
+    width: 98%;
+  }
+}
