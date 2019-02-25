@@ -76,6 +76,13 @@ section {
   .container {
     background-color: yellow;
     grid-template-columns: 4fr 6fr;
+        grid-template-areas:
+    " . . "
+    ". hero"
+    ". slogan"
+    ". projects"
+    " . . "
+    "footer footer";
     margin: 0 auto;
     width: 80%;
   }
@@ -93,7 +100,6 @@ section {
     " . . . ."
     "footer footer footer footer";
     margin: 0 auto;
-    padding-bottom: 100px;
     width: 80%;
   }
 
