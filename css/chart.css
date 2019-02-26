@@ -23,13 +23,13 @@ body {
 
 }
 
-.chart1 {
+/* .chart1 {
   grid-area: 1/1/1/1;
 }
 
 .chart2 {
   grid-area: 1/2/1/2;
-}
+} */
 
 @media (min-width: 70rem) {
   .grid-contain {
@@ -37,4 +37,13 @@ body {
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: auto:
   }
+
+  .chart1 {
+    grid-area: 1/2/1/6;
+  }
+
+  .chart2 {
+    grid-area: 1/6/1/10;
+  }
+
 }
