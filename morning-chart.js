@@ -62,5 +62,8 @@ var myChart = new Chart(surveyChart, {
      }]
    },
    options: {
+     tooltips: {
+     enabled: false,
+       }
      }
   });

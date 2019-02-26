@@ -7,9 +7,9 @@ html {
 
 body {
   background-color: #fcfcfc;
-  /*display: grid:
-  grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: auto:*/
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto:
 }
 
 .half {
@@ -24,15 +24,17 @@ body {
 }
 
 .chart1 {
-  /*grid-area: 1/1/1/1;*/
+  grid-area: 1/1/1/1;
 }
 
 .chart2 {
-  /*grid-area: 1/2/1/2;*/
+  grid-area: 1/2/1/2;
 }
 
 @media (min-width: 70rem) {
-  .half {
-    width: 25%;
+  .grid-contain {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: auto:
   }
 }
