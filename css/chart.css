@@ -6,12 +6,15 @@ html {
 }
 
 body {
-  background-color: navy;
+  background-color: #fcfcfc;
   /*display: grid:
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: auto:*/
 }
 
+.half {
+  width: 100%;
+}
 .center {
 /*  display: grid;
   grid-template-columns: repeat(2, 1 fr);
@@ -29,5 +32,7 @@ body {
 }
 
 @media (min-width: 70rem) {
-
+  .half {
+    width: 25%;
+  }
 }
