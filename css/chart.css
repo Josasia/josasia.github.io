@@ -1,0 +1,32 @@
+{ box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  /*display: grid:
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: auto:*/
+}
+
+.center {
+/*  display: grid;
+  grid-template-columns: repeat(2, 1 fr);
+  grid-area: 1/2/1/10;
+  background-color: pink;*/
+
+}
+
+.chart1 {
+  /*grid-area: 1/1/1/1;*/
+}
+
+.chart2 {
+  /*grid-area: 1/2/1/2;*/
+}
+
+@media (min-width: 70rem) {
+  
+}
