@@ -6,6 +6,7 @@ html {
 }
 
 body {
+  background-color: navy;
   /*display: grid:
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: auto:*/
@@ -28,5 +29,5 @@ body {
 }
 
 @media (min-width: 70rem) {
-  
+
 }
