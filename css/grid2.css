@@ -18,7 +18,7 @@ html {
   width: 80%;*/
 }
 
-.area1, .area2, .area3, .area4 {
+.area1, .area2, .area3, .area4, .area5, .area6{
   background-color: rgba(63, 127, 191, .5);
   color: #fff;
   font-size: 2rem;
@@ -42,4 +42,19 @@ html {
 
 .grid1 {
   padding: 10rem 0;
+}
+
+@media (max-width: 40rem) {
+  .grid, .grid1 {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  .wide p {
+    width: 95%;
+  }
+
 }
