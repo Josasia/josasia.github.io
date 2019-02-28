@@ -30,12 +30,14 @@ html {
 .area2 {
   grid-column: 2 / span 3;
   grid-row: 4 / span 8;
+  z-index: 0;
 }
 
 .area3 {
-  background-color: rgba(63, 127, 191, .1);
-  grid-column: 2 / span 3;
-  grid-row: 4 / span 8;
+  background-color: rgba(0, 0, 191, .1);
+  grid-column: 3 / span 3;
+  grid-row: 5 / span 6;
+  z-index: 1; /*lays on top*/
 }
 
 
@@ -69,6 +71,10 @@ html {
 
   .wide p {
     width: 95%;
+  }
+
+  .area2, .area3 {
+    grid-column: 1;
   }
 
 }
