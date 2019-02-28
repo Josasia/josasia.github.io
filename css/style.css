@@ -8,4 +8,108 @@ html {
 
 body {
   background-color: #fcfcfc;
+  font-family: Lato;
+}
+
+/*with JS fixed header function*/
+.header {
+  padding: 10px 16px;
+  background: #FFF;
+  color: #f1f1f1;
+}
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+/*main body*/
+h1 {
+  font-size: 2.4rem;
+}
+
+h6 {
+  font-family: Montserrat Subrayada;
+}
+
+b {
+  font-weight: 600;
+}
+
+
+.container {
+  background-color: purple;
+  display: grid;
+  grid-gap: 1rem 1rem;
+  grid-template-rows: (5);
+  grid-template-columns: (1);
+  /*grid-auto-rows: minmax(100px, auto);*/
+  grid-template-areas:
+    "topblank topblank topblank topblank"
+    "hero hero hero hero"
+    "myname myname myname myname"
+    "midblank midblank midblank midblank"
+    "slogan slogan . . "
+    ". . divider ."
+    "projects . . ."
+    "footer footer footer footer";
+  margin: 0 auto;
+  width: 85%;
+}
+
+section {
+  background-color: pink;
+  color: black;
+  margin-top: .5rem;
+  padding: 10rem 0;
+}
+
+.topblank {
+  grid-area: topblank;
+
+}
+
+.hero {
+  background-image: url("/images/smallJbg.svg");
+  background-repeat: no-repeat;
+  grid-area: hero;
+  padding: 15rem 0;
+
+
+}
+
+.myname {
+  grid-area: myname;
+}
+
+.midblank {
+  grid-area: midblank;
+}
+
+.slogan {
+  background-color: orange;
+  grid-area: slogan;
+}
+
+.divider {
+  background-image: url("/imaes/smallGreenDiv.svg");
+  grid-area: divider;
+}
+
+.projects {
+  background-color: pink;
+  grid-area: projects;
+}
+
+.footer {
+  background-color: green;
+  grid-area: footer;
 }
