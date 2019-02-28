@@ -49,18 +49,15 @@ b {
   background-color: purple;
   display: grid;
   grid-gap: 1rem 1rem;
-  grid-template-rows: (5);
-  grid-template-columns: (1);
+  grid-template-rows: 1fr 1fr;;
+  grid-template-columns: (2, 1fr);
   /*grid-auto-rows: minmax(100px, auto);*/
   grid-template-areas:
-    "topblank topblank topblank topblank"
-    "hero hero hero hero"
-    "myname myname myname myname"
-    "midblank midblank midblank midblank"
-    "slogan slogan . . "
-    ". . divider ."
-    "projects . . ."
-    "footer footer footer footer";
+    "hero hero"
+    "slogan slogan"
+    "divider divider"
+    "projects project"
+    "footer footer";
   margin: 0 auto;
   width: 85%;
 }
@@ -72,10 +69,6 @@ section {
   padding: 10rem 0;
 }
 
-.topblank {
-  grid-area: topblank;
-
-}
 
 .hero {
   background-image: url("/images/smallJbg.svg");
@@ -83,16 +76,8 @@ section {
   grid-area: hero;
   padding: 15rem 0;
 
-
 }
 
-.myname {
-  grid-area: myname;
-}
-
-.midblank {
-  grid-area: midblank;
-}
 
 .slogan {
   background-color: orange;
