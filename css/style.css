@@ -72,13 +72,9 @@ section {
     width: 95%;
 }
 
-.heroJ {
-    grid-row-start: 1;
-}
-
 .heroMe {
   grid-column-start: 3;
-  grid-row-start: 1;
+  grid-row-start: 2;
 }
 
 .heroText {
