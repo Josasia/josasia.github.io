@@ -37,14 +37,13 @@ b {
 }
 
 h1 {
-  font-size: 2.4rem;
-
+  font-size: 2.2rem;
+  letter-spacing: -2%;
   line-height: 115%;
 }
 
 h2 {
   font-size: 1.6rem;
-
   line-height: 115%;
 }
 
@@ -55,23 +54,26 @@ h6 {
 
 
 section {
-  color: black;
+  color: #312F30;
   margin-top: .5rem;
   padding: .5rem .5rem;
 }
 
-.container {
-  background-color: #fcfcfc;
+.herocontainer {
+  background-color: pink;
   display: grid;
   grid-gap: 1rem 1rem;
-  /* grid-template-rows: 1fr 1fr; */
-  /* grid-auto-rows: minmax(100px, auto); */
-  grid-template-areas:
-    "hero"
+  grid-template-rows: 1fr;
+  grid-auto-rows: minmax(100px, auto);
+
+
   margin: 0 auto;
-  width: 85%;
+  width: 95%;
 }
 
+
+
+/*
 .container2 {
   display: grid;
   grid-template-areas:
@@ -80,18 +82,13 @@ section {
   "projects"
   "footer";
   width:85%;
-}
+} */
 
-
-
-
+/*
 .hero {
   grid-area: hero;
-}
-
-.smallJbg {
-  height:auto;
-}
+} */
+/*
 
 .slogan {
   background-color: orange;
@@ -110,11 +107,10 @@ section {
 .footer {
   background-color: green;
   grid-area: footer;
-}
+} */
 
-
-@media (max-width: 300px) {
-  .container {
-    width: 95%;
+@media (min-width: 600px) {
+  .container, .container2 {
+    width: 20%
   }
 }
