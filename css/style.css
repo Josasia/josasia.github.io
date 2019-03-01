@@ -65,12 +65,24 @@ section {
     background-image: smallJbg.svg;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 5vw);
+    grid-template-rows: repeat(4, 4);
     grid-gap: 1rem;
     margin: 0 auto;
     width: 95%;
 }
 
+.heroJ {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.heroMe {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  padding-top: 50%;
+}
 /*
 .container2 {
   display: grid;
