@@ -61,27 +61,26 @@ section {
 
 
 .herocontainer {
-    background-color: pink;
+    background-color: #fcfcfc;
     background-image: url(/images/mLogoBg.svg);
     background-repeat: no-repeat;
     display: grid;
-    grid-template-columns: repeat(8, 43px);
-
-    grid-template-rows: repeat(6, 35px);
+    grid-template-columns: repeat(7,48px);
+    grid-template-rows: 84px 75px 35px 35px;
     grid-gap: 1rem;
     margin: 0 auto;
     width: 95%;
 }
 
 .meMobile {
-  grid-column: 4 / span 7;
-  grid-row-end: 4;
+  grid-column-start: 4;
+  grid-row: 2 / span 4;
 
 }
 
 .heroText {
   grid-column: 1 / span 8;
-  grid-row: 6 / span 6;
+  grid-row: 4 / span 6;
 }
 /*
 .container2 {
@@ -118,9 +117,9 @@ section {
   background-color: green;
   grid-area: footer;
 } */
-
+/*
 @media (max-width: 350px) {
   .meMobile {
       width: 100%
   }
-}
+} */
