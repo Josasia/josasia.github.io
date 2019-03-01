@@ -65,21 +65,21 @@ section {
     background-image: url(/images/smallJbg.svg);
     background-repeat: no-repeat;
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: .5rem;
     margin: 0 auto;
     width: 95%;
 }
 
-.heroMe {
-  grid-column-start: 2;
+.largeSelf {
+  grid-column-start: 4;
   grid-row-start: 2;
 }
 
 .heroText {
   grid-column-start: 1;
-  grid-column-end: 5;
+  grid-column-end: 6;
   grid-row-start: 3;
 }
 /*
@@ -118,8 +118,8 @@ section {
   grid-area: footer;
 } */
 
-@media (min-width: 600px) {
-  .container, .container2 {
-    width: 20%
+@media (max-width: 400px) {
+  .largeSelf {
+      max-width: 113px;
   }
 }
