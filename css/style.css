@@ -60,30 +60,31 @@ section {
 }
 
 
-.herocontainer {
-    background-color: #fcfcfc;
+.heroContainer {
+    background-color: pink;
     background-image: url(/images/mLogoBg.svg);
     background-repeat: no-repeat;
     display: grid;
     grid-template-columns: repeat(7,48px);
-    grid-template-rows: 84px 75px 35px 35px;
+    grid-template-rows: 50px 75px 35px 35px;
     grid-gap: 1rem;
     margin: 0 auto;
     width: 95%;
 }
 
-.largeSelf {
+ .largeSelf {
+  grid-column: 4 / span 4;
+  grid-row: 2 / span 4;
+}
+
+.largeSelf img {
+  width: 35vw;
   max-width: 100%;
-
-
-  /* grid-column: 4 / span 6;
-  grid-row: 2 / span 4; */
-
 }
 
 .heroText {
   grid-column: 1 / span 8;
-  grid-row: 4 / span 6;
+  grid-row: 4 / span 4;
 }
 /*
 .container2 {
@@ -120,9 +121,9 @@ section {
   background-color: green;
   grid-area: footer;
 } */
-/*
-@media (max-width: 350px) {
-  .meMobile {
-      width: 100%
+
+@media (min-width: 400px) {
+  .largeSelf img {
+      width: 45vw;
   }
-} */
+}
