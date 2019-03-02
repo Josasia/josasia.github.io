@@ -36,14 +36,23 @@ b {
   font-weight: 600;
 }
 
+i {
+  font-style:italic;
+}
+
+#space10 {
+  letter-spacing: 1.5px;
+}
+
 h1 {
   font-size: 2.4rem;
-  letter-spacing: -2%;
+  letter-spacing: -.5px;
   line-height: 115%;
 }
 
 h2 {
   font-size: 1.6rem;
+  letter-spacing: -.5px;
   line-height: 115%;
 }
 
@@ -51,25 +60,22 @@ h6 {
   font-family: Montserrat Subrayada;
 }
 
-
-
 section {
   color: #312F30;
   margin-top: .5rem;
   padding: .5rem .5rem;
 }
 
-
 .heroContainer {
-    background-color: pink;
-    background-image: url(/images/mLogoBg.svg);
-    background-repeat: no-repeat;
-    display: grid;
-    grid-template-columns: repeat(7,48px);
-    grid-template-rows: 7.5rem 4rem 8rem 3.5rem 3.3rem;
-    grid-gap: 1rem;
-    margin: 0 auto;
-    width: 95%;
+  background-color: pink;
+  background-image: url(/images/mLogoBg.svg);
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: repeat(7,48px);
+  grid-template-rows: 7.5rem 4rem 8rem 3.5rem 3.3rem;
+  grid-gap: 1rem;
+  margin: 0 auto;
+  width: 95vw;
 }
 
  .largeSelf {
@@ -82,9 +88,33 @@ section {
   max-width: 100%;
 }
 
-.heroText {
-  grid-column: 1 / span 8;
-  grid-row: 4 / span 4;
+.heroText  {
+  width: 100vw;
+  grid-column: 1 / span 12;
+  grid-row-start: 4;
+}
+
+.middleContainer {
+  display: grid;
+  grid-template-columns: repeat(12,25px);
+  grid-template-rows: repeat(4, 20px);
+  grid-gap: 1rem;
+  margin: 0 auto;
+  width: 95vw;
+}
+
+.greenDiv {
+  grid-column-start: 2;
+}
+.greenDiv img {
+  margin-top: 11rem;
+  width: 65vw;
+}
+
+.middleText {
+  width: 100vw;
+  grid-column: 2 / span 12;
+  grid-row-start: 2;
 }
 /*
 .container2 {
