@@ -68,7 +68,7 @@ section {
 
 .heroContainer {
   background-color: pink;
-  background-image: url(/images/mLogoBg.svg);
+  background-image: url(/images/mLogoBg.png);
   background-repeat: no-repeat;
   display: grid;
   grid-template-columns: repeat(7,48px);
