@@ -67,15 +67,17 @@ section {
 }
 
 .heroContainer {
-  background-color: pink;
-  background-image: url(/images/mLogoBg.png);
-  background-repeat: no-repeat;
   display: grid;
   grid-template-columns: repeat(7,48px);
   grid-template-rows: 7.5rem 4rem 8rem 3.5rem 3.3rem;
   grid-gap: 1rem;
   margin: 0 auto;
   width: 95vw;
+}
+
+.mLogoBg img {
+  max-width: 330px;
+  width: 100vw;
 }
 
  .largeSelf {
@@ -135,6 +137,7 @@ section {
   z-index: 1;
 }
 
+
 .projectBg img {
   width: 100vw;
   max-width: 335px;
@@ -148,6 +151,11 @@ section {
 .cacheMockup img {
   width: 86vw;
   max-width: 355px;
+}
+
+.caseStudyButton {
+  grid-column-start: 4;
+  grid-row-start: 6;
 }
 
 /*
