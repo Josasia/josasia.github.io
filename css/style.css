@@ -43,10 +43,6 @@ i {
   font-style:italic;
 }
 
-#space10 {
-  letter-spacing: 1.5px;
-}
-
 h1 {
   font-size: 2.4rem;
   letter-spacing: -.5px;
@@ -100,6 +96,11 @@ section {
 }
 
 /* MIDDLE DIV */
+
+#space10 {
+  letter-spacing: 1.5px;
+}
+
 
 .middleContainer {
   display: grid;
@@ -189,7 +190,6 @@ section {
   background-repeat: repeat;
   bottom: 0;
   display: grid;
-  grid-template-columns: repeat(8, 50px);
   grid-template-rows: repeat(6, 25px);
   height: 15rem;            /* Footer height */
   position: absolute;
@@ -199,9 +199,8 @@ section {
 
 #footer2 {
   font-family: Montserrat;
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   font-weight: 1000;
-  grid-row: 2 / span 7;
 }
 
 #footer3 {
@@ -209,6 +208,18 @@ section {
   font-family: Encode Sans Condensed;
 }
 
+.gitIcon img {
+
+
+}
+
+.twitterIcon img {
+
+}
+
+.mailIcon img {
+
+}
 /*
 .container2 {
   display: grid;
