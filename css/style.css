@@ -89,9 +89,9 @@ section {
 }
 
 .heroText  {
-  width: 100vw;
   grid-column: 1 / span 12;
   grid-row-start: 4;
+  width: 100vw;
 }
 
 .middleContainer {
@@ -113,42 +113,35 @@ section {
 }
 
 .middleText {
-  width: 100vw;
   grid-column: 2 / span 12;
   grid-row-start: 2;
+  width: 100vw;
 }
 
 .projectContainer {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 20px auto;
+  grid-template-columns: repeat(12,25px);
+  grid-template-rows: 2rem 3.6rem 2rem 20rem;
   margin-top: 10rem;
 }
 
-.project1Header {
-  display: grid;
-  align-items: center;
-  justify-items: center;
-  grid-row: 1;
+.cacheHeader {
   font-weight: 700;
   font-size: 3.6rem;
+  grid-row-start: 2;
+  grid-column-start: 4;
   letter-spacing: .5rem;
   line-height: 110%;
-  z-index: 2;
+  z-index: 1;
 }
 
-.triangle-topleft {
-
-  border-top: 253px solid #DFF2F2;
-  border-right: 375px solid transparent;
-  grid-column-start: 1;
-  grid-row-start: 1;
-  width: 335px;
-  z-index: 0;
+.projectBg img {
+  width: 100vw;
+  max-width: 335px;
 }
 
 .cacheMockup {
-  grid-row-start: 2;
+  grid-row-start: 3;
   z-index: 1;
 }
 
