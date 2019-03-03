@@ -43,14 +43,17 @@ body {
 }
 
 #footer {
-  display: grid;
   background-image: url("/images/footerBg.png");
   background-size: contain;
   background-repeat: repeat;
-  position: absolute;
   bottom: 0;
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(8, 50px);
+  grid-template-rows: repeat(6, 25px);
   height: 15rem;            /* Footer height */
+  position: absolute;
+  width: 100%;
+
 }
 
 #footer2 {
