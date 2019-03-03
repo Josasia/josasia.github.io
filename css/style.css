@@ -102,7 +102,6 @@ section {
   z-index: 3;
 }
 
-
 /* MIDDLE DIV */
 
 #space10 {
@@ -122,12 +121,10 @@ section {
   grid-column-start: 2;
   grid-row-start: 2;
   position:relative;left: 3rem;
-  z-index: 0;
 }
 
 .greenDiv img {
   width: 60vw;
-  z-index:0;
 }
 
 .middleText {
@@ -136,56 +133,64 @@ section {
   padding-top: 5rem;
   padding-bottom: 5rem;
   width: 100vw;
-  z-index: 1;
 }
 
 /* CACHE */
 
 .projectContainer {
   display: grid;
-  grid-template-columns: 2rem repeat(12,1fr);
-  grid-template-rows: 2rem 3.6rem 20rem 3.6rem 2rem 3.6rem;
-  margin-top: 10rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1rem;
+  margin: 0 auto;
+  width: 95vw;
 }
 
-#cacheHeader {
+.cacheTriangle2 {
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 4;
+}
+
+.cacheTriangle2 img {
+  width: 95vw;
+}
+
+.cacheHeader {
   font-weight: 700;
   font-size: 3.6rem;
-  grid-row-start: 2;
-  grid-column: 1/-1;
-  text-align: center;
+  grid-row: 1;
+  grid-column: 1;
   letter-spacing: .5rem;
   line-height: 110%;
-  z-index: 1;
-}
-
-
-.projectBg img {
-  width: 100vw;
-  max-width: 335px;
+  padding-top: 1rem;
+  text-align: center;
+  z-index: 5;
 }
 
 .cacheSub {
+  grid-column:1;
   font-size: 1.6rem;
-  grid-column: 2 / span 10;
-  grid-row-start: 5;
+  z-index:7;
 }
 
 .cacheMockup {
-  grid-row: 3 / span 6;
-  z-index: 1;
+  grid-column: 1;
+  grid-row: 1;
+  position:relative;top: 4rem;
+  z-index: 6;
 }
 
 .cacheMockup img {
-  width: 86vw;
+  width: 95vw;
   max-width: 355px;
 }
 
 .caseStudyButton {
-  padding-top: 1.5rem;
+  /* padding-top: 1.5rem;
   grid-column-start: 4;
   grid-row-start: 10;
-}
+} */
 
 
 /* footer */
@@ -211,7 +216,6 @@ section {
   height: 15rem;            /* Footer height */
   position: absolute;
   width: 100%;
-
 }
 
 #footer2 {
@@ -226,7 +230,6 @@ section {
 }
 
 .gitIcon img {
-
 
 }
 
