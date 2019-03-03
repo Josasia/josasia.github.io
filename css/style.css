@@ -126,9 +126,12 @@ section {
   width: 100vw;
 }
 
+
+/* CACHE */
+
 .projectContainer {
   display: grid;
-  grid-template-columns: repeat(12,25px);
+  grid-template-columns: repeat(12,1fr);
   grid-template-rows: 2rem 3.6rem 20rem 3.6rem 2rem 3.6rem;
   margin-top: 10rem;
 }
@@ -137,13 +140,13 @@ section {
   font-weight: 700;
   font-size: 3.6rem;
   grid-row-start: 2;
-  grid-column-start: 4;
+  grid-column: 1/-1;
+  text-align: center;
   letter-spacing: .5rem;
   line-height: 110%;
   z-index: 1;
 }
 
-/* CACHE */
 
 .projectBg img {
   width: 100vw;
@@ -188,6 +191,8 @@ section {
   background-image: url("/images/footerBg.png");
   background-size: contain;
   background-repeat: repeat;
+  border-top: 2rem;
+  border-color: black;
   bottom: 0;
   display: grid;
   grid-template-rows: repeat(6, 25px);
