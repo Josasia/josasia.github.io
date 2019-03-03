@@ -45,6 +45,7 @@ body {
 #footer {
   display: grid;
   background-image: url("/images/footerBg.png");
+  background-size: contain;
   background-repeat: repeat;
   position: absolute;
   bottom: 0;
@@ -79,7 +80,6 @@ i {
 
 h1 {
   font-size: 2.4rem;
-  font-weight: 1000;
   letter-spacing: -.5px;
   line-height: 115%;
 }
@@ -172,7 +172,7 @@ section {
 .projectContainer {
   display: grid;
   grid-template-columns: repeat(12,25px);
-  grid-template-rows: 2rem 3.6rem 2rem 20rem;
+  grid-template-rows: 2rem 3.6rem 20rem 3.6rem 2rem;
   margin-top: 10rem;
 }
 
@@ -191,8 +191,14 @@ section {
   max-width: 335px;
 }
 
+.cacheSub {
+  font-size: 1.6rem;
+  grid-column: 2 / span 10;
+  grid-row-start: 4;
+}
+
 .cacheMockup {
-  grid-row-start: 3;
+  grid-row: 3 / span 6;
   z-index: 1;
 }
 
@@ -202,9 +208,12 @@ section {
 }
 
 .caseStudyButton {
+  padding-top: 2rem;
   grid-column-start: 4;
-  grid-row-start: 6;
+  grid-row-start: 8;
 }
+
+
 
 /*
 .container2 {
