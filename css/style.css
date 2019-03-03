@@ -85,10 +85,10 @@ section {
 }
 
  .largeSelf {
-   grid-column: 2;
-   grid-row: 2;
-   position: relative;left:-2rem;
-   z-index: 1;
+  grid-column: 2;
+  grid-row: 2;
+  position: relative;left:-2rem;
+  z-index: 1;
 }
 
 .largeSelf img {
@@ -100,8 +100,8 @@ section {
   grid-row-start: 3;
   position: relative;top:-.75rem;
   z-index: 3;
-  /* width: 100vw; */
 }
+
 
 /* MIDDLE DIV */
 
@@ -109,11 +109,10 @@ section {
   letter-spacing: 1.5px;
 }
 
-
 .middleContainer {
   display: grid;
-  grid-template-columns: repeat(12,25px);
-  grid-template-rows: repeat(4, 20px);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-gap: 1rem;
   margin: 0 auto;
   width: 95vw;
@@ -121,19 +120,24 @@ section {
 
 .greenDiv {
   grid-column-start: 2;
+  grid-row-start: 2;
+  position:relative;left: 3rem;
+  z-index: 0;
 }
 
 .greenDiv img {
-  margin-top: 11rem;
-  width: 65vw;
+  width: 60vw;
+  z-index:0;
 }
 
 .middleText {
-  grid-column: 2 / span 12;
-  grid-row-start: 2;
+  grid-column-start: 2;
+  position: relative;left: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   width: 100vw;
+  z-index: 1;
 }
-
 
 /* CACHE */
 
