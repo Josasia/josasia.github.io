@@ -106,6 +106,7 @@ section {
 .greenDiv {
   grid-column-start: 2;
 }
+
 .greenDiv img {
   margin-top: 11rem;
   width: 65vw;
@@ -116,6 +117,46 @@ section {
   grid-column: 2 / span 12;
   grid-row-start: 2;
 }
+
+.projectContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 20px auto;
+  margin-top: 10rem;
+}
+
+.project1Header {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-row: 1;
+  font-weight: 700;
+  font-size: 3.6rem;
+  letter-spacing: .5rem;
+  line-height: 110%;
+  z-index: 2;
+}
+
+.triangle-topleft {
+
+  border-top: 253px solid #DFF2F2;
+  border-right: 375px solid transparent;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  width: 335px;
+  z-index: 0;
+}
+
+.cacheMockup {
+  grid-row-start: 2;
+  z-index: 1;
+}
+
+.cacheMockup img {
+  width: 86vw;
+  max-width: 355px;
+}
+
 /*
 .container2 {
   display: grid;
@@ -151,9 +192,18 @@ section {
   background-color: green;
   grid-area: footer;
 } */
+/*
 
 @media (min-width: 400px) {
-  .largeSelf img {
+  /* .largeSelf img {
       width: 45vw;
+  } */
+/*
+  .cacheMockup img {
+      max-width: 355px;
+  } */
+
+  /* .triangle-topleft {
+      width: 100vw;
   }
-}
+} */
