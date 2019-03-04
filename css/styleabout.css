@@ -60,7 +60,7 @@ h2 {
 }
 
 h3 {
-  font-size: 3.2rem;
+  font-size: 3rem;
   font-style: italic;
   font-weight: 1000;
   color: #B8D8F6;
@@ -78,9 +78,10 @@ section {
 .about1container, .about2container, .about3container, .about4container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 2fr .5fr;
+  grid-template-rows: 2fr .2fr;
   grid-gap: 1rem;
   margin: 0 auto;
+  position: relative;
   width: 95vw;
 }
 
@@ -114,21 +115,32 @@ section {
 
 .aboutDiv1 {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr; /* !!!! Grid Revelation #2930 */
+  grid-template-rows:  1fr;
+  padding-top: 2rem;
+  width: 95vw;
 }
 
 .quote1 {
   grid-row: 1;
-  grid-column: 1;
+  grid-column: 1 /  3;
+  margin-left: 1rem;
+  margin-top: 1rem;
   position: absolute;
+  width: 95vw;
   z-index: 4;
 }
-.rectangleBlue img {
+
+.rectangleBlue {
     grid-row: 1;
-    grid-column: 1;
-    position: relative;
+    grid-column: 2;
+    position: relative; left: 8rem;
     z-index: 3;
+}
+
+
+.rectangleBlue img {
+    width: 45vw;
 }
 
 
