@@ -251,14 +251,6 @@ section {
 }
 
 
-/* ABOUT */
-
-.about1container {
-  display: grid;
-  grid columns: 1fr 1fr 1fr;
-}
-
-
 /*
 @media (min-width: 400px) {
   /* .largeSelf img {

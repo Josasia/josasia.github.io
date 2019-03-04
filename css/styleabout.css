@@ -1,0 +1,108 @@
+/* HEADER ETC */
+
+* {
+  box-sizing: border-box;
+}
+
+/*JS HEADER*/
+
+.header {
+  padding: 10px 16px;
+  background: #FFF;
+  color: #f1f1f1;
+}
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+/* BODY */
+
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #fcfcfc;
+  font-family: Lato;
+}
+
+b {
+  font-weight: 600;
+}
+
+i {
+  font-style:italic;
+}
+
+h1 {
+  letter-spacing: .25px;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.6rem;
+  line-height: 125%;
+}
+
+h3 {
+  font-size: 3.2rem;
+  font-style: italic;
+  font-weight: 1000;
+}
+
+section {
+  color: #312F30;
+  margin-top: .5rem;
+  padding: .5rem .5rem;
+}
+
+
+/* ABOUT BODY*/
+
+.about1container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1rem;
+  margin: 0 auto;
+  width: 95vw;
+}
+
+.logoBg2 img {
+  grid-row: 1;
+  grid-column: 1;
+  position: absolute; /* TRY FIXED! */
+  max-width: 65vw;
+  z-index: 0;
+}
+
+.about1header  {
+  grid-column: 1;
+  grid-row: 1;
+  position: absolute;top: 15rem;
+  text-align: center;
+  z-index: 1;
+}
+
+.about1body {
+  grid-column: 1 / span 3;
+  grid-row: 2;
+  width: 70vw;
+  margin-left: 4rem;
+  position: relative;
+  z-index: 2;
+}
+
+.about2
