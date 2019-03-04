@@ -258,9 +258,7 @@ section {
   grid columns: 1fr 1fr 1fr;
 }
 
-.rectangleBlue {
-  width: 100vw;
-}
+
 /*
 @media (min-width: 400px) {
   /* .largeSelf img {
