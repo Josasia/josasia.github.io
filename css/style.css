@@ -16,7 +16,7 @@
 .sticky {
   position: fixed;
   top: 0;
-  width: 100%
+  width: 100%;
 }
 
 .sticky + .content {
@@ -132,7 +132,7 @@ section {
   grid-row: 1;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  width: 100vw;
+  width: 95vw;
 }
 
 /* CACHE */
