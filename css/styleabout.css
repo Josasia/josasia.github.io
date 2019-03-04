@@ -46,9 +46,12 @@ i {
 }
 
 h1 {
-  letter-spacing: .25px;
+  font-family: Montserrat;
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 500;
+  line-height: 125%;
+  letter-spacing: 1px;
+  text-transform:uppercase;
 }
 
 h2 {
@@ -60,6 +63,7 @@ h3 {
   font-size: 3.2rem;
   font-style: italic;
   font-weight: 1000;
+  color: #B8D8F6;
 }
 
 section {
@@ -71,10 +75,10 @@ section {
 
 /* ABOUT BODY*/
 
-.about1container {
+.about1container, .about2container, .about3container, .about4container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 2fr .5fr;
   grid-gap: 1rem;
   margin: 0 auto;
   width: 95vw;
@@ -83,26 +87,132 @@ section {
 .logoBg2 img {
   grid-row: 1;
   grid-column: 1;
-  position: absolute; /* TRY FIXED! */
+  position: absolute; top: 4rem;/* TRY FIXED! */
   max-width: 65vw;
   z-index: 0;
 }
 
-.about1header  {
-  grid-column: 1;
+.about1header, .about2header, .about3header, .about4header  {
+  grid-column: 1 / 4;
   grid-row: 1;
-  position: absolute;top: 15rem;
+  margin-left: 1rem;
+  position: relative; top: 10rem;
   text-align: center;
+  width: 85vw; /*mix with margin and align to center */
   z-index: 1;
 }
 
-.about1body {
+.about1body, .about2body, .about3body, .about4body {
   grid-column: 1 / span 3;
-  grid-row: 2;
-  width: 70vw;
-  margin-left: 4rem;
+  grid-row: 1;
+  padding-top: 15rem;
+  margin-left: 2rem;
   position: relative;
+  width: 85vw; /*maybe add margin left */
   z-index: 2;
 }
 
-.about2
+.aboutDiv1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.quote1 {
+  grid-row: 1;
+  grid-column: 1;
+  position: absolute;
+  z-index: 4;
+}
+.rectangleBlue img {
+    grid-row: 1;
+    grid-column: 1;
+    position: relative;
+    z-index: 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 25rem;    /* Footer height */
+}
+
+#footer {
+  background-image: url("/images/footerBg.png");
+  background-size: contain;
+  background-repeat: repeat;
+  border-top: 2rem;
+  border-color: black;
+  bottom: 0;
+  display: grid;
+  grid-template-rows: repeat(6, 25px);
+  height: 15rem;            /* Footer height */
+  position: absolute;
+  width: 100%;
+}
+
+.footer1text {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.footer2text {
+  font-size: 2.8rem;
+  font-weight: 1000;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.footer3text {
+  font-size: 1.4rem;
+  font-family: Encode Sans Condensed;
+}
+
+.gitIcon img {
+
+}
+
+.twitterIcon img {
+
+}
+
+.mailIcon img {
+
+}
