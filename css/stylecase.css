@@ -1,0 +1,177 @@
+/* HEADER ETC */
+
+* {
+  box-sizing: border-box;
+}
+
+/*JS HEADER*/
+
+.header {
+  padding: 10px 16px;
+  background: #FFF;
+  color: #f1f1f1;
+}
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+/* BODY */
+
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #fcfcfc;
+  font-family: Lato;
+}
+
+b {
+  font-weight: 600;
+}
+
+i {
+  font-style:italic;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 125%;
+  letter-spacing: 1px;
+  text-transform:uppercase;
+}
+
+h2 {
+  font-size: 1.6rem;
+  line-height: 125%;
+}
+
+h3 {
+  color: #B8D8F6;
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: 1000;
+  line-height: 90%;
+}
+
+h4 {
+  color: #BDE3E5;
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: 1000;
+  line-height: 90%;
+}
+
+section {
+  color: #312F30;
+  margin-top: .5rem;
+  padding: .5rem .5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 25rem;    /* Footer height */
+}
+
+#footer {
+  background-image: url("/images/footerBg.png");
+  background-size: contain;
+  background-repeat: repeat;
+  border-top: 2rem;
+  border-color: black;
+  bottom: 0;
+  display: grid;
+  grid-template-rows: repeat(6, 25px);
+  height: 15rem;            /* Footer height */
+  position: absolute;
+  width: 100%;
+}
+
+.footer1text {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.footer2text {
+  font-size: 2.8rem;
+  font-weight: 1000;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.footer3text {
+  font-size: 1.4rem;
+  font-family: Encode Sans Condensed;
+}
+
+.gitIcon img {
+
+}
+
+.twitterIcon img {
+
+}
+
+.mailIcon img {
+
+}
