@@ -1,3 +1,7 @@
+/* LOCAL FONT HOSTING */
+
+@import "css/fonts.css"; 
+
 /* HEADER ETC */
 
 * {
@@ -68,6 +72,13 @@ h4 {
   font-style: italic;
   font-weight: 1000;
   line-height: 90%;
+}
+
+h6 {
+  font-family: Montserrat;
+  font-size: 3.6rem;
+  font-weight: 900;
+  letter-spacing: -2px;
 }
 
 section {
@@ -166,6 +177,16 @@ section {
   padding-top: 2rem;
 }
 
+/* GREEN DIVIDER 1*/
+
+.div1 {
+  background-color:  #BDE3E5;
+  display: grid;
+  grid-column: 1fr;
+  grid-row: 1fr;
+  height: 10vw;
+  width: 100vw;
+}
 
 /* PROBLEM + SOLUTION */
 
@@ -204,16 +225,15 @@ section {
 
 .discRese {
   display: grid;
-grid-auto-rows: minmax(1fr, auto);
+  grid-auto-rows: minmax(1fr, auto);
 
 }
 .compBar {
   width:90vw;
 }
+/* montserrat-regular - latin */
 
-
-
-
+}
 
 
 
