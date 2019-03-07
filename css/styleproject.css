@@ -60,6 +60,13 @@ h2 {
   letter-spacing: -.05rem;
 }
 
+h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: -.05rem;
+  line-height: 125%;
+}
+
 h4 {
   color: #BDE3E5;
   font-size: 3rem;
@@ -183,13 +190,13 @@ section {
 /* GREEN DIVIDER 1*/
 
 .div1 {
-  background-color:  #BDE3E5;
+  background-color:  #DFF2F2;
   display: grid;
   grid-column: 1fr;
   grid-row: 1fr;
-  height: 10vw;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  height: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   width: 100vw;
 }
 
@@ -197,10 +204,10 @@ section {
 
 .psi {
   display: grid;
+  grid-gap: 1rem;
   grid-template-columns: .05fr 1fr .05fr;
    /* In additiong to empty-cells:show, can size everything easy" */
   margin: 0 auto;
-  grid-gap: 1rem;
   width: 95vw;
 }
 
@@ -208,7 +215,6 @@ section {
   grid-column: 2;
   grid-row:1;
   padding-top: 2rem;
-  width: 100%
 }
 
 .soluU {
@@ -227,58 +233,64 @@ section {
 
 .discRese {
   display: grid;
-  grid-template-columns: 23rem;
-  margin-left: 2.5rem;
+  empty-cells: show;
+  grid-gap: 1rem;
+  grid-template-columns: .05fr 1fr .05fr;
+  margin: 0 auto;
   width: 95vw;
 }
 
 .discHeader{
-  grid-column: 1;
   font-family: Montserrat;
   font-size: 3.6rem;
   font-weight: 700;
-  line-height: 80%;
+  grid-column: 2;
   letter-spacing: -.2rem;
+  line-height: 80%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 
 
 /* COMPETITIVE ANALYSIS */
 
-.compAnalysis {
+.compContainer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: 0 auto;
   empty-cells: show;
   grid-gap: 1rem;
+  grid-template-columns: .05fr 1fr .05fr;
+  margin: 0 auto;
   width: 95vw;
 }
 
 
 .compBar  {
-  grid-row: 1;
   grid-column: 2;
+  grid-row: 1;
+  overflow-x: hidden;
   position: absolute;
-  overflow-x: scroll;
   width: 95vw;
   z-index: 0;
-}
-
-.compBar img {
-
 }
 
 .compHeader {
   grid-column: 2;
   grid-row: 2;
+  margin-top: 2rem;
+  width: 100%;
   z-index: 1;
 }
 
-.compBody {
+.compSub {
   grid-column: 2;
   grid-row: 3;
-  width: 95vw;
+  margin-bottom: 1.5rem;
+  width: 100%;
   z-index: 2;
+}
+
+.otherBrands {
 
 }
 
