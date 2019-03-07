@@ -262,26 +262,27 @@ section {
 .compBar  {
   grid-row: 1;
   grid-column: 2;
-  object-fit: fill;
+  position: absolute;
   z-index: 0;
 }
 
 .compBar img {
+  height: 225px;
   width: 95vw;
 }
 
 .compHeader {
   grid-column: 2;
   grid-row: 2;
-  position: absolute;
   z-index: 1;
 }
 
 .compBody {
   grid-column: 2;
   grid-row: 3;
-  position: absolute;
+  width: 95vw;
   z-index: 2;
+
 }
 
 
