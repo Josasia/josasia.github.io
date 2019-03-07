@@ -98,38 +98,39 @@ section {
   width: 95vw;
 }
 
-.caseCache {
+.caseHero {
   grid-column: 2;
   grid-row: 1;
 }
-.caseCache img{
+.caseHero img{
   width: 70vw; /*mix with margin and align to center */
-
 }
-.cacheHeader {
+
+.caseHeader {
+
+  font-family: Montserrat Subrayada;
+  font-size: 4.8rem;
   grid-column: 2;
   grid-row: 2;
+
+
+    margin-bottom: .5rem;
+    width: 55vw;
 }
 
-.cacheHeader img {
-  margin-bottom: .5rem;
-  width: 55vw;
-
+.caseHeader img {
 }
 
 .cacheBody {
-
-    font-size: 2rem;
-    font-weight: 400;
-
-    letter-spacing: -.1rem;
-    line-height: 125%;
-
+  font-size: 2rem;
+  font-weight: 400;
   grid-column: 2;
   grid-row: 3;
-  position: relative; top:-1.5rem;
+  letter-spacing: -.1rem;
+  line-height: 125%;
+  margin-bottom: 2rem;
   text-align: center;
-  width: 50vw; /*maybe add margin left */
+  width: 72vw; /*maybe add margin left */
 
 }
 
