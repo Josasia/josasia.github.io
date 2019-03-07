@@ -55,7 +55,7 @@ h1 {
 
 h2 {
   font-family: Montserrat;
-  font-size: 1.8rem;
+  font-size: 1.8rem;  /*font-size: calc(4.8 + 1.5vw); RESPONSIVE BASED ON VW, NO QUERY*/ 
   font-weight: 700;
   letter-spacing: -.05rem;
 }
@@ -107,18 +107,14 @@ section {
 }
 
 .caseHeader {
-
   font-family: Montserrat Subrayada;
   font-size: 4.8rem;
   grid-column: 2;
   grid-row: 2;
-
-
-    margin-bottom: .5rem;
-    width: 55vw;
-}
-
-.caseHeader img {
+  letter-spacing: .8rem;
+  text-align: center;
+  margin-bottom: .5rem;
+  width: 55vw;
 }
 
 .cacheBody {
@@ -131,18 +127,19 @@ section {
   margin-bottom: 2rem;
   text-align: center;
   width: 72vw; /*maybe add margin left */
-
 }
+
 
 .buttonPrototype {
   grid-column: 2;
   grid-row: 3;
   position: relative; top: 7rem;
-
 }
 
 .buttonPrototype img {
-  padding-top: 2rem;
+  padding-top: 2rem;  /* MAKE NEW BUTTON*/
+  width: 95vw
+  max-width: 155px;
 }
 
 
@@ -151,7 +148,7 @@ section {
 
 .rdt {
   display: grid;
-  grid-template-columns: .5fr 1.5fr .5fr;
+  grid-template-columns: .75fr 1.5fr .75fr;
   grid-template-areas:
     ". roleU ."
     ". deliU ."
@@ -173,12 +170,14 @@ section {
   grid-column: 2;
   grid-row:2;
   padding-top: 2rem;
+  width: 100%;
 }
 
 .toolU {
   grid-column: 2;
   grid-row:3;
   padding-top: 2rem;
+  width: 100%;
 }
 
 /* GREEN DIVIDER 1*/
@@ -189,6 +188,8 @@ section {
   grid-column: 1fr;
   grid-row: 1fr;
   height: 10vw;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   width: 100vw;
 }
 
@@ -196,11 +197,11 @@ section {
 
 .psi {
   display: grid;
-  grid-template-columns: .1fr;
+  grid-template-columns: .05fr 1fr .05fr;
   grid-template-areas:
-    " roleU "
-    " deliU "
-    " toolU ";  /* In additiong to empty-cells:show, can size everything easy" */
+    ". roleU ."
+    " .deliU ."
+    ". toolU ";  /* In additiong to empty-cells:show, can size everything easy" */
   margin: 0 auto;
   grid-gap: 1rem;
   width: 95vw;
@@ -229,15 +230,27 @@ section {
 
 .discRese {
   display: grid;
-  grid-auto-rows: minmax(1fr, auto);
+  grid-template-columns: 1fr 1fr;
+  width: 75vw;
+}
+
+.discHeader{
+  grid-column: 1 / span 2;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 3.6rem;
 
 }
+
+
+
+/* COMPETITIVE ANALYSIS */
 .compBar {
   width:90vw;
 }
 
 
-.discHeader {
+.discHeader{
   width: 66vw;
 }
 
