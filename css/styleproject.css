@@ -248,10 +248,6 @@ section {
 .compAnalysis {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas:
-  " . compBar . "
-  " . compHeader . "
-  " . compBody . ";  /* In additiong to empty-cells:show, can size everything easy" */
   margin: 0 auto;
   empty-cells: show;
   grid-gap: 1rem;
@@ -263,12 +259,13 @@ section {
   grid-row: 1;
   grid-column: 2;
   position: absolute;
+  overflow-x: scroll;
+  width: 95vw;
   z-index: 0;
 }
 
 .compBar img {
-  height: 225px;
-  width: 95vw;
+
 }
 
 .compHeader {
