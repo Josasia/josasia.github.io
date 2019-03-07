@@ -55,7 +55,7 @@ h1 {
 
 h2 {
   font-family: Montserrat;
-  font-size: 1.8rem;  /*font-size: calc(4.8 + 1.5vw); RESPONSIVE BASED ON VW, NO QUERY*/ 
+  font-size: 1.8rem;  /*font-size: calc(4.8 + 1.5vw); RESPONSIVE BASED ON VW, NO QUERY*/
   font-weight: 700;
   letter-spacing: -.05rem;
 }
@@ -198,10 +198,7 @@ section {
 .psi {
   display: grid;
   grid-template-columns: .05fr 1fr .05fr;
-  grid-template-areas:
-    ". roleU ."
-    " .deliU ."
-    ". toolU ";  /* In additiong to empty-cells:show, can size everything easy" */
+   /* In additiong to empty-cells:show, can size everything easy" */
   margin: 0 auto;
   grid-gap: 1rem;
   width: 95vw;
@@ -230,35 +227,67 @@ section {
 
 .discRese {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 75vw;
+  grid-template-columns: 23rem;
+  margin-left: 2.5rem;
+  width: 95vw;
 }
 
 .discHeader{
-  grid-column: 1 / span 2;
+  grid-column: 1;
   font-family: Montserrat;
-  font-weight: 700;
   font-size: 3.6rem;
-
+  font-weight: 700;
+  line-height: 80%;
+  letter-spacing: -.2rem;
 }
 
 
 
 /* COMPETITIVE ANALYSIS */
-.compBar {
-  width:90vw;
+
+.compAnalysis {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  " . compBar . "
+  " . compHeader . "
+  " . compBody . ";  /* In additiong to empty-cells:show, can size everything easy" */
+  margin: 0 auto;
+  empty-cells: show;
+  grid-gap: 1rem;
+  width: 95vw;
 }
 
 
-.discHeader{
-  width: 66vw;
+.compBar  {
+  grid-row: 1;
+  grid-column: 2;
+  object-fit: fill;
+  z-index: 0;
+}
+
+.compBar img {
+  width: 95vw;
+}
+
+.compHeader {
+  grid-column: 2;
+  grid-row: 2;
+  position: absolute;
+  z-index: 1;
+}
+
+.compBody {
+  grid-column: 2;
+  grid-row: 3;
+  position: absolute;
+  z-index: 2;
 }
 
 
 
 
 
-}
 
 
 
