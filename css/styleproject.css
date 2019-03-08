@@ -4,28 +4,9 @@
   box-sizing: border-box;
 }
 
-/*JS HEADER*/
 
-.header {
-  padding: 10px 16px;
-  background: #FFF;
-  color: #f1f1f1;
-}
-.content {
-  padding: 16px;
-}
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 102px;
-}
-
-/* BODY */
+/* BODY ETC */
 
 
 html {
@@ -52,7 +33,6 @@ h1 {
   line-height: 125%;
 }
 
-
 h2 {
   font-family: Montserrat;
   font-size: 1.8rem;  /*font-size: calc(4.8 + 1.5vw); RESPONSIVE BASED ON VW, NO QUERY*/
@@ -78,16 +58,34 @@ h4 {
 h6 {
   font-family: Montserrat;
   font-size: 3.6rem;
-  font-weight: 700;
+  font-weight: 900;
   letter-spacing: -.05rem;
   line-height: 62%;
-
 }
 
 section {
   color: #312F30;
   margin-top: .5rem;
   padding: .5rem .5rem;
+}
+
+
+#callToActionB {
+  align-items: center;
+  background: #0070E0;
+  display: grid;
+  height: 35px;
+  justify-content: center;
+  width: 145px;
+  }
+
+#callToActionB p {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-align:center;
+  text-decoration-line: underline;
 }
 
 /* HERO */
@@ -352,7 +350,7 @@ section {
 
 /* USER SURVEYS HEADER*/
 
-.survContainer {
+.survBarContainer {
   display: grid;
   empty-cells: show;
   grid-gap: 1rem;
@@ -393,17 +391,18 @@ section {
 .survMain {
   display: grid;
   empty-cells: show;
-  grid-template-columns: .2fr 1fr .2fr;
+  grid-template-columns: .95fr 1fr .95fr;
   grid-gap: 1rem;
   margin: 0 auto;
-  margin-top: 5rem;
-  padding-top:5rem;
+  padding-top: 5rem;
   width: 95vw;
 }
 
 .u83 {
   grid-column: 2;
   grid-row:1;
+  margin-top: 5rem;
+  text-indent: .25rem;
 }
 
 .i83 {
@@ -415,7 +414,8 @@ section {
 .u73 {
   grid-column: 2;
   grid-row: 3;
-  margin-top: 3rem;
+  margin-top: 4rem;
+  text-indent: .25rem;
 }
 
 .i73 {
@@ -427,9 +427,10 @@ section {
 .u61 {
   grid-column: 2;
   grid-row: 5;
-  margin-top: 3rem;
+  margin-top: 4rem;
+  text-indent: .25rem;
 }
-/////////////// SOMETHING GOT MIXED UP / TAKE A BREAK
+
 .i61 {
   grid-column: 2;
   grid-row:6;
@@ -439,11 +440,21 @@ section {
 .u77{
   grid-column: 2;
   grid-row:7;
-  margin-top: 3rem;
+  margin-top: 4rem;
+  text-indent: .25rem;
+}
+
+.i77 {
+  grid-column: 2;
+  grid-row:9;
   width: 100%;
 }
 
-
+.surveyButton {
+  grid-column: 2;
+  grid-row: 14;
+  width: 100%;
+}
 
 
 
