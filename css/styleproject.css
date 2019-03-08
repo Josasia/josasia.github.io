@@ -424,19 +424,25 @@ section {
   width: 98vw;
 }
 
+
 .miaU, .arthU {
   grid-column: 2;
 }
 
-
 .miaU img, .arthU img{
+  overflow-x: hidden;
+  position: absolute;
   width: 35vw;
+  margin-right: 4rem;
+  margin-top: 5rem;/////// this is where you left off,
+  margin
+  z-index: 0;
 }
+
 
 .miaI, .arthI {
   grid-column: 3;
 }
-
 
 .goalU {
   grid-column: 2 / span 3;
@@ -458,9 +464,6 @@ section {
   line-height: 135%;
   padding-top: 1rem;
 }
-
-
-
 
 
 
