@@ -100,7 +100,7 @@ section {
   align-items: center;
   padding-top: 2rem;
   margin: 0 auto;
-  width: 95vw;
+  width: 98vw;
 }
 
 .caseHero {
@@ -141,12 +141,6 @@ section {
   position: relative; top: 7rem;
 }
 
-.buttonPrototype img {
-  padding-top: 2rem;  /* MAKE NEW BUTTON*/
-  width: 95vw
-  max-width: 155px;
-}
-
 
 /* ROLES ETC */
 
@@ -161,7 +155,7 @@ section {
   margin: 0 auto;
   empty-cells: show;
   grid-gap: 1rem;
-  width: 95vw;
+  width: 98vw;
 }
 
 .roleU {
@@ -206,7 +200,7 @@ section {
   grid-template-columns: .05fr 1fr .05fr;
    /* In additiong to empty-cells:show, can size everything easy" */
   margin: 0 auto;
-  width: 95vw;
+  width: 98vw;
 }
 
 .probU {
@@ -235,7 +229,7 @@ section {
   grid-gap: 1rem;
   grid-template-columns: .05fr 1fr .05fr;
   margin: 0 auto;
-  width: 95vw;
+  width: 98vw;
 }
 
 .discHeader{
@@ -257,7 +251,7 @@ section {
   grid-template-columns: .05fr 1fr .05fr;
   padding-top: 5rem;
   margin: 0 auto;
-  width: 95vw;
+  width: 98vw;
 }
 
 .compBar  {
@@ -265,7 +259,7 @@ section {
   grid-row: 1;
   overflow-x: hidden;
   position: absolute;
-  width: 95vw;
+  width: 98vw;
   z-index: 0;
 }
 
@@ -281,14 +275,14 @@ section {
   grid-column: 2;
   grid-row: 3;
   margin-bottom: 1.5rem;
-  width: 100%;
+  width: 90%;
   z-index: 2;
 }
 
 
 /* COMPETITIVE ANALYSIS MAIN*/
 
-.compMain {
+.compContainer {
   display: grid;
   empty-cells: show;
   grid-template-columns: .2fr 1fr .2fr;
@@ -296,7 +290,7 @@ section {
   margin: 0 auto;
   margin-top: 5rem;
   padding-top:5rem;
-  width: 95vw;
+  width: 98vw;
 }
 
 .dropI {
@@ -350,14 +344,14 @@ section {
 
 /* USER SURVEYS MAIN*/
 
-.survMain {
+.survContainer {
   display: grid;
   empty-cells: show;
   grid-template-columns: .95fr 1fr .95fr;
   grid-gap: 1rem;
   margin: 0 auto;
   padding-top: 5rem;
-  width: 95vw;
+  width: 98vw;
 }
 
 .u83 {
@@ -419,10 +413,51 @@ section {
 }
 
 
-/* USER PERSONAS MAIN*/
+/* USER PERSONAS MAIN */
+
+.persContainer {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: .05fr 1fr 1fr .05fr;
+  margin: 0 auto;
+  padding-top: 5rem;
+  width: 98vw;
+}
+
+.miaU, .arthU {
+  grid-column: 2;
+}
 
 
+.miaU img, .arthU img{
+  width: 35vw;
+}
 
+.miaI, .arthI {
+  grid-column: 3;
+}
+
+
+.goalU {
+  grid-column: 2 / span 3;
+  grid-row:2;
+  line-height: 135%;
+  padding-top: 1rem;
+}
+
+.motiU {
+  grid-column: 2 / span 3;
+  grid-row:3;
+  line-height: 135%;
+  padding-top: 1rem;
+}
+
+.frusU {
+  grid-column: 2 / span 3;
+  grid-row:4;
+  line-height: 135%;
+  padding-top: 1rem;
+}
 
 
 
