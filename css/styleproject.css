@@ -505,9 +505,6 @@ section {
   width: 100%;
 }
 
-
-
-
 /* USER FLOWS + MAP MAIN*/
 
 .flowContainer {
@@ -522,13 +519,13 @@ section {
 
 .flowButton {
   grid-column: 2;
-  grid-row:1;
+  grid-row:2;
   margin-top: 2rem;
 }
 
 .mapsButton {
   grid-column: 2;
-  grid-row:2;
+  grid-row:4;
   width: 100%
 }
 
