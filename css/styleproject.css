@@ -591,6 +591,84 @@ section {
   padding-top: 2rem;
 }
 
+/* BRAND 1 MAIN */
+
+
+.brandContainer {
+  display: grid;
+  empty-cells: show;
+  grid-template-columns: .95fr 1fr .95fr;
+  grid-gap: 1rem;
+  margin: 0 auto;
+  padding-top: 5rem;
+  width: 98vw;
+}
+
+.our1U {
+  grid-column: 2;
+  grid-row:1;
+  margin-top: 5rem;
+  text-indent: .25rem;
+}
+
+.our1I {
+  grid-column: 2;
+  grid-row:1;
+  width: 100%
+}
+
+.our2U {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 4rem;
+  text-indent: .25rem;
+}
+
+.our2I {
+  grid-column: 3;
+  grid-row:2;
+  width: 100%;
+}
+
+.our3U {
+  grid-column: 2;
+  grid-row: 3;
+  margin-top: 4rem;
+  text-indent: .25rem;
+}
+
+.our3I {
+  grid-column: 3;
+  grid-row: 3;
+  width: 100%;
+}
+
+.our4U{
+  grid-column: 2;
+  grid-row: 4;
+  margin-top: 4rem;
+  text-indent: .25rem;
+}
+
+.our4I {
+  grid-column: 3;
+  grid-row: 4;
+  width: 100%;
+}
+
+.our5U{
+  grid-column: 2;
+  grid-row:5;
+  margin-top: 4rem;
+  text-indent: .25rem;
+}
+
+.our5I {
+  grid-column: 3;
+  grid-row: 5;
+  width: 100%;
+}
+
 /* FOOTER */
 
 #page-container {
