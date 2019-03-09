@@ -465,14 +465,14 @@ section {
   display: grid;
   empty-cells: show;
   grid-gap: 1rem;
-  grid-template-columns: .05fr .95fr 1fr .95fr .05fr;
+  grid-template-columns: .05fr 1fr .05fr;
   padding-top: 5rem;
   margin: 0 auto;
   width: 98vw;
 }
 
 .storTop  {
-  grid-column: 2 / span 3;
+  grid-column: 2;
   grid-row: 1;
   overflow-x: hidden;
   position: absolute;
@@ -481,7 +481,7 @@ section {
 }
 
 .storHead {
-  grid-column: 2 / span 3;
+  grid-column: 2;
   grid-row: 2;
   margin-top: 2rem;
   width: 100%;
@@ -489,7 +489,7 @@ section {
 }
 
 .storSub {
-  grid-column: 2 / span 3;
+  grid-column: 2;
   grid-row: 3;
   margin-bottom: 1.5rem;
   width: 90%;
@@ -497,9 +497,10 @@ section {
 }
 
 .storButton {
-  grid-column: 3;
+  grid-column: 2;
   grid-row: 7;
-  margin-top: 3rem;
+  margin-top: 5rem;
+  margin-left: 8.5rem;
   width: 100%;
 }
 
@@ -556,6 +557,7 @@ section {
   z-index: 1;
 }
 
+
 /* WIREFRAME MAIN */
 
 .wireContainer {
@@ -591,8 +593,8 @@ section {
   padding-top: 2rem;
 }
 
-/* BRAND 1 MAIN */
 
+/* BRAND 1 MAIN */
 
 .brandContainer {
   display: grid;
@@ -606,68 +608,109 @@ section {
 
 .our1U {
   grid-column: 2;
-  grid-row:1;
-  margin-top: 5rem;
-  text-indent: .25rem;
+  grid-row:2;
 }
 
 .our1I {
   grid-column: 2;
   grid-row:1;
+  margin-top: 5rem;
   width: 100%
 }
 
 .our2U {
   grid-column: 2;
-  grid-row: 2;
-  margin-top: 4rem;
-  text-indent: .25rem;
+  grid-row: 4;
 }
 
 .our2I {
-  grid-column: 3;
-  grid-row:2;
+  grid-column: 2;
+  grid-row:3;
+  margin-top: 5rem;
   width: 100%;
 }
 
 .our3U {
   grid-column: 2;
-  grid-row: 3;
-  margin-top: 4rem;
-  text-indent: .25rem;
+  grid-row: 6;
 }
 
 .our3I {
-  grid-column: 3;
-  grid-row: 3;
+  grid-column: 2;
+  grid-row: 5;
+  margin-top: 5rem;
   width: 100%;
 }
 
 .our4U{
   grid-column: 2;
-  grid-row: 4;
-  margin-top: 4rem;
-  text-indent: .25rem;
+  grid-row: 8;
 }
 
 .our4I {
-  grid-column: 3;
-  grid-row: 4;
+  grid-column: 2;
+  grid-row: 7;
+  margin-top: 5rem;
   width: 100%;
 }
 
 .our5U{
   grid-column: 2;
-  grid-row:5;
-  margin-top: 4rem;
-  text-indent: .25rem;
+  grid-row: 10;
 }
 
 .our5I {
-  grid-column: 3;
-  grid-row: 5;
+  grid-column: 2;
+  grid-row: 9;
+  margin-top: 5rem;
   width: 100%;
 }
+
+
+/* APP + TESTING */
+
+.apptContainer {
+  display: grid;
+  empty-cells: show;
+  grid-gap: 1rem;
+  grid-template-columns: .95fr 1fr .95fr;
+  padding-top: 5rem;
+  margin: 0 auto;
+  width: 98vw;
+}
+
+.apptTop  {
+  grid-column: 2;
+  grid-row: 1;
+  overflow-x: hidden;
+  position: absolute;
+  width: 98vw;
+  z-index: 0;
+}
+
+.apptHead {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: 2rem;
+  width: 100%;
+  z-index: 1;
+}
+
+.apptSub {
+  grid-column: 2;
+  grid-row: 3;
+  margin-bottom: 5rem;
+  width: 90%;
+  z-index: 2;
+}
+
+.apptMain {
+  grid-column: 2;
+  grid-row: 7;
+  margin-top: 5rem;
+  width: 85vw;
+}
+
 
 /* FOOTER */
 
