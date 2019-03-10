@@ -713,7 +713,7 @@ section {
 }
 
 
-/* APP + TESTING MAIN */
+/* APP + TESTING MAIN --- APPT 2 NEEDS RESIZING, GRID WEIRD */
 
 .apptContainer1 {
   display: grid;
@@ -799,6 +799,82 @@ section {
   margin-top: 5rem;
   width: 85vw;
 }
+
+/* BRAND 2 */
+
+
+/* BRAND 1 MAIN NEED TO CENTER ALL ITEMS, LINE UP WITH HEADER */
+
+.brand2Container {
+  display: grid;
+  empty-cells: show;
+  grid-template-columns: .95fr 1fr .95fr;
+  grid-gap: 1rem;
+  margin: 0 auto;
+  padding-top: 5rem;
+  width: 98vw;
+}
+
+.cache1U {
+  grid-column: 2;
+  grid-row:2;
+}
+
+.cache1I {
+  grid-column: 2;
+  grid-row:1;
+  margin-top: 5rem;
+  width: 100%
+}
+
+.cache2U {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.cache2I {
+  grid-column: 2;
+  grid-row:3;
+  margin-top: 5rem;
+  width: 100%;
+}
+
+.cache3U {
+  grid-column: 2;
+  grid-row: 6;
+}
+
+.cache3I {
+  grid-column: 2;
+  grid-row: 5;
+  margin-top: 5rem;
+  width: 100%;
+}
+
+.cache4U{
+  grid-column: 2;
+  grid-row: 8;
+}
+
+.cache4I {
+  grid-column: 2;
+  grid-row: 7;
+  margin-top: 5rem;
+  width: 100%;
+}
+
+.cache5U{
+  grid-column: 2;
+  grid-row: 10;
+}
+
+.cache5I {
+  grid-column: 2;
+  grid-row: 9;
+  margin-top: 5rem;
+  width: 100%;
+}
+
 
 /* FOOTER */
 
