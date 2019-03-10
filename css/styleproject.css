@@ -875,6 +875,113 @@ section {
   width: 100%;
 }
 
+.cache6U {
+  font-family: Montserrat Subrayada;
+  font-size: 4.2rem;
+  grid-column: 2;
+  grid-row: 11;
+  letter-spacing: .8rem;
+  text-align: center;
+}
+/* APPLICATION 2 - NEEDS A LOT OF RESIZING TOO, heights broken etc ETC - LAST SECTION THOUGH!!! */
+
+
+
+
+.applContainer2 {
+  display: grid;
+  empty-cells: show;
+  grid-template-columns: .75fr 1fr .75fr;
+  grid-gap: 1rem;
+  margin: 0 auto;
+  padding-top: 5rem;
+  width: 98vw;
+}
+
+.applContainer2 img {
+  margin-top: 5rem;
+  max-width: 250px;
+  width: 95vw;
+}
+
+.applContainer1 {
+  display: grid;
+  empty-cells: show;
+  grid-template-columns: .75fr 1fr .75fr;
+  grid-gap: 1rem;
+  margin: 0 auto;
+  padding-top: 5rem;
+  width: 98vw;
+}
+
+.applContainer1 img {
+  margin-top: 5rem;
+  max-width: 455px;
+  width: 90vw;
+}
+
+.mobi5 {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.mobi6 {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.mobi7 {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.mobi8 {
+  grid-column: 2;
+  grid-row: 4;
+  margin-bottom: 7.5rem;
+}
+
+.desk6 {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.desk7 {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.desk8 {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.desk9 {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.desk10 {
+  grid-column: 2;
+  grid-row: 5;
+}
+
+.desk11 {
+  grid-column: 2;
+  grid-row: 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* FOOTER */
 
