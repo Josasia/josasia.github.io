@@ -504,6 +504,7 @@ section {
   width: 100%;
 }
 
+
 /* USER FLOWS + MAP MAIN*/
 
 .flowContainer {
@@ -667,9 +668,9 @@ section {
 }
 
 
-/* APP + TESTING */
+/* APP + TESTING BAR*/
 
-.apptContainer {
+.apptBarContainer {
   display: grid;
   empty-cells: show;
   grid-gap: 1rem;
@@ -711,6 +712,93 @@ section {
   width: 85vw;
 }
 
+
+/* APP + TESTING MAIN */
+
+.apptContainer1 {
+  display: grid;
+  empty-cells: show;
+  grid-template-columns: .75fr 1fr .75fr;
+  grid-gap: 1rem;
+  margin: 0 auto;
+  padding-top: 5rem;
+  width: 98vw;
+}
+
+.apptContainer1 img {
+  margin-top: 5rem;
+  max-width: 250px;
+  width: 95vw;
+}
+
+.apptContainer2 {
+  display: grid;
+  empty-cells: show;
+  grid-template-columns: .75fr 1fr .75fr;
+  grid-gap: 1rem;
+  margin: 0 auto;
+  padding-top: 5rem;
+  width: 98vw;
+}
+
+.apptContainer2 img {
+  margin-top: 5rem;
+  max-width: 455px;
+  width: 90vw;
+}
+
+.mobi1 {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.mobi2 {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.mobi3 {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.mobi4 {
+  grid-column: 2;
+  grid-row: 4;
+  margin-bottom: 7.5rem;
+}
+
+.desk1 {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.desk2 {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.desk3 {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.desk4 {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.desk5 {
+  grid-column: 2;
+  grid-row: 5;
+}
+
+.apptMain2 {
+  grid-column: 2;
+  grid-row: 6;
+  margin-top: 5rem;
+  width: 85vw;
+}
 
 /* FOOTER */
 
