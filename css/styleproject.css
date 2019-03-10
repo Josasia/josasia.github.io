@@ -578,28 +578,19 @@ section {
   width: 98vw;
 }
 
-.wireGoalU {
+.wireList {
   grid-column: 2;
-  grid-row:1;
   padding-top: 2rem;
 }
 
-.wireUserU {
+.wireImg {
   grid-column: 2;
-  grid-row:2;
-  padding-top: 2rem;
 }
 
-.wireUser2U {
+.wireImg img {
   grid-column: 2;
-  grid-row:3;
-  padding-top: 2rem;
-}
-
-.wireInsiU {
-  grid-column: 2;
-  grid-row:4;
-  padding-top: 2rem;
+  width: 75vw;
+  max-width: 400px;
 }
 
 
@@ -615,61 +606,18 @@ section {
   width: 98vw;
 }
 
-.our1U {
+.ourImg {
   grid-column: 2;
-  grid-row:2;
 }
 
-.our1I {
+.ourList {
   grid-column: 2;
-  grid-row:1;
   margin-top: 3rem;
 }
 
-.our2U {
+.ourList img {
   grid-column: 2;
-  grid-row: 4;
-}
-
-.our2I {
-  grid-column: 2;
-  grid-row:3;
   margin-top: 3rem;
-}
-
-.our3U {
-  grid-column: 2;
-  grid-row: 6;
-}
-
-.our3I {
-  grid-column: 2;
-  grid-row: 5;
-  margin-top: 3rem;
-}
-
-.our4U{
-  grid-column: 2;
-  grid-row: 8;
-}
-
-.our4I {
-  grid-column: 2;
-  grid-row: 7;
-  margin-top: 3rem;
-
-}
-
-.our5U{
-  grid-column: 2;
-  grid-row: 10;
-}
-
-.our5I {
-  grid-column: 2;
-  grid-row: 9;
-  margin-top: 3rem;
-  width: 100%;
 }
 
 
@@ -685,7 +633,7 @@ section {
   width: 98vw;
 }
 
-.apptTop  {
+.apptImg  {
   grid-column: 2;
   grid-row: 1;
   overflow-x: hidden;
@@ -712,7 +660,7 @@ section {
 
 /* APP + TESTING */
 
-.apptContainer1 {
+.mobiContainer1 {
   display: grid;
   empty-cells: show;
   grid-template-columns: .75fr 1fr .75fr;
@@ -722,13 +670,17 @@ section {
   width: 98vw;
 }
 
-.apptContainer1 img {
+.mobiContainer1 img {
   margin-top: 5rem;
   max-width: 460px;
   width: 70vw;
 }
 
-.apptContainer2 {
+.mobiList1 {
+  grid-column: 2;
+}
+
+.deskContainer1 {
   display: grid;
   empty-cells: show;
   grid-template-columns: .75fr 1fr .75fr;
@@ -738,52 +690,22 @@ section {
   width: 98vw;
 }
 
-.apptContainer2 img {
+.deskContainer1 img {
   margin-top: 5rem;
   max-width: 480px;
   width: 90vw;
 }
 
-.mobi1 {
+.deskList1 {
   grid-column: 2;
 }
 
-.mobi2 {
-  grid-column: 2;
-}
-
-.mobi3 {
-  grid-column: 2;
-}
-
-.mobi4 {
-  grid-column: 2;
-  margin-bottom: 7.5rem;
-}
-
-.desk1 {
-  grid-column: 2;
-}
-.desk1 h2 {
+.deskList1 h2 {
   margin-left: 4rem;
-}
-.desk2 {
-  grid-column: 2;
+  margin-top: 3rem;
 }
 
-.desk3 {
-  grid-column: 2;
-}
-
-.desk4 {
-  grid-column: 2;
-}
-
-.desk5 {
-  grid-column: 2;
-}
-
-.apptMain2 {
+.deskBody2 {
   grid-column: 2;
   grid-row: 6;
   margin-top: 5rem;
@@ -818,13 +740,6 @@ section {
   margin-top: 3rem;
 }
 
-.cache4I {
-  grid-column: 2;
-  grid-row: 7;
-  margin-top: 3rem;
-}
-
-
 
 /* APPLICATION 2 */
 
@@ -845,7 +760,7 @@ section {
   width: 90vw;
 }
 
-.deskList {
+.deskList2 {
   grid-column: 2;
 }
 
@@ -865,7 +780,7 @@ section {
   width: 90vw;
 }
 
-.mobiList {
+.mobiList2 {
   grid-column: 2;
 }
 
