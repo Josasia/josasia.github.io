@@ -971,7 +971,29 @@ section {
   grid-row: 6;
 }
 
+/* CONCLUSION NEEDS RESIZING TOO */
 
+.concContainer {
+  display: grid;
+  empty-cells: show;
+  grid-template-columns: .05fr 1fr .05fr;
+  grid-gap: 1rem;
+  margin: 0 auto;
+  padding-top: 5rem;
+  width: 98vw;
+}
+
+.concMain {
+  grid-column: 2;
+  grid-row:1;
+  margin-top: 5rem;
+  width: 95vw;
+}
+
+.concButton {
+  grid-column: 2;
+  grid-row: 2;
+}
 
 
 
