@@ -1,1 +1,2 @@
-//My Portfolio
+Joseph Jabkiewicz
+Portfolio of UX + Frontend Projects
