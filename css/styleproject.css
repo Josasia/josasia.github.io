@@ -6,8 +6,10 @@
 
 /* BODY ETC */
 
+
 html {
-  font-size: 10px;
+  font-size: calc(6px + 1vw);
+  line-height: calc(.5em + 0.5vw);
 }
 
 body {
