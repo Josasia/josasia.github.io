@@ -88,18 +88,18 @@ section {
 .emptyCells {
   display: grid;
   empty-cells: show;
-  grid-template-rows: 5fr 5fr;
+  grid-template-rows: 5fr;
   width: 50vw;
 }
 
-#blankRectangle {
+#rectangleBlank {
   background: #FFFFFF00;
   grid-column: 3;
   grid-row: 1;
   height: 15vw;
   position: relative;
   width: 50vw;
-  z-index: 100;
+  z-index: 0;
 }
 
 .about1container {
@@ -109,7 +109,6 @@ section {
   margin: 0 auto;
   position: relative;
   width: 98vw;
-  z-index: 99;
 }
 
 .logoBg2 img {
@@ -117,7 +116,7 @@ section {
   grid-column: 1;
   max-width: 45vw;
   position: fixed; top: 5rem;
-  z-index: 101;
+  z-index: 50;
 }
 
 .about1body {
@@ -125,7 +124,7 @@ section {
   grid-row: 1;
   position: relative;
   width: 85vw;
-  z-index: ;
+  z-index: 101;
 }
 
 
@@ -145,7 +144,7 @@ section {
   margin-top: 1rem;
   position: relative;
   width: 90vw;
-  z-index: 97;
+  z-index: 54;
 }
 
 #rectangleB {
@@ -155,7 +154,7 @@ section {
   height: 30vw;
   position: relative;
   width: 45vw;
-  z-index: 96;
+  z-index: 53;
 }
 
 
@@ -175,7 +174,7 @@ section {
   margin-top: 2rem;
   position: relative;
   width: 85vw;
-  z-index: 102;
+  z-index: 51;
 }
 
 #rectangleG {
@@ -185,13 +184,44 @@ section {
   height: 20vw;
   position: relative;
   width: 40vw;
-  z-index: 98;
+  z-index: 49;
 }
 
 
 /* SHAPES! */
+#outlineB {
+  display:none;
+}
+
+#divB {
+  display:none;
+}
+
+#lineG {
+  display:none;
+}
+
+#outlineG {
+  display:none;
+}
+
+@media screen and (max-width: 1440px) and (min-width: 750px) {
 
 #outlineB {
+    display: grid;
+    border-color: red;
+    border-style: solid;
+    border-width: .2rem;
+    grid-column: 2;
+    grid-row: -1 / 1;
+    height: 55vw;
+    position: relative;
+    width: 95vw;
+    z-index: 1;
+}
+
+#divB {
+  display: grid;
   border-color: red;
   border-style: solid;
   border-width: .2rem;
@@ -199,47 +229,37 @@ section {
   grid-row: -1 / 1;
   height: 55vw;
   position: relative;
-
   width: 95vw;
-
-  z-index: 1;
-
+  z-index: 3;
 }
 
-
-    /*  .outlineB {
-
-      display: none;
-    position: absolute;
-    z-index: 0;
-  }
-
-  .outlineImg img {
-    height: 110vw;
-    width: 95vw;
-    max-height: 480px;
-    max-width: 810px;
-  }
-
-@media screen and (max-width: 1440px) and (min-width: 690px) {
-
-    .outlineImg {
-
-        display: grid;
-      position: absolute;
-      z-index: 111;
-    }
-
-    .outlineImg img {
-      height: 110vw;
-      width: 95vw;
-      max-height: 480px;
-      max-width: 810px;
-    }
+#lineG {
+  display: grid;
+  border-color: red;
+  border-style: solid;
+  border-width: .2rem;
+  grid-column: 2;
+  grid-row: -1 / 1;
+  height: 55vw;
+  position: relative;
+  width: 95vw;
+  z-index: 4;
 }
 
+#outlineG {
+  display: grid;
+  border-color: red;
+  border-style: solid;
+  border-width: .2rem;
+  grid-column: 2;
+  grid-row: -1 / 1;
+  height: 55vw;
+  position: relative;
+  width: 95vw;
+  z-index: 5;
+}
 
-
+/*
 .barContainer {
   display: grid;
   empty-cells: show;
