@@ -252,7 +252,7 @@ section {
 .compContainer {
   display: grid;
   empty-cells: show;
-  grid-template-columns: .70fr 1fr .1fr;
+  grid-template-columns: .75fr 1fr .1fr;
   margin: 0 auto;
   padding-top: 10rem;
   grid-gap: 1rem;
