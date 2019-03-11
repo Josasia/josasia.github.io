@@ -29,7 +29,7 @@
 /* BODY PROPERTIES */
 
 html {
-  font-size: calc(6px + 1vw);
+  font-size: calc(8px + 1vw);
   line-height: calc(.5em + 0.5vw);
 }
 
@@ -127,7 +127,7 @@ section {
 .about1body {
   grid-column: 2;
   grid-row: 1;
-  max-width: 400px;
+  max-width: 450px;
   position: relative;
   width: 85vw;
   z-index: 101;
@@ -222,34 +222,39 @@ html {
   display:none
 }
 
-
 .about1container {
   display: grid;
   empty-cells: show;
-  grid-template-columns: .95fr .75fr 1fr .75fr .95fr;
+  grid-template-columns: .2fr .2fr .5fr .2fr .2fr;
   grid-gap: 1rem;
   margin: 0 auto;
-  justify-items: center;
   position: relative;
   width: 98vw;
 }
 
 .logoBg3 {
   display: grid;
+  grid-column: 2;
 }
 
-.logoBg3 img { /* MAKE LINES ON IMG THINNER */ 
-  width: 75vw;
-  max-width: 1200px;
+.logoBg3 img { /* MAKE LINES ON IMG THINNER */
+  padding-right: 40rem;
   position: fixed; top: 3rem;
+  width: 95vw;
   z-index: 0;
 }
 
 .about1body {
-  grid-column: 2;
-  max-width: 550px;
+  grid-column: 1;
+  max-width: 650px;
   position: absolute;
   z-index: 65;
+}
+
+.about1body h1, .about1body h2 {
+
+
+  margin-left: 7rem;
 }
 /*
 .about1container {
