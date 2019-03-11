@@ -106,18 +106,22 @@ section {
   display: grid;
   grid-template-columns: .05fr 1fr .05fr;
   grid-gap: 1rem;
+  justify-items: center;
   margin: 0 auto;
   position: relative;
   width: 98vw;
-  justify-items: center;
 }
 
 .logoBg2 img {
   grid-row: 1;
   grid-column: 1;
-  width: 95vw;
   position: fixed; top: 5rem;
+  width: 95vw;
   z-index: 50;
+}
+
+.logoBg3 {
+  display:none;
 }
 
 .about1body {
@@ -211,9 +215,43 @@ section {
 @media screen and (min-width: 700px) {
 
 html {
-  font-size: 1.6rem;
+  font-size: 1rem;
 }
 
+.logoBg2, .logoBg2 img {
+  display:none
+}
+
+
+.about1container {
+  display: grid;
+  empty-cells: show;
+  grid-template-columns: .95fr .75fr 1fr .75fr .95fr;
+  grid-gap: 1rem;
+  margin: 0 auto;
+  justify-items: center;
+  position: relative;
+  width: 98vw;
+}
+
+.logoBg3 {
+  display: grid;
+}
+
+.logoBg3 img { /* MAKE LINES ON IMG THINNER */ 
+  width: 75vw;
+  max-width: 1200px;
+  position: fixed; top: 3rem;
+  z-index: 0;
+}
+
+.about1body {
+  grid-column: 2;
+  max-width: 550px;
+  position: absolute;
+  z-index: 65;
+}
+/*
 .about1container {
   display: grid;
   grid-template-columns: .05fr .5fr 2fr .5fr .05fr;
