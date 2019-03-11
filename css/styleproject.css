@@ -426,44 +426,27 @@ section {
   width: 98vw;
 }
 
-.miaU, .arthU {
+.persImg {
   grid-column: 2;
-  grid-row: 2;
 }
 
-.miaU img, .arthU img{
-  overflow-x: hidden;
+.persImg img{
+  max-width: 450px;
   position: relative;
-  width: 30vw;
+  width: 40vw;
   z-index: 0;
 }
 
-.miaI, .arthI {
+.persD {
   grid-column: 3;
-  grid-row: 2;
   line-height: 160%;
-  margin-left: -5rem;
 }
 
-.goalU {
+.persList {
   grid-column: 2 / span 3;
-  grid-row: 3;
   line-height: 150%;
   padding-top: 3rem;
-}
-
-.motiU {
-  grid-column: 2 / span 3;
-  grid-row: 4;
-  line-height: 150%;
-  padding-top: 2rem;
-}
-
-.frusU {
-  grid-column: 2 / span 3;
-  grid-row: 5;
-  line-height: 150%;
-  padding-top: 2rem;
+  width: 90vw;
 }
 
 
@@ -496,14 +479,6 @@ section {
   z-index: 1;
 }
 
-.storSub {
-  grid-column: 2;
-  grid-row: 3;
-  margin-bottom: 1.5rem;
-  width: 90%;
-  z-index: 2;
-}
-
 .storButton {
   grid-column: 2;
   grid-row: 7;
@@ -527,15 +502,16 @@ section {
   width: 98vw;
 }
 
-.flowImg {
+.flowL {
   grid-column: 2 / span 3;
   grid-row: 1;
 }
 
-.flowImg img{
+.flowL img{
+  max-width: 450px;
   overflow-x: hidden;
   position: relative;
-  width: 95vw;
+  width: 90vw;
   z-index: 0;
 }
 
@@ -547,15 +523,16 @@ section {
   z-index: 1;
 }
 
-.mapsImg {
+.mapL {
   grid-column: 2 / span 3;
   grid-row: 3;
 }
 
-.mapsImg img{
+.mapL img{
+  max-width: 450px;
   overflow-x: hidden;
   position: relative;
-  width: 95vw;
+  width: 90vw;
   z-index: 0;
 }
 
@@ -589,8 +566,8 @@ section {
 
 .wireImg img {
   grid-column: 2;
-  width: 75vw;
   max-width: 400px;
+  width: 75vw;
 }
 
 
@@ -603,6 +580,7 @@ section {
   grid-gap: 1.5rem;
   margin: 0 auto;
   padding-top: 5rem;
+  margin-top: 5rem;
   width: 98vw;
 }
 
