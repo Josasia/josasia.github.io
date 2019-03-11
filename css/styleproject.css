@@ -134,32 +134,30 @@ section {
 .heroContainer {
   background-color: #EEF6FF;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr .5fr 1fr .25fr;
+  grid-template-columns: .05fr 1fr .05fr;
   grid-gap: 1rem;
   justify-items: center;
   align-items: center;
   padding-top: 2rem;
+  padding-bottom: 2rem;
   margin: 0 auto;
+  height: 130vw;
   width: 98vw;
 }
 
-.caseHero {
+.caseImg {
   grid-column: 2;
-  grid-row: 1;
 }
-.caseHero img{
+.caseImg img{
   width: 70vw; /*mix with margin and align to center */
 }
 
-.caseHeader {
+.caseLogo {
   font-family: Montserrat Subrayada;
   font-size: 4.8rem;
   grid-column: 2;
-  grid-row: 2;
   letter-spacing: .8rem;
   text-align: center;
-  margin-bottom: .5rem;
   width: 55vw;
 }
 
@@ -170,52 +168,31 @@ section {
   grid-row: 3;
   letter-spacing: -.1rem;
   line-height: 125%;
-  margin-bottom: 2rem;
   text-align: center;
   width: 72vw; /*maybe add margin left */
 }
 
 .buttonPrototype {
   grid-column: 2;
-  grid-row: 3;
-  position: relative; top: 7rem;
 }
 
 /* ROLES ETC */
 
 .roleContainer {
   display: grid;
-  grid-template-columns: .75fr 1.5fr .75fr;
-  grid-template-areas:
-    ". roleU ."
-    ". deliU ."
-    ". toolU .";  /* In additiong to empty-cells:show, can size everything easy" */
-  margin: 0 auto;
   empty-cells: show;
+  grid-template-columns: .75fr 1fr .75fr;
+  margin: 0 auto;
   grid-gap: 1rem;
   width: 98vw;
 }
 
-.roleU {
+.roleList {
   grid-column: 2;
-  grid-row:1;
   padding-top: 2rem;
-  width: 100%
+  width: 40vw;
 }
 
-.deliU {
-  grid-column: 2;
-  grid-row:2;
-  padding-top: 2rem;
-  width: 100%;
-}
-
-.toolU {
-  grid-column: 2;
-  grid-row:3;
-  padding-top: 2rem;
-  width: 100%;
-}
 
 /* GREEN DIVIDER 1*/
 
@@ -230,6 +207,7 @@ section {
   width: 100vw;
 }
 
+
 /* PROBLEM + SOLUTION */
 
 .probContainer {
@@ -241,23 +219,11 @@ section {
   width: 98vw;
 }
 
-.probU {
+.probList {
   grid-column: 2;
-  grid-row:1;
   padding-top: 2rem;
 }
 
-.soluU {
-  grid-column: 2;
-  grid-row:2;
-  padding-top: 2rem;
-}
-
-.insiU {
-  grid-column: 2;
-  grid-row:3;
-  padding-top: 2rem;
-}
 
 /* DISCOVERY ETC HEADER */
 
@@ -280,66 +246,22 @@ section {
   margin-top: 5rem;
 }
 
+
 /* COMPETITIVE ANALYSIS MAIN*/
 
 .compContainer {
   display: grid;
   empty-cells: show;
-  grid-template-columns: .2fr 1fr .2fr;
-  grid-gap: 1rem;
+  grid-template-columns: .70fr 1fr .1fr;
   margin: 0 auto;
-  margin-top: 5rem;
-  padding-top:5rem;
+  padding-top: 10rem;
+  grid-gap: 1rem;
   width: 98vw;
 }
 
-.dropI {
+.compList {
   grid-column: 2;
-  grid-row:1;
-}
-
-.dropU {
-  grid-column: 2;
-  grid-row:2;
-  width: 100%
-}
-
-.oneI {
-  grid-column: 2;
-  grid-row: 3;
-  margin-top: 3rem;
-}
-
-.oneU {
-  grid-column: 2;
-  grid-row:4;
-  width: 100%;
-}
-
-.googI {
-  grid-column: 2;
-  grid-row: 5;
-  margin-top: 3rem;
-}
-
-.googU {
-  grid-column: 2;
-  grid-row:6;
-  width: 100%;
-}
-
-
-.insiU2 {
-  grid-column: 2;
-  grid-row:7;
-  margin-top: 3rem;
-  width: 100%;
-}
-
-.insiI2 {
-  grid-column: 2;
-  grid-row:8;
-  width: 100%;
+  width: 65vw;
 }
 
 /* USER SURVEYS MAIN*/
@@ -354,62 +276,15 @@ section {
   width: 98vw;
 }
 
-.u83 {
+.survList {
   grid-column: 2;
-  grid-row:1;
   margin-top: 5rem;
   text-indent: .25rem;
 }
 
-.i83 {
-  grid-column: 2;
-  grid-row:2;
-  width: 100%
-}
-
-.u73 {
-  grid-column: 2;
-  grid-row: 3;
-  margin-top: 4rem;
-  text-indent: .25rem;
-}
-
-.i73 {
-  grid-column: 2;
-  grid-row:4;
-  width: 100%;
-}
-
-.u61 {
-  grid-column: 2;
-  grid-row: 5;
-  margin-top: 4rem;
-  text-indent: .25rem;
-}
-
-.i61 {
-  grid-column: 2;
-  grid-row:6;
-  width: 100%;
-}
-
-.u77{
-  grid-column: 2;
-  grid-row:7;
-  margin-top: 4rem;
-  text-indent: .25rem;
-}
-
-.i77 {
-  grid-column: 2;
-  grid-row:9;
-  width: 100%;
-}
-
 .surveyButton {
   grid-column: 2;
-  grid-row: 14;
-  width: 100%;
+  margin-top: 5rem;
 }
 
 
@@ -420,9 +295,8 @@ section {
   empty-cells: show;
   grid-gap: 1rem;
   grid-template-columns: .05fr 1fr 1fr .05fr;
-  grid-template-rows: .25fr .50fr .75fr 1fr .75fr;
   margin: 0 auto;
-  margin-top: 5rem;
+  padding-top: 10rem;
   width: 98vw;
 }
 
@@ -456,7 +330,7 @@ section {
   display: grid;
   empty-cells: show;
   grid-gap: 1rem;
-  grid-template-columns: .05fr 1fr .05fr;
+  grid-template-columns: .05fr  1fr  .05fr;
   padding-top: 5rem;
   margin: 0 auto;
   width: 98vw;
@@ -464,7 +338,6 @@ section {
 
 .storTop  {
   grid-column: 2;
-  grid-row: 1;
   overflow-x: hidden;
   position: absolute;
   width: 98vw;
@@ -473,18 +346,13 @@ section {
 
 .storHead {
   grid-column: 2;
-  grid-row: 2;
   margin-top: 2rem;
-  width: 100%;
   z-index: 1;
 }
 
 .storButton {
   grid-column: 2;
-  grid-row: 7;
-  margin-top: 5rem;
-  margin-left: 8.5rem;
-  width: 100%;
+  margin-top: 10rem;
 }
 
 
@@ -709,15 +577,19 @@ section {
   max-width: 170px
 }
 
-.cacheImg {
-  grid-column: 2;
-}
-
 .cacheList {
   grid-column: 2;
   margin-top: 3rem;
 }
 
+.cacheImg {
+  grid-column: 2;
+}
+
+.cacheImg h5 {
+  text-indent: 1rem;
+  padding-top: 2rem;
+}
 
 /* APPLICATION 2 */
 
