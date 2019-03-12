@@ -225,7 +225,7 @@ html {
 .about1container {
   display: grid;
   empty-cells: show;
-  grid-template-columns: .2fr .2fr .5fr .2fr .2fr;
+  grid-template-columns: .2fr .2fr .2fr .5fr .2fr;
   grid-gap: 1rem;
   margin: 0 auto;
   position: relative;
@@ -238,23 +238,63 @@ html {
 }
 
 .logoBg3 img { /* MAKE LINES ON IMG THINNER */
+  margin-top: 6rem;
   padding-right: 40rem;
-  position: fixed; top: 3rem;
-  width: 95vw;
+  position: fixed; top: .05rem;
+  width: 115vw;
+  max-width: 160rem;
   z-index: 0;
 }
 
 .about1body {
-  grid-column: 3;
-  max-width: 525px;
+  grid-column: 4;
+  max-width: 450px;
   position: relative;
   z-index: 65;
 }
 
 .about1body h1, .about1body h2 {
-  margin-left: 10rem;
-
+  margin-left: -5rem;
 }
+
+/* */
+
+
+.aboutDiv1 {
+  display: grid;
+  empty-cells: show;
+  grid-template-columns: .95fr .8fr .2fr .95fr;
+  padding-top: 2rem;
+  width: 98vw;
+}
+
+.quote1 {
+  grid-column: 3;
+  margin-top: 1rem;
+  position: relative;
+  text-indent: 1rem;
+  width: 30vw;
+  z-index: 54;
+}
+
+.quote1 h3{
+  text-indent: 1rem;
+}
+
+#rectangleB {
+  background: #EEF6FF;
+  grid-column: 4;
+  height: 15vw;
+  position: relative; top: -25rem;
+  width: 15vw;
+  z-index: 2;
+}
+
+
+
+
+
+
 /*
 .about1container {
   display: grid;
