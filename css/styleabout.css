@@ -215,7 +215,7 @@ section {
 @media screen and (min-width: 700px) {
 
 html {
-  font-size: 1rem;
+  font-size: .8rem;
 }
 
 .logoBg2, .logoBg2 img {
@@ -245,16 +245,15 @@ html {
 }
 
 .about1body {
-  grid-column: 1;
-  max-width: 650px;
-  position: absolute;
+  grid-column: 3;
+  max-width: 525px;
+  position: relative;
   z-index: 65;
 }
 
 .about1body h1, .about1body h2 {
+  margin-left: 10rem;
 
-
-  margin-left: 7rem;
 }
 /*
 .about1container {
