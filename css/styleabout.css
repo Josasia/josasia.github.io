@@ -211,6 +211,9 @@ section {
   display:none;
 }
 
+#rectangleGoutline {
+  display:none;
+}
 /* MEDIA */
 @media screen and (min-width: 700px) {
 
@@ -243,14 +246,17 @@ html {
   grid-gap: 1rem;
   margin: 0 auto;
   position: relative;
+  z-index: 999;
   width: 98vw;
 }
 
 .about1body {
+
+  margin-top: 5rem;
   grid-column: 2/ span 3;
   max-width: 450px;
-  position: relative;
-  z-index: 65;
+  position: relative; left: 2rem;
+  z-index: 165;
 }
 
 .about1body h1, .about1body h2 {
@@ -264,6 +270,7 @@ html {
   grid-template-columns: .95fr .8fr .2fr .95fr;
   padding-top: 2rem;
   width: 98vw;
+
 }
 
 .quote1 {
@@ -272,7 +279,7 @@ html {
   position: relative;
   text-indent: 1rem;
   width: 45vw;
-  z-index: 54;
+  z-index: 59;
 }
 
 .quote1 h3{
@@ -283,9 +290,9 @@ html {
   background: #F5F9FE;
   grid-column: 4;
   height: 15vw;
-  position: relative; top: -25rem;
+  position: relative; top: -40rem;
   width: 15vw;
-  z-index: 2;
+  z-index: 1;
 }
 /* */
 
@@ -302,11 +309,10 @@ html {
   position: relative;
   text-indent: 5rem;
   width: 45vw;
-  z-index: 54;
+  z-index: 58;
 }
 
 .quote2 h4{
-
   margin-left: 5rem;
 }
 
@@ -319,13 +325,23 @@ html {
   z-index: 2;
 }
 
-.about4 {
-  margin-top: 5rem;
+#rectangleGoutline {
+  display:grid;
+  height: 50vw;
+  width: 65vw;
+
+  outline-style: solid;
+  outline-color: red;
+  outline-width: 3px;
+  position: absolute;
+  margin-left: 15rem;
+  z-index: 3;
 }
 
-
-
-
+.about2 {
+  position: relative;top:-5rem;
+  margin-bottom: -5rem;
+}
 
 /*
 .about1container {
