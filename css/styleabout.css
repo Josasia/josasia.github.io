@@ -343,6 +343,45 @@ html {
   margin-bottom: -5rem;
 }
 
+
+#divB{
+  display: flex;
+  width: 80vw;
+  outline-style: solid;
+  outline-color: purple;
+  outline-width: 3px;
+  position: absolute;
+margin-top: 30rem;
+margin-left: 6rem;
+  z-index: 7;
+}
+
+#divB2 {
+  display: flex;
+  height: 10vw;
+  outline-style: solid;
+  outline-color: purple;
+  outline-width: 3px;
+  position: absolute;
+margin-top: 30rem;
+margin-left: 6rem;
+  z-index: 9;
+}
+
+
+#divB3 {
+  display: flex;
+  height: 12vw;
+  outline-style: solid;
+  outline-color: purple;
+  outline-width: 3px;
+  position: absolute;
+margin-top: 22rem;
+margin-left: 86.5rem;
+  z-index: 9;
+
+}
+
 /*
 .about1container {
   display: grid;
