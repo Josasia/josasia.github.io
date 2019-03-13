@@ -349,7 +349,7 @@ html {
   width: 80vw;
   outline-style: solid;
   outline-color: purple;
-  outline-width: 3px;
+  outline-width: 1px;
   position: absolute;
 margin-top: 30rem;
 margin-left: 6rem;
@@ -361,7 +361,7 @@ margin-left: 6rem;
   height: 10vw;
   outline-style: solid;
   outline-color: purple;
-  outline-width: 3px;
+  outline-width: 1px;
   position: absolute;
 margin-top: 30rem;
 margin-left: 6rem;
@@ -374,13 +374,48 @@ margin-left: 6rem;
   height: 12vw;
   outline-style: solid;
   outline-color: purple;
-  outline-width: 3px;
+  outline-width: 1px;
   position: absolute;
 margin-top: 22rem;
 margin-left: 86.5rem;
   z-index: 9;
 
 }
+
+
+
+
+#rectangleBoutline {
+  display:grid;
+  height: 35vw;
+  width: 65vw;
+border-top: 2px solid pink;
+border-left: 2px solid pink;
+border-bottom: 2px solid pink;
+
+border-right: 1px solid white;
+  transform: skew(20deg);
+  outline-style: solid;
+  outline-color: white;
+  outline-width: 3px;
+  position: absolute;
+  margin-left: 15rem;
+  z-index: 3;
+}
+
+
+
+#rectangleBoutline:before {
+  content: "";
+width: 6px;
+height: 65vw;
+position: absolute;
+margin-bottom: 20rem;
+  transform: skew(-20deg);
+top: 0;
+right: 0;
+border-right: 2px solid red;
+} }
 
 /*
 .about1container {
