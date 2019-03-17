@@ -394,7 +394,7 @@ margin-left: 86.5rem;
 border-top: 2px solid pink;
 border-left: 2px solid pink;
 border-bottom: 2px solid pink;
-border-right: 1px solid blue;
+border-right: 1px solid white;
 
   transform: skew(20deg);
 
@@ -413,9 +413,11 @@ position: absolute;
 
   transform: skew(-20deg);
 top: 0;
-right: 0;
-border-right: 12px solid red;
+right: -7rem;
+border-right: 1px solid red;
 }
+
+
 /*
 .about1container {
   display: grid;
