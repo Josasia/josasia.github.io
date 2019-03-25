@@ -28,7 +28,7 @@
 
 html {
   font-size: calc(6px + 1vw);
-  line-height: calc(.5em + 0.5vw);
+  line-height: calc(.5rem + 0.5vw);
 }
 
 body {
@@ -45,19 +45,21 @@ i {
 }
 
 h1 {
-  font-size: 2.4rem;
-  letter-spacing: -.5px;
-  line-height: 115%;
+    font-size: calc(2.6rem + 1vw);
+    letter-spacing: -.5px;
+    line-height: calc( 3rem + 0.5vw);
 }
 
 h2 {
-  font-size: 1.8rem;
-  letter-spacing: -.5px;
-  line-height: 115%;
+    font-size: calc(2rem + 1vw);
+    letter-spacing: -.5px;
+    line-height: calc( 2.1rem + 0.5vw);
 }
 
 h6 {
-  font-family: Montserrat Subrayada;
+    font-family: Montserrat Subrayada;
+    font-size: calc( 6rem + 1vw);
+    letter-spacing: .75rem;
 }
 
 section {
@@ -69,16 +71,19 @@ section {
 #callToActionB {
   align-items: center;
   background: #0070E0;
+  border: #0070E0 solid .5rem;
   display: grid;
-  height: 35px;
+  height: 3.5rem;
   justify-content: center;
-  width: 145px;
+  outline: #0070E0 solid .5rem;
+  max-width: 15rem;
+width: 95vw;
 }
 
 #callToActionB p {
   color: #FFF;
   font-family: Montserrat;
-  font-size: 1.8rem;
+  font-size: 2.25rem;
   font-weight: 500;
   text-align:center;
   text-decoration-line: underline;
@@ -112,6 +117,7 @@ section {
 }
 
 .largeSelf img {
+  max-width: 20rem;
   width: 30vw;
 }
 
@@ -161,8 +167,9 @@ section {
 
 .projectContainer {
   display: grid;
+  empty-cells: show;
   grid-template-columns: 1fr 3fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr .75fr;
   grid-gap: 1rem;
   margin: 0 auto;
   width: 95vw;
@@ -184,11 +191,8 @@ section {
 }
 
 .cacheHeader {
-  font-family: Montserrat Subrayada;
-  font-size: 3.6rem;
   grid-row: 1;
   grid-column: 2 / 3;
-  letter-spacing: .8rem;
   margin-bottom: .5rem;
   padding-top: 1.5rem;
   text-align: center;
@@ -208,10 +212,9 @@ section {
 }
 
 .cacheSub {
-  font-size: 1.6rem;
   grid-column: 2 / 4;
   grid-row: 4;
-  padding-top: 1rem;
+  padding-top: 5rem;
   padding-bottom: 1.5rem;
   position: relative;left: -3rem;
   z-index:7;
@@ -220,7 +223,7 @@ section {
 .buttonCaseStudy {
   grid-column: 2 / 3;
   grid-row: 5;
-  position: relative;left:2.5rem;
+  position: relative;left:8rem;
 }
 
 
@@ -232,10 +235,10 @@ section {
 }
 
 #content-wrap {
-  padding-bottom: 25rem;    /* Footer height */
+  padding-bottom: 1rem;    /* Footer height */
 }
 
-#footer {
+.footerUl {
   background-image: url("/images/footerBg.png");
   background-size: contain;
   background-repeat: repeat;
@@ -243,18 +246,21 @@ section {
   border-color: black;
   bottom: 0;
   display: grid;
-  grid-template-rows: repeat(6, 25px);
+  empty-cells: show;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   height: 15rem;            /* Footer height */
   position: absolute;
   width: 100%;
 }
 
 .footer1text {
+  grid-column: 2 / span 3;
   font-size: 2rem;
   font-weight: 500;
 }
 
 .footer2text {
+  grid-column: 2 / span 3;
   font-size: 2.8rem;
   font-weight: 1000;
   letter-spacing: 1px;
@@ -262,6 +268,7 @@ section {
 }
 
 .footer3text {
+  grid-row: 9;
   font-size: 1.4rem;
   font-family: Encode Sans Condensed;
 }
