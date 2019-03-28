@@ -280,20 +280,20 @@ section {
 
 
 
-/* MEDIA */
+
+
+
 @media screen and (min-width: 700px) {
 
 html {
   font-size: .8rem;
 }
 
-/* HERO */
-
 .heroContainer {
   display: grid;
   empty-cells: show;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1.5fr 1fr;
+  grid-template-columns: 1fr .9fr 1fr 1fr 1fr;
+  grid-template-rows: .75fr .5fr .5fr 1fr;
   grid-gap: 1rem;
   margin: 0 auto;
   width: 95vw;
@@ -303,28 +303,90 @@ html {
   grid-column: 2;
 }
 
+.logoBg img {
+  width: 65vw;
+}
+
 .largeSelf {
-  grid-column: 4;
+  grid-column: 5;
+  grid-row: 2;
+  z-index: 1;
+}
+
+.largeSelf img {
+  position: relative;left: -12rem;
+  width: 95vw;
+}
+
+.heroText  {
+  grid-column: 3 / span 4;
+  grid-row-start: 3;
+  position: relative; top: 1rem;
+  z-index: 3;
+}
+
+.heroText h1 {
+  font-size: calc( 1rem + 2.5vw);
+  letter-spacing: -.5px;
+  line-height: calc( 4.5rem + 0.5vw);
+}
+
+
+/*
+@media screen and (min-width: 700px) {
+
+html {
+  font-size: .8rem;
+}
+
+body {
+  margin-left: 20vw;
+}
+
+
+.heroContainer {
+  display: grid;
+  empty-cells: show;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr .5fr .5fr;
+  grid-gap: 1rem;
+  margin: 0 auto;
+  width: 95vw;
+}
+
+.logoBg {
+  grid-column: 1;
+}
+
+.logoBg img {
+  width: 95vw;
+}
+
+.largeSelf {
+  grid-column: 3;
   grid-row: 2;
   position: relative;
   z-index: 1;
 }
 
 .largeSelf img {
-  max-width: 20rem;
   width: 30vw;
 }
 
 .heroText  {
-  grid-column: 3 / span 5;
-  grid-row-start: 3;
-  margin-top: 3rem;
-  position: relative; left:-5rem;
+  grid-column: 2 / span 3;
+  grid-row-start: 4;
+  position: relative;
   z-index: 3;
 }
 
+.heroText h1 {
+    font-size: calc(3.8rem + 1vw);
+    letter-spacing: -.5px;
+    line-height: calc( 5rem + 0.5vw);
+}
 
-/* MIDDLE DIV */
+
 
 #space10 {
   letter-spacing: 1.5px;
@@ -361,4 +423,69 @@ html {
 
 .middleText h2 {
   font-weight: 300;
+}
+
+
+.projectContainer {
+  display: grid;
+  empty-cells: show;
+  grid-template-columns: .5fr 1fr.5fr;
+  grid-template-rows: .5fr .5fr .5fr .3fr .3fr;
+  grid-gap: 1rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+  width: 95vw;
+}
+
+.cacheTriangle3 {
+  grid-column: 2;
+  grid-row: 1 / span 3;
+  z-index: 4;
+}
+
+.cacheTriangle3 img {
+  max-width: 70rem;
+  width: 95vw;
+}
+
+.cacheHeader {
+  grid-row: 1;
+  grid-column: 2 / 3;
+  padding-bottom: 3rem;
+  padding-top: 4rem;
+  text-align: center;
+  width: 55vw;
+  z-index: 5;
+}
+
+.cacheHeader h6 {
+    font-size: calc( 7.2rem + 1vw);
+    letter-spacing: .75rem;
+}
+
+.cacheMockup {
+  grid-column: 1 / span 3;
+  grid-row: 2 / span 3;
+  position:relative;bottom: 5rem;
+  z-index: 6;
+}
+
+.cacheMockup img {
+  margin-bottom: 3rem;
+  max-width: 45rem;
+  width: 95vw;
+}
+
+.cacheSub {
+  font-size: 1.8rem;
+  grid-column: 2 / span 3;
+  grid-row: 4;
+  position: relative;left: -3rem;
+  z-index:7;
+}
+
+.buttonCaseStudy {
+  grid-column: 2 / 3;
+  grid-row: 5;
+  position: relative;left: 3.5rem;
 }
