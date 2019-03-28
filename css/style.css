@@ -292,8 +292,8 @@ html {
 .heroContainer {
   display: grid;
   empty-cells: show;
-  grid-template-columns: 1fr .9fr 1fr 1fr 1fr;
-  grid-template-rows: .75fr .5fr .5fr 1fr;
+  grid-template-columns: .65fr 1fr 1.5fr 1fr 1fr;
+  grid-template-rows: .75fr .5fr .5fr .05fr;
   grid-gap: 1rem;
   margin: 0 auto;
   width: 95vw;
@@ -304,17 +304,17 @@ html {
 }
 
 .logoBg img {
-  width: 65vw;
+  min-width: 65vw;
 }
 
 .largeSelf {
-  grid-column: 5;
+  grid-column: 4;
   grid-row: 2;
   z-index: 1;
 }
 
 .largeSelf img {
-  position: relative;left: -12rem;
+  position: relative;
   width: 95vw;
 }
 
@@ -332,100 +332,50 @@ html {
 }
 
 
-/*
-@media screen and (min-width: 700px) {
-
-html {
-  font-size: .8rem;
-}
-
-body {
-  margin-left: 20vw;
-}
-
-
-.heroContainer {
-  display: grid;
-  empty-cells: show;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 2fr .5fr .5fr;
-  grid-gap: 1rem;
-  margin: 0 auto;
-  width: 95vw;
-}
-
-.logoBg {
-  grid-column: 1;
-}
-
-.logoBg img {
-  width: 95vw;
-}
-
-.largeSelf {
-  grid-column: 3;
-  grid-row: 2;
-  position: relative;
-  z-index: 1;
-}
-
-.largeSelf img {
-  width: 30vw;
-}
-
-.heroText  {
-  grid-column: 2 / span 3;
-  grid-row-start: 4;
-  position: relative;
-  z-index: 3;
-}
-
-.heroText h1 {
-    font-size: calc(3.8rem + 1vw);
-    letter-spacing: -.5px;
-    line-height: calc( 5rem + 0.5vw);
-}
-
-
-
 #space10 {
   letter-spacing: 1.5px;
 }
 
 .middleContainer {
   display: grid;
-  justify-content: center;
-  align-items: center;
   empty-cells: show;
-  grid-template-columns: .70fr 1fr 1fr 1fr;
-  grid-template-rows: .5fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr .05fr;
+  grid-template-rows: .75fr .5fr 1fr;
   grid-gap: 1rem;
   margin: 0 auto;
+  position: relative;
   width: 95vw;
 }
 
 .greenDiv {
-  grid-column: 3;
+  grid-column: 2;
   grid-row: 3;
 }
 
 .greenDiv img {
-  width: 40vw;
+  position: relative;left: 3rem;
+  width: 35vw;
 }
 
 .middleText {
-  grid-column: 3 / span 4;
+  grid-column: 2;
   grid-row: 2;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  width: 90vw;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+    position: relative;left: 3rem;
+  width: 65vw;
 }
 
 .middleText h2 {
+  font-size: calc( 1rem + 1.5vw);
   font-weight: 300;
+  letter-spacing: -.5px;
+  line-height: calc( 3rem + 0.5vw);
 }
 
 
+/*
 .projectContainer {
   display: grid;
   empty-cells: show;
