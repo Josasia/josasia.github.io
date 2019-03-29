@@ -187,7 +187,7 @@ section {
   width: 98vw;
 }
 
-.roleList {
+.roleList1, .roleList2, .roleList3 {
   grid-column: 2;
   padding-top: 2rem;
   width: 40vw;
@@ -205,6 +205,10 @@ section {
   margin-top: 5rem;
   margin-bottom: 5rem;
   width: 100vw;
+}
+
+.nav2 {
+  display:none;
 }
 
 
@@ -663,27 +667,35 @@ section {
 
 
 
+
+
+
+
 /* MEDIA */
 @media screen and (min-width: 700px) {
 
+html {
+  font-size: calc(4px + .8vw);
+  line-height: calc(.5em + 0.5vw);
+}
 
-  #callToActionB {
-    align-items: center;
-    background: #0070E0;
-    display: grid;
-    height: 45px;
-    justify-content: center;
-    width: 225px;
-  }
+#callToActionB {
+  align-items: center;
+  background: #0070E0;
+  display: grid;
+  height: 45px;
+  justify-content: center;
+  width: 225px;
+}
 
-  #callToActionB p {
-    color: #FFF;
-    font-family: Montserrat;
-    font-size: 1.8rem;
-    font-weight: 500;
-    text-align:center;
-    text-decoration-line: underline;
-  }
+#callToActionB p {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-align:center;
+  text-decoration-line: underline;
+}
 
 .heroContainer {
   background-color: #EEF6FF;
@@ -703,7 +715,7 @@ section {
 
 .caseImg {
   grid-column: 2;
-    grid-row:2;
+  grid-row:2;
 }
 .caseImg img{
   max-width: 500px;
@@ -713,8 +725,7 @@ section {
   font-family: Montserrat Subrayada;
   font-size: 4rem;
   grid-column: 2;
-
-    grid-row:3;
+  grid-row:3;
   letter-spacing: .8rem;
   text-align: center;
 }
@@ -732,6 +743,63 @@ section {
 
 .buttonPrototype {
   grid-column: 2;
+  grid-row:5;
+}
 
-    grid-row:5;
+
+
+/* ROLES ETC */
+
+.roleContainer {
+  display: grid;
+  empty-cells: show;
+  grid-template-columns: .5fr .75fr 1fr .75fr .15fr;
+  margin: 0 auto;
+  grid-gap: 1rem;
+  width: 98vw;
+}
+
+.roleList1 {
+  grid-column: 2;
+  padding-top: 2rem;
+  width: 20vw;
+}
+
+.roleList2 {
+  grid-column: 3;
+  padding-top: 2rem;
+  width: 20vw;
+}
+
+.roleList3 {
+  grid-column: 4;
+  padding-top: 2rem;
+  width: 20vw;
+}
+
+
+.nav2 {
+  align-items: center;
+  display:flex;
+  justify-content: center;
+}
+
+.nav2 h2{
+  font-size: 2rem;
+  word-spacing: 12rem;
+}
+
+/* PROBLEM + SOLUTION */
+
+.probContainer {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: .5fr 1.25fr .5fr;
+  margin: 0 auto;
+  width: 98vw;
+}
+
+.probList {
+  grid-column: 2;
+  padding-top: 2rem;
 }
