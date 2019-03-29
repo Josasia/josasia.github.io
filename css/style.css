@@ -232,6 +232,7 @@ section {
 }
 
 
+
 /* FOOTER
 
 .footerUl:hover {
@@ -301,7 +302,7 @@ html {
 .heroContainer {
   display: grid;
   empty-cells: show;
-  grid-template-columns: .65fr 1fr 1.5fr 1fr 1fr;
+  grid-template-columns: .65fr .85fr 1.5fr 1fr 1fr;
   grid-template-rows: .75fr .5fr .5fr .05fr;
   grid-gap: 1rem;
   margin: 0 auto;
@@ -313,7 +314,7 @@ html {
 }
 
 .logoBg img {
-  min-width: 65vw;
+  max-width: 75vw;
 }
 
 .largeSelf {
@@ -330,14 +331,14 @@ html {
 .heroText  {
   grid-column: 3 / span 4;
   grid-row-start: 3;
-  position: relative; top: 1rem;
+  position: relative;
   z-index: 3;
 }
 
 .heroText h1 {
   font-size: calc( 1rem + 2.5vw);
   letter-spacing: -.5px;
-  line-height: calc( 4.5rem + 0.5vw);
+  line-height: calc( 4rem + 0.5vw);
 }
 
 
@@ -362,7 +363,7 @@ html {
 }
 
 .greenDiv img {
-  position: relative;left: 3rem;
+  position: relative;left: 1rem;
   width: 35vw;
 }
 
@@ -371,7 +372,7 @@ html {
   grid-row: 2;
   padding-top: 2rem;
   padding-bottom: 3.5rem;
-  position: relative;left: 3rem;
+  position: relative;left: 1rem;
   width: 65vw;
 }
 
@@ -379,7 +380,7 @@ html {
   font-size: calc( 1rem + 1.5vw);
   font-weight: 300;
   letter-spacing: -.5px;
-  line-height: calc( 3rem + 0.5vw);
+  line-height: 3rem;
 }
 
 
@@ -396,8 +397,9 @@ html {
 
 .buttonCaseStudy {
   grid-column: 3;
-  grid-row: 4;
-  position: relative; left: 15rem;
+  grid-row: 3;
+  margin-left: 12rem;
+  position: relative; top: 8rem;
   z-index: 9;
 }
 
@@ -412,7 +414,7 @@ html {
 }
 
 .cacheHeader h6 {
-  font-size: calc( 5rem + 1vw);
+  font-size: calc( 1rem + 5vw);
   letter-spacing: .75rem;
 }
 
@@ -435,11 +437,11 @@ html {
   padding-bottom: 10rem;
   position: relative; top: -5rem;
   z-index:7;
-  width: 42vw;
+  width: 38vw;
 }
 
 .cacheSub h1{
-    font-size: calc( 1rem + 1vw);
+    font-size: calc( .8rem + 1vw);
 }
 
 .cacheTriangle2 {
