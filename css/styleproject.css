@@ -3,7 +3,7 @@
 }
 
 html {
-  font-size: calc(7px + .8vw);
+  font-size: calc(9px + .8vw);
   line-height: calc(.5em + 0.5vw);
 }
 
@@ -707,7 +707,7 @@ section {
 @media screen and (min-width: 700px) {
 
 html {
-  font-size: calc(4px + .8vw);
+  font-size: calc(7px + .35vw);
   line-height: calc(.5em + 0.5vw);
 }
 
