@@ -525,12 +525,15 @@ section {
 }
 
 .mobiContainer1 img {
-  margin-top: 5rem;
-  max-width: 460px;
+  margin-top: 2rem;
   width: 70vw;
 }
 
-.mobiList1 {
+.mobiContainer1 h2 {
+  grid-column: 2;
+  grid-row: 1;
+}
+.mobiList1, .mobiList2,  .mobiList3,  .mobiList4 {
   grid-column: 2;
 }
 
@@ -545,23 +548,25 @@ section {
 }
 
 .deskContainer1 img {
-  margin-top: 5rem;
+  margin-top: 3rem;
   max-width: 480px;
   width: 90vw;
 }
 
-.deskList1 {
+.deskContainer1 h2 {
   grid-column: 2;
-}
-
-.deskList1 h2 {
+  grid-row: 1;
   margin-left: 4rem;
   margin-top: 3rem;
 }
 
+.deskList1, .deskList2, .deskList3, .deskList4, .deskList5 {
+  grid-column: 2;
+}
+
 .deskBody2 {
   grid-column: 2;
-  grid-row: 6;
+  grid-row: 7;
   margin-top: 5rem;
   width: 85vw;
 }
@@ -637,10 +642,10 @@ section {
   max-width: 460px;
   width: 90vw;
 }
-
+/*
 .mobiList2 {
   grid-column: 2;
-}
+}*/
 
 
 /* CONCLUSION */
@@ -1248,7 +1253,7 @@ html {
 .mobiContainer1 {
   display: grid;
   empty-cells: show;
-  grid-template-columns: .75fr 1fr .75fr;
+  grid-template-columns: .75fr 1fr 1fr .75fr;
   grid-gap: 1rem;
   margin: 0 auto;
   padding-top: 5rem;
@@ -1256,19 +1261,39 @@ html {
 }
 
 .mobiContainer1 img {
-  margin-top: 5rem;
-  max-width: 460px;
-  width: 70vw;
+  margin-top: 3rem;
+  width: 25vw;
+}
+
+.mobiContainer1 h2 {
+  grid-column:2;
+  grid-row:1;
 }
 
 .mobiList1 {
   grid-column: 2;
+  grid-row: 2;
+}
+
+.mobiList2 {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.mobiList3 {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.mobiList4 {
+  grid-column: 3;
+  grid-row: 3;
 }
 
 .deskContainer1 {
   display: grid;
   empty-cells: show;
-  grid-template-columns: .75fr 1fr .75fr;
+  grid-template-columns: .95fr 1fr 1fr .95fr;
   grid-gap: 1rem;
   margin: 0 auto;
   padding-top: 4rem;
@@ -1276,25 +1301,49 @@ html {
 }
 
 .deskContainer1 img {
-  margin-top: 5rem;
-  max-width: 480px;
-  width: 90vw;
+  margin-top: 3rem;
+  width: 35vw;
+}
+
+.deskContainer1 h2 {
+  grid-column: 2;
+  grid-row:1;
+  position: relative; left: 11rem;
 }
 
 .deskList1 {
   grid-column: 2;
+  grid-row:2;
+  position: relative; left: 15rem;
 }
 
-.deskList1 h2 {
-  margin-left: 4rem;
-  margin-top: 3rem;
+.deskList2 {
+  grid-column: 2;
+  grid-row:3;
+}
+
+.deskList3 {
+  grid-column: 3;
+  grid-row:3;
+}
+
+.deskList4 {
+  grid-column: 2;
+  grid-row:4;
+}
+
+
+.deskList5 {
+  grid-column: 3;
+  grid-row:4;
 }
 
 .deskBody2 {
-  grid-column: 2;
-  grid-row: 6;
-  margin-top: 5rem;
-  width: 85vw;
+  grid-column: 2 / span 4;
+  grid-row: 5;
+  margin-top: 3rem;
+  position: relative; left: 2rem;
+  width: 50vw;
 }
 
 
@@ -1368,10 +1417,10 @@ html {
   max-width: 460px;
   width: 90vw;
 }
-
+/*
 .mobiList2 {
   grid-column: 2;
-}
+}*/
 
 
 /* CONCLUSION */
