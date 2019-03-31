@@ -124,7 +124,7 @@ section {
 }
 
 .barHead h2{
-  font-size: calc(18px + .4vw);
+  font-size: 1.75rem;
 }
 
 .barHead h3 {
@@ -685,24 +685,14 @@ HERO */
   margin-top: 3rem;
 }
 
-
-
-
-
-
-
-
-
-/* MEDIA */
+/* MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA */
 
 @media screen and (min-width: 700px) {
 
 html {
-  font-size: calc(8px + .2vw);
+  font-size: calc(8px + .3vw);
   line-height: calc(.5em + 0.5vw);
 }
-
-/* ALL SECTIONS BAR/HEADER*/
 
 .barContainer {
   display: grid;
@@ -769,11 +759,6 @@ html {
   text-decoration-line: underline;
 }
 
-.buttonPrototype {
-  grid-column: 2;
-  grid-row:5;
-}
-
 /* */
 
 .heroContainer {
@@ -790,6 +775,11 @@ html {
   margin: 0 auto;
   height: 100%;
   width: 98vw;
+}
+
+.buttonPrototype {
+  grid-column: 2;
+  grid-row:5;
 }
 
 .caseImg {
@@ -826,7 +816,7 @@ html {
 .roleContainer {
   display: grid;
   empty-cells: show;
-  grid-template-columns: .5fr .75fr 1fr .75fr .15fr;
+  grid-template-columns: .5fr .75fr 1fr .75fr .5fr;
   margin: 0 auto;
   grid-gap: 1rem;
   width: 98vw;
@@ -867,12 +857,10 @@ html {
   align-items: center;
   display:flex;
   justify-content: center;
-  width:100%;
 }
 
 .nav2 h2{
-  font-size: 1.75rem;
-  word-spacing: 9rem;
+  word-spacing: 8vw;
 }
 
 /* PROBLEM + SOLUTION */
