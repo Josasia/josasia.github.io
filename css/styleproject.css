@@ -704,20 +704,21 @@ section {
 
 
 /* MEDIA */
+
 @media screen and (min-width: 700px) {
 
 html {
-  font-size: calc(7px + .35vw);
+  font-size: calc(8px + .2vw);
   line-height: calc(.5em + 0.5vw);
 }
 
 /* ALL SECTIONS BAR/HEADER*/
 
-  .barContainer {
+.barContainer {
   display: grid;
   empty-cells: show;
   grid-gap: 1rem;
-  grid-template-columns: .05fr 1fr .05fr;
+  grid-template-columns: .05fr .5fr .5fr .5fr .5fr .5fr .05fr;
   padding-top: 5rem;
   margin: 0 auto;
   width: 98vw;
@@ -732,14 +733,15 @@ html {
   z-index: 0;
 }
 
+
 .barHead {
-  grid-column: 2;
-  grid-row: 2;
+  grid-column: 3 / span 4;
+  grid-row: 2 / span 3;
   margin-top: 2rem;
-  padding-left: 15rem;
-  width: 70vw;
+  width: 55vw;
   z-index: 1;
 }
+
 
 .barSub {
   grid-column: 2;
@@ -748,6 +750,18 @@ html {
   width: 90%;
   z-index: 2;
 }
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+
+
+
+
+
+
+
 
 /* */
 
