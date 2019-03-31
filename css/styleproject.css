@@ -541,6 +541,7 @@ section {
   display: grid;
   empty-cells: show;
   grid-template-columns: .75fr 1fr .75fr;
+  grid-template-rows: .05fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 1rem;
   margin: 0 auto;
   padding-top: 4rem;
@@ -549,8 +550,7 @@ section {
 
 .deskContainer1 img {
   margin-top: 3rem;
-  max-width: 480px;
-  width: 90vw;
+  width: 50vw;
 }
 
 .deskContainer1 h2 {
@@ -560,13 +560,35 @@ section {
   margin-top: 3rem;
 }
 
-.deskList1, .deskList2, .deskList3, .deskList4, .deskList5 {
+.deskList1 {
+  grid-row: 2;
   grid-column: 2;
 }
 
+.deskList2 {
+  grid-column: 3;
+  grid-row:4;
+}
+.deskList3 {
+
+    grid-column: 2;
+    grid-row:5;
+}
+
+.deskList4{
+
+    grid-column: 2;
+    grid-row: 6;
+}
+
+.deskList5 {
+
+    grid-column: 2;
+    grid-row:7;
+}
 .deskBody2 {
   grid-column: 2;
-  grid-row: 7;
+  grid-row: 8;
   margin-top: 5rem;
   width: 85vw;
 }
@@ -1302,7 +1324,6 @@ html {
 
 .deskContainer1 img {
   margin-top: 3rem;
-  width: 35vw;
 }
 
 .deskContainer1 h2 {
@@ -1339,11 +1360,14 @@ html {
 }
 
 .deskBody2 {
-  grid-column: 2 / span 4;
+  grid-column: 2 / span 3;
   grid-row: 5;
   margin-top: 3rem;
-  position: relative; left: 2rem;
-  width: 50vw;
+}
+
+.deskBody2 h3 {
+  max-width: 60vw;
+  position: relative; left: 6rem;
 }
 
 
