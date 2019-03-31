@@ -1013,59 +1013,89 @@ html {
   display: grid;
   empty-cells: show;
   grid-gap: 1rem;
-  grid-template-columns: .05fr 1fr 1fr 1fr 1fr .05fr;
+  grid-template-columns: .95fr .5fr .5fr .95fr;
   margin: 0 auto;
   padding-top: 10rem;
   width: 98vw;
 }
 
-.persImg1 {
+.persD1 {
   grid-column: 2;
+  grid-row: 1;
+  line-height: calc(.1rem + 1.5vw);
+  padding-left: 13vw;
+}
+
+.persImg1 {
+  grid-column: 2 / span 3;
   grid-row: 1;
 }
 
 .persImg1 img{
-  max-width: 150px;
-  position: relative;
-  width: 40vw;
-  z-index: 0;
-}
-
-.persD1 {
-  grid-column: 3;
-  grid-row: 1;
-  line-height: 120%;
+  position: relative; top: 1rem;
+  width: 12vw;
 }
 
 .persList1 {
   grid-column: 2;
+  grid-row: 2;
   line-height: 150%;
   padding-top: 3rem;
   width: 30vw;
 }
 
+.persList2 {
+  grid-column: 2;
+  grid-row: 3;
+  line-height: 150%;
+  padding-top: 3rem;
+  width: 30vw;
+}
+
+.persList3 {
+  grid-column: 2;
+  grid-row: 4;
+  line-height: 150%;
+  padding-top: 3rem;
+  width: 30vw;
+}
+
+.persD2 {
+  grid-column: 3;
+  grid-row: 1;
+  line-height: calc(.1rem + 1.5vw);
+  padding-left: 13vw;
+}
+
 .persImg2 {
-  grid-column: 4;
+  grid-column: 3 / span 4;
   grid-row: 1;
 }
 
 .persImg2 img{
-  max-width: 150px;
-  position: relative;
-  width: 40vw;
-  z-index: 0;
+  position: relative; top: 1rem;
+  width: 12vw;
 }
 
-.persD2 {
-  grid-column: 5;
-  grid-row: 1;
-  line-height: 120%;
+.persList4 {
+  grid-column: 3;
+  grid-row: 2;
+  line-height: 150%;
+  padding-top: 3rem;
+  width: 30vw;
 }
 
-.persList2 {
-  grid-column: 4;
-  grid-auto-flow: row;
-  grid-row-end: 2 / span 7;
+.persList5 {
+  grid-column: 3;
+  grid-row: 3;
+  line-height: 150%;
+  padding-top: 3rem;
+  width: 30vw;
+}
+
+.persList6 {
+  grid-column: 3;
+  grid-row: 4;
   line-height: 150%;
   padding-top: 3rem;
   width: 30vw;
@@ -1211,7 +1241,6 @@ html {
   max-width: 400px;
   width: 20vw;
 }
-
 
 .wireList3 {
   grid-column: 2;
