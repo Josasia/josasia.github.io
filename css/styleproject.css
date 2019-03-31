@@ -711,7 +711,7 @@ html {
 
 /* ALL SECTIONS BAR/HEADER*/
 
-.barContainer {
+  .barContainer {
   display: grid;
   empty-cells: show;
   grid-gap: 1rem;
@@ -1259,7 +1259,6 @@ html {
   width: 15vw;
 }
 
-
 /* APP + TESTING BAR*/
 
 .apptMain {
@@ -1267,7 +1266,6 @@ html {
   margin-top: 5rem;
   width: 55vw;
 }
-
 
 /* APP + TESTING */
 
@@ -1315,6 +1313,7 @@ html {
   display: grid;
   empty-cells: show;
   grid-template-columns: .95fr 1fr 1fr .95fr;
+  grid-template-rows: .1fr 1fr 1fr 1fr 1fr;
   grid-gap: 1rem;
   margin: 0 auto;
   padding-top: 4rem;
@@ -1323,18 +1322,19 @@ html {
 
 .deskContainer1 img {
   margin-top: 3rem;
+  width: 45vw;
 }
 
 .deskContainer1 h2 {
   grid-column: 2;
   grid-row:1;
-  position: relative; left: 11rem;
+  position: relative; left: 25vw;
 }
 
 .deskList1 {
   grid-column: 2;
   grid-row:2;
-  position: relative; left: 15rem;
+  position: relative; left: 25vw;
 }
 
 .deskList2 {
@@ -1352,7 +1352,6 @@ html {
   grid-row:4;
 }
 
-
 .deskList5 {
   grid-column: 3;
   grid-row:4;
@@ -1366,7 +1365,7 @@ html {
 
 .deskBody2 h3 {
   max-width: 60vw;
-  position: relative; left: 6rem;
+  position: relative; left: 15vw;
 }
 
 
@@ -1375,31 +1374,38 @@ html {
 .brand2Container {
   display: grid;
   empty-cells: show;
-  grid-template-columns: .05fr 1fr .05fr;
+  grid-template-columns: .95fr 1fr 1fr .95fr;
   grid-gap: 1rem;
   margin: 0 auto;
-  margin-top: 3rem;
   padding-top: 5rem;
+  margin-top: 5rem;
   width: 98vw;
-}
-
-.brand2Container img {
-  width: 90vw;
-  max-width: 170px
 }
 
 .cacheList {
   grid-column: 2;
-  margin-top: 3rem;
+  margin-top: 2rem;
+  width: 30vw;
 }
 
 .cacheImg {
-  grid-column: 2;
+  grid-column: 3;
 }
 
-.cacheImg h5 {
+.cacheImg img {
+  grid-column: 3;
+  margin-top: 3rem;
+  width: 98vw;
+}
+
+.brand2Container h5 {
+  font-size: 4rem;
+  grid-column: 3;
+  grid-row: 6;
   text-indent: 1rem;
   padding-top: 2rem;
+  position: relative; top: -12vw;
+  width: 10vw;
 }
 
 /* APPLICATION 2 */
