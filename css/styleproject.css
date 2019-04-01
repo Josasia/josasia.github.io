@@ -1155,13 +1155,10 @@ html {
   width: 100%;
   z-index: 1;
 }
-
-
 /* WIREFRAME MAIN */
-
 .wireContainer {
   display: grid;
-  grid-gap: 2rem;
+  grid-gap: 1rem;
   grid-template-columns: 1.1fr .5fr .5fr 1fr;
   margin: 0 auto;
   padding-top: 5rem;
@@ -1180,7 +1177,7 @@ html {
 
 .wireImg1 img {
   grid-column: 2;
-  width: 25vw;
+  width: 23rem;
 }
 
 .wireList2 {
@@ -1196,7 +1193,7 @@ html {
 
 .wireImg2 img {
   grid-column: 2;
-  width: 25vw;
+  width: 23rem;
 }
 
 .wireList3 {
@@ -1212,7 +1209,7 @@ html {
 
 .wireImg3 img {
   grid-column: 2;
-  width: 25vw;
+  width: 23rem;
 }
 
 .wireList4 {
@@ -1228,16 +1225,14 @@ html {
 
 .wireImg4 img {
   grid-column: 2;
-  width: 25vw;
+  width: 23rem;
 }
-
 /* BRAND 1 MAIN */
-
 .brandContainer {
   display: grid;
   empty-cells: show;
-  grid-template-columns: .95fr 1fr 1fr .95fr;
-  grid-gap: 1rem;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr .5fr .5fr 1fr;
   margin: 0 auto;
   padding-top: 5rem;
   margin-top: 5rem;
@@ -1247,7 +1242,7 @@ html {
 .ourList {
   grid-column: 2;
   margin-top: 3rem;
-  width: 30vw;
+  width: 22vw;
 }
 
 .ourImg {
@@ -1257,15 +1252,14 @@ html {
 .ourImg img {
   grid-column: 3;
   margin-top: 3rem;
-  width: 15vw;
+  width: 19rem;
 }
-
 /* APP + TESTING BAR*/
 
 .apptMain {
   grid-column: 3 / span 5;
   margin-top: 5rem;
-  width: 55vw;
+  width: 45vw;
 }
 
 /* APP + TESTING */
@@ -1282,7 +1276,7 @@ html {
 
 .mobiContainer1 img {
   margin-top: 3rem;
-  width: 25vw;
+  width: 25rem;
 }
 
 .mobiContainer1 h2 {
@@ -1324,7 +1318,7 @@ html {
 .deskContainer1 img {
   margin-top: 3rem;
 
-  width: 45vw;
+  width: 45rem;
 }
 
 .deskContainer1 h2 {
