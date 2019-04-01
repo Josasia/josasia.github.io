@@ -93,7 +93,6 @@ section {
 }
 
 /* ALL SECTIONS BAR/HEADER*/
-
 .barContainer {
   display: grid;
   empty-cells: show;
@@ -110,7 +109,7 @@ section {
   overflow-x: hidden;
   overflow-y: hidden;
   position: absolute;
-  height: 9vh;
+  height: 30rem;
   width: 98%;
   z-index: 0;
 }
@@ -142,7 +141,6 @@ section {
 }
 
 HERO */
-
 .heroContainer {
   background-color: #EEF6FF;
   display: grid;
@@ -160,6 +158,7 @@ HERO */
 .caseImg {
   grid-column: 2;
 }
+
 .caseImg img{
   width: 70vw;
 }
@@ -189,7 +188,6 @@ HERO */
 }
 
 /* ROLES ETC */
-
 .roleContainer {
   display: grid;
   empty-cells: show;
@@ -207,7 +205,6 @@ HERO */
 
 
 /* GREEN DIVIDER 1*/
-
 .greenDiv {
   background-color:  #DFF2F2;
   display: grid;
@@ -225,7 +222,6 @@ HERO */
 
 
 /* PROBLEM + SOLUTION */
-
 .probContainer {
   display: grid;
   grid-gap: 1rem;
@@ -241,7 +237,6 @@ HERO */
 
 
 /* DISCOVERY ETC HEADER */
-
 .discContainer {
   display: grid;
   empty-cells: show;
@@ -261,13 +256,11 @@ HERO */
   margin-top: 5rem;
 }
 
-
 /* COMPETITIVE ANALYSIS MAIN*/
-
 .compContainer {
   display: grid;
   empty-cells: show;
-  grid-template-columns: .75fr 1fr .1fr;
+  grid-template-columns: 1fr .5fr 1fr;
   margin: 0 auto;
   padding-top: 10rem;
   grid-gap: 1rem;
@@ -503,6 +496,10 @@ HERO */
   width: 85vw;
 }
 
+.apptMain h3 {
+  font-size: 1.5rem;
+}
+
 /* APP + TESTING */
 .mobiContainer1 {
   display: grid;
@@ -582,9 +579,11 @@ HERO */
   width: 85vw;
 }
 
+.deskBody2 h3 {
+  font-size: 1.5rem;
+}
 
 /* BRAND 2 */
-
 .brand2Container {
   display: grid;
   empty-cells: show;
@@ -709,7 +708,7 @@ html {
   overflow-x: hidden;
   position: absolute;
   overflow-y: hidden;
-  height: 8vh;
+  height: 19rem;
   width: 98%;
   z-index: 0;
 }
@@ -1089,7 +1088,6 @@ html {
   max-width: 50vw;
 }
 
-
 .storButton {
   grid-column: 4;
   grid-row:10;
@@ -1098,7 +1096,6 @@ html {
 }
 
 /* USER FLOWS + MAP MAIN*/
-
 .flowContainer {
   display: grid;
   empty-cells: show;
@@ -1317,7 +1314,6 @@ html {
 
 .deskContainer1 img {
   margin-top: 3rem;
-
   width: 45rem;
 }
 
@@ -1364,13 +1360,11 @@ html {
   position: relative; left: 18vw;
 }
 
-
 /* BRAND 2 */
-
 .brand2Container {
   display: grid;
   empty-cells: show;
-  grid-template-columns: .95fr 1fr 1fr .95fr;
+  grid-template-columns: 1fr .5fr .5fr 1fr;
   grid-gap: 1rem;
   margin: 0 auto;
   padding-top: 5rem;
@@ -1380,8 +1374,8 @@ html {
 
 .cacheList {
   grid-column: 2;
-  margin-top: 2rem;
-  width: 30vw;
+  margin-top: 3rem;
+  width: 22vw;
 }
 
 .cacheImg {
@@ -1391,7 +1385,7 @@ html {
 .cacheImg img {
   grid-column: 3;
   margin-top: 3rem;
-  width: 98vw;
+  width: 19rem;
 }
 
 .brand2Container h5 {
@@ -1399,13 +1393,11 @@ html {
   grid-column: 3;
   grid-row: 6;
   text-indent: 1rem;
-  padding-top: 2rem;
-  position: relative; top: -12vw;
-  width: 10vw;
+  padding-top: 3rem;
+  position: relative; top: -12rem;
 }
 
 /* APPLICATION 2 */
-
 .deskContainer2 {
   display: grid;
   empty-cells: show;
@@ -1475,28 +1467,4 @@ html {
   grid-column:3;
   grid-row: 2;
   margin-top: 3rem;
-}
-
-/* MEDIA
-@media screen and (min-width: 1440px) {
-
-  body:before, body:after {
-      content: "";
-      position: fixed;
-      background: #900;
-      left: 0;
-      right: 0;
-      height: 10px;
-  }
-  body:before {
-      top: 0;
-  }
-  body:after {
-      bottom: 0;
-  }
-  body {
-      border-left: 100px solid #900;
-      border-right: 100px solid #900;
-  }
-
 }
