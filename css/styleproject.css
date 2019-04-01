@@ -88,6 +88,10 @@ button.blue {
     width: 15rem;
 }
 
+button.blue:active {
+    box-shadow: inset 0 2px 5px #0070E0;
+}
+
 /*#callToActionB {
   align-items: center;
   background: #0070E0;
@@ -154,9 +158,9 @@ button.blue {
   justify-items: center;
   align-items: center;
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 5rem;
   margin: 0 auto;
-  height: 130vw;
+  height: 140vw;
   width: 98vw;
 }
 
@@ -174,12 +178,11 @@ button.blue {
   grid-column: 2;
   letter-spacing: .8rem;
   text-align: center;
-  width: 55vw;
 }
 
 .caseBody {
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 500;
   grid-column: 2;
   grid-row: 3;
   letter-spacing: -.1rem;
