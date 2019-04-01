@@ -698,7 +698,7 @@ html {
   empty-cells: show;
   grid-gap: 1rem;
   grid-template-columns: .05fr .6fr .5fr .5fr .5fr .05fr;
-  padding-top: 5rem;
+  padding-top: 2rem;
   margin: 0 auto;
   width: 98vw;
 }
@@ -718,7 +718,7 @@ html {
   grid-column: 3 / span 4;
   grid-row: 2 / span 3;
   margin-top: 2rem;
-  width: 45vw;
+  width: 43vw;
   z-index: 1;
 }
 
@@ -921,7 +921,7 @@ html {
 .survContainer {
   display: grid;
   empty-cells: show;
-  grid-template-columns: .05fr .5fr .15fr .5fr .5fr .5fr .15fr .5fr .05fr;
+  grid-template-columns: .95fr .5fr .5fr .5fr .5fr .95fr;
   grid-gap: 1rem;
   margin: 0 auto;
   padding-top: 5rem;
@@ -929,38 +929,33 @@ html {
 }
 
 .survList1 {
-  grid-column: 3;
-  margin-top: 5rem;
+  grid-column: 2;
   text-indent: .25rem;
-  width: 20vw;
+  width: 17vw;
 }
 
 .survList2 {
-  grid-column: 4;
-  margin-top: 5rem;
+  grid-column: 3;
   text-indent: .25rem;
-  width: 20vw;
+  width: 17vw;
 }
 
 .survList3 {
-  grid-column: 5;
-  margin-top: 5rem;
+  grid-column: 4;
   text-indent: .25rem;
-  width: 20vw;
+  width: 17vw;
 }
 
 .survList4 {
-  grid-column: 6;
-  margin-top: 5rem;
+  grid-column: 5;
   text-indent: .25rem;
-  width: 20vw;
+  width: 17vw;
 }
 
 .surveyButton {
-  grid-column: 4;
+  grid-column: 3 / span 4;
   grid-row: 2;
   margin-top: 5rem;
-  position: relative; left: 13rem;
 }
 /* USER PERSONAS MAIN */
 .persContainer {
@@ -1166,8 +1161,8 @@ html {
 
 .wireContainer {
   display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: .95fr 1fr 1fr .95fr;
+  grid-gap: 2rem;
+  grid-template-columns: 1.1fr .5fr .5fr 1fr;
   margin: 0 auto;
   padding-top: 5rem;
   width: 98vw;
@@ -1175,7 +1170,7 @@ html {
 
 .wireList1 {
   grid-column: 2;
-  width: 30vw;
+  width: 22vw;
 }
 
 .wireImg1 {
@@ -1185,13 +1180,13 @@ html {
 
 .wireImg1 img {
   grid-column: 2;
-  width: 20vw;
+  width: 25vw;
 }
 
 .wireList2 {
   grid-column: 2;
   padding-top: 5rem;
-  width: 30vw;
+  width: 22vw;
 }
 
 .wireImg2 {
@@ -1201,14 +1196,13 @@ html {
 
 .wireImg2 img {
   grid-column: 2;
-  max-width: 400px;
-  width: 20vw;
+  width: 25vw;
 }
 
 .wireList3 {
   grid-column: 2;
   padding-top: 5rem;
-  width: 30vw;
+  width: 22vw;
 }
 
 .wireImg3 {
@@ -1218,14 +1212,13 @@ html {
 
 .wireImg3 img {
   grid-column: 2;
-  max-width: 400px;
-  width: 20vw;
+  width: 25vw;
 }
 
 .wireList4 {
   grid-column: 2;
   padding-top: 5rem;
-  width: 30vw;
+  width: 22vw;
 }
 
 .wireImg4 {
@@ -1235,8 +1228,7 @@ html {
 
 .wireImg4 img {
   grid-column: 2;
-  max-width: 400px;
-  width: 20vw;
+  width: 25vw;
 }
 
 /* BRAND 1 MAIN */
