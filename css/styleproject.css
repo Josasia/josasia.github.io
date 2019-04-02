@@ -92,6 +92,22 @@ button.blue:active {
     box-shadow: inset 0 2px 5px #0070E0;
 }
 
+.buttonContainer {
+  display: grid;
+  empty-cells: show;
+  grid-template-columns: 1fr .5fr 1fr;
+  grid-gap: 1rem;
+  margin: 0 auto;
+  width: 98vw;
+}
+
+.blueButton {
+  grid-column:2;
+  grid-row: 2;
+  margin-top: 3rem;
+  position: relative;
+  z-index: 50;
+}
 /*#callToActionB {
   align-items: center;
   background: #0070E0;
@@ -339,17 +355,30 @@ button.blue:active {
   width: 90vw;
 }
 
-
 /* USER STORIES */
+.storContainer {
+  display: grid;
+  empty-cells: show;
+  grid-template-columns: .5fr .1fr .1fr .1fr .5fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 0 auto;
+  padding-top: 10rem;
+  grid-gap: 1rem;
+  width: 98vw;
+}
+
+.storList1, .storList2, .storList3 {
+  display: none;
+}
 
 .storButton {
   grid-column: 3;
-  grid-row:10;
+  grid-row:4;
   margin-top: 2rem;
   z-index: 1;
 }
 
-/* USER FLOWS + MAP MAIN*/
+/* USER FLOWS + MAP MAIN
 
 .flowContainer {
   display: grid;
@@ -361,49 +390,58 @@ button.blue:active {
   margin: 0 auto;
   padding-top: 3rem;
   width: 98vw;
+}*/
+
+.buttonFlowContainer {
+
+  display: grid;
+  empty-cells: show;
+  grid-template-columns: 1fr .5fr 1fr;
+  grid-template-rows: .25fr .1fr .1fr;
+  grid-gap: 1rem;
+  margin: 0 auto;
+  width: 98vw;
 }
 
-.flowL {
+.flowImg {
   grid-column: 2 / span 3;
-  grid-row: 1;
+  grid-row: 2;
 }
 
-.flowL img{
-  max-width: 450px;
+.flowImg img{
   overflow-x: hidden;
   position: relative;
-  width: 90vw;
   z-index: 0;
+  width: 50vw;
 }
 
-.flowButton {
-  grid-column: 3;
-  grid-row:1;
-  margin-top: 2rem;
+.blueFlowButton {
+  grid-column:2;
+  grid-row: 2;
+  margin-top: 3rem;
   position: relative;
-  z-index: 1;
+  z-index: 50;
 }
 
-.mapL {
-  grid-column: 2 / span 3;
+.mapImg {
+  grid-column: 2 /span 3;
   grid-row: 3;
 }
 
-.mapL img{
-  max-width: 450px;
+.mapImg img{
   overflow-x: hidden;
   position: relative;
-  width: 90vw;
   z-index: 0;
+  width: 50vw;
 }
 
-.mapsButton {
-  grid-column: 3;
-  grid-row:3;
-  width: 100%;
-  z-index: 1;
+.blueFlow2Button {
+  grid-column:2;
+  grid-row: 3;
+  margin-top: 3rem;
+  position: relative;
+  z-index: 50;
 }
-
 
 /* WIREFRAME MAIN */
 
@@ -1023,15 +1061,46 @@ html {
   width: 30vw;
 }
 
+
+
+
+
+
+
 /* USER STORIES */
-.storButton {
+.storContainer {
+  display: grid;
+  empty-cells: show;
+  grid-template-columns: 1fr .5fr .75fr .5fr 1fr;
+  margin: 0 auto;
+  padding-top: 10rem;
+  grid-gap: 1rem;
+  width: 98vw;
+}
+
+.storList1 {
+  display:block;
+  grid-column: 2;
+}
+
+.storList2 {
+  display:block;
+  grid-column: 3;
+}
+
+.storList3 {
+  display:block;
   grid-column: 4;
-  grid-row:10;
+}
+
+.storButton {
+  grid-column: 3;
+  grid-row:2;
   margin-top: 2rem;
   z-index: 1;
 }
 
-/* USER FLOWS + MAP MAIN*/
+/* USER FLOWS + MAP MAIN
 .flowContainer {
   align-items: center;
   display: grid;
@@ -1043,47 +1112,32 @@ html {
   margin: 0 auto;
   padding-top: 3rem;
   width: 98vw;
+}*/
+
+.flowImg {
+  grid-column: 2;
+  grid-row: 1;
 }
 
-.flowL {
-  grid-column: 3;
+.flowImg img{
+  overflow-x: hidden;
+  position: relative;
+  z-index: 0;
+  width: 50vw;
+}
+
+.mapImg {
+  grid-column: 2;
   grid-row: 2;
 }
 
-.flowL img{
+.mapImg img{
   overflow-x: hidden;
   position: relative;
   z-index: 0;
   width: 50vw;
 }
 
-.flowButton {
-  grid-column: 3;
-  grid-row:2;
-  margin-top: 2rem;
-  position: relative; left: 7rem;
-  z-index: 1;
-}
-
-.mapL {
-  grid-column: 3;
-  grid-row: 3;
-}
-
-.mapL img{
-  overflow-x: hidden;
-  position: relative;
-  z-index: 0;
-  width: 50vw;
-}
-
-.mapsButton {
-  grid-column: 3;
-  grid-row:3;
-  position: relative;left: 7rem;
-  width: 100%;
-  z-index: 1;
-}
 /* WIREFRAME MAIN */
 .wireContainer {
   display: grid;
@@ -1393,10 +1447,4 @@ html {
   grid-column: 2 / span 3;
   grid-row:1;
   max-width: 50vw;
-}
-
-.concButton {
-  grid-column:3;
-  grid-row: 2;
-  margin-top: 3rem;
 }
