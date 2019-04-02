@@ -88,8 +88,8 @@ button.blue {
     width: 15rem;
 }
 
-button.blue:active {
-    box-shadow: inset 0 2px 5px #0070E0;
+button.blue:hover {
+  letter-spacing: .05rem;
 }
 
 .buttonContainer {
@@ -190,7 +190,7 @@ button.blue:active {
 
 .caseLogo {
   font-family: Montserrat Subrayada;
-    font-size: calc(46px + 2vw);
+  font-size: calc(46px + 2vw);
   grid-column: 2;
   letter-spacing: .8rem;
   text-align: center;
@@ -229,7 +229,6 @@ button.blue:active {
   width: 40vw;
 }
 
-
 /* GREEN DIVIDER 1*/
 .greenDiv {
   background-color:  #DFF2F2;
@@ -245,7 +244,6 @@ button.blue:active {
 .nav2 {
   display:none;
 }
-
 
 /* PROBLEM + SOLUTION */
 .probContainer {
@@ -310,11 +308,14 @@ button.blue:active {
   width: 98vw;
 }
 
+.survContainer h1 {
+  width: 35vw;
+}
+
 .survList1, .survList2, .survList3, .survList4 {
   grid-column: 2;
-  margin-top: 5rem;
+  margin-top: 2rem;
   text-indent: .25rem;
-  width: 55vw;
 }
 
 .surveyButton {
@@ -401,7 +402,7 @@ button.blue:active {
   display: grid;
   empty-cells: show;
   grid-template-columns: 1fr .5fr 1fr;
-  grid-template-rows: .25fr .1fr .1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 1rem;
   margin: 0 auto;
   width: 98vw;
@@ -410,14 +411,6 @@ button.blue:active {
 .flowImg {
   grid-column: 2 ;
   grid-row: 2;
-}
-
-.flowImg img{
-  display: none;
-  overflow-x: hidden;
-  position: relative;
-  z-index: 0;
-  width: 50vw;
 }
 
 .blueFlowButton {
@@ -431,14 +424,6 @@ button.blue:active {
 .mapImg {
   grid-column: 2;
   grid-row: 3;
-}
-
-.mapImg img{
-  display: none;
-  overflow-x: hidden;
-  position: relative;
-  z-index: 0;
-  width: 50vw;
 }
 
 .blueFlow2Button {
@@ -717,6 +702,30 @@ html {
   line-height: calc(.5em + 0.5vw);
 }
 
+button.blue {
+    width: 19rem;
+}
+
+button.blue:hover {
+  letter-spacing: .05rem;
+}
+
+.buttonContainer {
+  display: grid;
+  empty-cells: show;
+  grid-template-columns: 1fr .15fr 1fr;
+  grid-gap: 1rem;
+  margin: 0 auto;
+  width: 98vw;
+}
+
+.blueButton {
+  grid-column:2;
+  grid-row: 2;
+  position: relative;
+  z-index: 50;
+}
+
 .barContainer {
   display: grid;
   empty-cells: show;
@@ -754,24 +763,6 @@ html {
   font-size: calc(15px + .5vw);
   max-width: 50vw;
 }
-
-#callToActionB {
-  align-items: center;
-  background: #0070E0;
-  display: grid;
-  height: 45px;
-  justify-content: center;
-  width: 225px;
-}
-
-#callToActionB p {
-  color: #FFF;
-  font-family: Montserrat;
-  font-size: 1.8rem;
-  font-weight: 500;
-  text-align:center;
-  text-decoration-line: underline;
-}
 /* */
 .heroContainer {
   background-color: #EEF6FF;
@@ -783,7 +774,7 @@ html {
   justify-items: center;
   align-items: center;
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
   margin: 0 auto;
   height: 100%;
   width: 98vw;
@@ -945,28 +936,28 @@ html {
   width: 98vw;
 }
 
+.survContainer h1 {
+  width: 17vw;
+}
+
 .survList1 {
   grid-column: 2;
   text-indent: .25rem;
-  width: 17vw;
 }
 
 .survList2 {
   grid-column: 3;
   text-indent: .25rem;
-  width: 17vw;
 }
 
 .survList3 {
   grid-column: 4;
   text-indent: .25rem;
-  width: 17vw;
 }
 
 .survList4 {
   grid-column: 5;
   text-indent: .25rem;
-  width: 17vw;
 }
 
 .surveyButton {
@@ -1067,81 +1058,82 @@ html {
   width: 30vw;
 }
 
-
-
-
-
-
-
-/* USER STORIES */
 .storContainer {
   display: grid;
   empty-cells: show;
-  grid-template-columns: 1fr .5fr .75fr .5fr 1fr;
+  grid-template-columns: .95fr .25fr .5fr 1fr .5fr .95fr;
+  grid-template-rows: 1fr .25fr;
   margin: 0 auto;
-  padding-top: 10rem;
   grid-gap: 1rem;
   width: 98vw;
 }
 
+.storContainer h1 {
+  font-size: calc(9px + .7vw);
+}
+
 .storList1 {
-  display:block;
-  grid-column: 2;
+  display:inline-table;
+  grid-column: 3;
+  width: 18vw;
 }
 
 .storList2 {
-  display:block;
-  grid-column: 3;
+  display:inline-table;
+  grid-column: 4;
+  width: 30vw;
 }
 
 .storList3 {
-  display:block;
-  grid-column: 4;
+  display:inline-table;
+  grid-column: 5;
+  width: 18vw;
 }
 
 .storButton {
-  grid-column: 3;
+  grid-column: 2;
   grid-row:2;
-  margin-top: 2rem;
-  z-index: 1;
 }
 
-/* USER FLOWS + MAP MAIN
 .flowContainer {
-  align-items: center;
   display: grid;
   empty-cells: show;
-  grid-template-columns: .05fr .95fr 1fr .95fr .05fr;
-  grid-template-rows: .05fr .5fr .5fr .05fr;
-  grid-gap: 2rem;
-  justify-content: center;
+  grid-template-columns: 1fr .5fr 1fr;
+  grid-template-rows: .25fr .1fr .1fr;
+  grid-gap: 1rem;
   margin: 0 auto;
-  padding-top: 3rem;
   width: 98vw;
-}*/
-
-.flowImg {
-  grid-column: 2;
-  grid-row: 1;
 }
 
-.flowImg img{
-  overflow-x: hidden;
+.flowImg {
+  display: grid;
+  background-image: url("../images/flowImg.png");
+  grid-column: 2;
+  width: 35vw;
+}
+
+.blueFlowButton {
+  grid-column:2;
+  grid-row: 2;
+  margin-top: 3rem;
   position: relative;
-  z-index: 0;
-  width: 50vw;
+  z-index: 50;
 }
 
 .mapImg {
+  justify-content: cent
+  display: inline;
+  background-image: url("../images/mapsImg.png");
   grid-column: 2;
-  grid-row: 2;
 }
 
-.mapImg img{
-  overflow-x: hidden;
+.blueFlow2Button {
+background-image: url("../images/mapsImg.png");
+  grid-column:2;
+  grid-row: 3;
+  margin-top: 3rem;
   position: relative;
-  z-index: 0;
-  width: 50vw;
+  z-index: 50;
 }
 
 /* WIREFRAME MAIN */
