@@ -456,11 +456,11 @@ button.blue:hover {
 .apptMain {
   grid-column: 2;
   grid-row: 5;
-  margin-top: 5rem;
   width: 85vw;
 }
 
 .apptMain h3 {
+  margin-top: 5rem;
   font-size: 1.5rem;
 }
 
@@ -645,7 +645,7 @@ button.blue:hover {
   margin-top: 3rem;
 }
 
-/* MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA MEDIA */
+/* MEDIA MEDIA MEDIA MEDIA */
 @media screen and (min-width: 700px) {
 
 html {
@@ -776,19 +776,16 @@ button.blue:hover {
 
 .roleList1 {
   grid-column: 2;
-  padding-top: 2rem;
   width: 20vw;
 }
 
 .roleList2 {
   grid-column: 3;
-  padding-top: 2rem;
   width: 20vw;
 }
 
 .roleList3 {
   grid-column: 4;
-  padding-top: 2rem;
   width: 20vw;
 }
 /* */
@@ -798,8 +795,8 @@ button.blue:hover {
   grid-column: 1fr;
   grid-row: 1fr;
   height: 7rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   width: 100vw;
 }
 
@@ -825,6 +822,7 @@ button.blue:hover {
   grid-column: 2;
   padding-top: 2rem;
 }
+
 /* DISCOVERY ETC HEADER */
 .discContainer {
   display: grid;
@@ -844,12 +842,13 @@ button.blue:hover {
   line-height: 80%;
   margin-top: 5rem;
 }
+
 /* COMPETITIVE ANALYSIS MAIN*/
 .compContainer {
   display: grid;
   empty-cells: show;
   grid-template-columns: .75fr 1fr 1fr 1fr .5fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr .75fr;
   margin: 0 auto;
   margin-top: 5rem;
   grid-gap: 1rem;
@@ -876,6 +875,7 @@ button.blue:hover {
   grid-column: 3;
   grid-row: 2;
 }
+
 /* USER SURVEYS MAIN*/
 .survContainer {
   display: grid;
@@ -883,11 +883,16 @@ button.blue:hover {
   grid-template-columns: .95fr .5fr .5fr .5fr .5fr .95fr;
   grid-gap: 1rem;
   margin: 0 auto;
+  margin-top: 5rem;
   width: 98vw;
 }
 
 .survContainer h1 {
   width: 17vw;
+}
+
+.survContainer img {
+  width: 2vw;
 }
 
 .survList1 {
@@ -915,6 +920,7 @@ button.blue:hover {
   grid-row: 2;
   margin-top: 5rem;
 }
+
 /* USER PERSONAS MAIN */
 .persContainer {
   display: grid;
@@ -922,7 +928,7 @@ button.blue:hover {
   grid-gap: 1rem;
   grid-template-columns: .95fr .5fr .5fr .95fr;
   margin: 0 auto;
-  padding-top: 10rem;
+  margin-top: 5rem;
   width: 98vw;
 }
 
@@ -1014,6 +1020,7 @@ button.blue:hover {
   grid-template-columns: .95fr .25fr .5fr 1fr .5fr .95fr;
   grid-template-rows: 1fr .25fr;
   margin: 0 auto;
+  margin-top: 8rem;
   grid-gap: 1rem;
   width: 98vw;
 }
@@ -1049,39 +1056,35 @@ button.blue:hover {
   display: grid;
   empty-cells: show;
   grid-template-columns: 1fr .5fr 1fr;
-  grid-template-rows: .25fr .1fr .1fr;
+  grid-template-rows: .1fr .1fr;
   grid-gap: 1rem;
   margin: 0 auto;
+  margin-top: 8rem;
   width: 98vw;
 }
-
+/*
 .flowImg {
-  display: grid;
-  background-image: url("../images/flowImg.png");
   grid-column: 2;
   width: 35vw;
 }
 
+.mapImg {
+  background-image: url("../images/mapsImg.png");
+  grid-column: 1 / span 3;
+}
+*/
 .blueFlowButton {
   grid-column:2;
-  grid-row: 2;
-  margin-top: 3rem;
+  grid-row: 1;
   position: relative;
   z-index: 50;
 }
 
-.mapImg {
-  justify-content: cent
-  display: inline;
-  background-image: url("../images/mapsImg.png");
-  grid-column: 2;
-}
-
-.blueFlow2Button {
-background-image: url("../images/mapsImg.png");
+.blueMapButton {
   grid-column:2;
-  grid-row: 3;
+  grid-row: 2;
   margin-top: 3rem;
+  margin-bottom: 5rem;
   position: relative;
   z-index: 50;
 }
@@ -1092,7 +1095,7 @@ background-image: url("../images/mapsImg.png");
   grid-gap: 1rem;
   grid-template-columns: 1.1fr .5fr .5fr 1fr;
   margin: 0 auto;
-  padding-top: 5rem;
+  margin-top: 5rem;
   width: 98vw;
 }
 
@@ -1158,6 +1161,7 @@ background-image: url("../images/mapsImg.png");
   grid-column: 2;
   width: 23rem;
 }
+
 /* BRAND 1 MAIN */
 .brandContainer {
   display: grid;
@@ -1165,8 +1169,7 @@ background-image: url("../images/mapsImg.png");
   grid-gap: 2rem;
   grid-template-columns: 1fr .5fr .5fr 1fr;
   margin: 0 auto;
-  padding-top: 5rem;
-  margin-top: 5rem;
+  margin-top: 8rem;
   width: 98vw;
 }
 
@@ -1185,23 +1188,22 @@ background-image: url("../images/mapsImg.png");
   margin-top: 3rem;
   width: 19rem;
 }
-/* APP + TESTING BAR*/
 
+/* APP + TESTING BAR*/
 .apptMain {
   grid-column: 3 / span 5;
   margin-top: 5rem;
-  width: 45vw;
+  width: 40vw;
 }
 
 /* APP + TESTING */
-
 .mobiContainer1 {
   display: grid;
   empty-cells: show;
   grid-template-columns: 1fr .5fr .5fr 1fr;
   grid-gap: 1rem;
   margin: 0 auto;
-  padding-top: 5rem;
+  margin-top: 5rem;
   width: 98vw;
 }
 
@@ -1242,7 +1244,7 @@ background-image: url("../images/mapsImg.png");
   grid-template-rows: .1fr .5fr .5fr .5fr .1fr;
   grid-gap: 1rem;
   margin: 0 auto;
-  padding-top: 4rem;
+  margin-top: 5rem;
   width: 98vw;
 }
 
@@ -1287,6 +1289,7 @@ background-image: url("../images/mapsImg.png");
   grid-column: 2 / span 3;
   grid-row: 5;
   margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .deskBody2 h3 {
@@ -1301,7 +1304,6 @@ background-image: url("../images/mapsImg.png");
   grid-template-columns: 1fr .5fr .5fr 1fr;
   grid-gap: 2rem;
   margin: 0 auto;
-  padding-top: 5rem;
   margin-top: 5rem;
   width: 98vw;
 }
@@ -1344,7 +1346,7 @@ background-image: url("../images/mapsImg.png");
 }
 
 .deskContainer2 img {
-  margin-top: 5rem;
+  margin-top: 3rem;
   width: 45vw;
 }
 
@@ -1362,12 +1364,12 @@ background-image: url("../images/mapsImg.png");
   grid-gap: 1rem;
   grid-template-columns: .95fr .5fr .5fr .95fr;
   margin: 0 auto;
-  padding-top: 5rem;
+  margin-top: 5rem;
   width: 98vw;
 }
 
 .mobiContainer2 img {
-  margin-top: 5rem;
+  margin-top: 3rem;
   width: 45vw;
 }
 
@@ -1380,19 +1382,18 @@ background-image: url("../images/mapsImg.png");
 }
 
 /* CONCLUSION */
-
 .concContainer {
   display: grid;
   empty-cells: show;
   grid-template-columns: .95fr .5fr .5fr .5fr .95fr;
   grid-gap: 1rem;
   margin: 0 auto;
-  margin-top: 7.5rem;
+  margin-top: 5rem;
   width: 98vw;
 }
 
 .concMain {
   grid-column: 2 / span 3;
   grid-row:1;
-  max-width: 50vw;
+  max-width: 45vw;
 }
