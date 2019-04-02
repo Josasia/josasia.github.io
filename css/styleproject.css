@@ -108,31 +108,13 @@ button.blue:hover {
   position: relative;
   z-index: 50;
 }
-/*#callToActionB {
-  align-items: center;
-  background: #0070E0;
-  display: grid;
-  height: 35px;
-  justify-content: center;
-  width: 145px;
-}
-
-#callToActionB p {
-  color: #FFF;
-  font-family: Montserrat;
-  font-size: 1.8rem;
-  font-weight: 500;
-  text-align:center;
-  text-decoration-line: underline;
-}
-
- ALL SECTIONS BAR/HEADER*/
+/*ALL SECTIONS BAR/HEADER*/
 .barContainer {
   display: grid;
   empty-cells: show;
   grid-gap: 1rem;
   grid-template-columns: .05fr 1fr .05fr;
-  padding-top: 5rem;
+  padding-top: 2rem;
   margin: 0 auto;
   width: 98vw;
 }
@@ -203,30 +185,29 @@ button.blue:hover {
   grid-row: 3;
   line-height: 125%;
   text-align: center;
-  width: 72vw;
+  width: 75vw;
 }
 
 .prototypeButton {
   grid-column: 2;
   grid-row: 1;
-  padding-top: 2rem;
-  position: relative; top: -8rem;
+  padding-top: 1rem;
+  position: relative; top: -7rem;
 }
 
 /* ROLES ETC */
 .roleContainer {
   display: grid;
   empty-cells: show;
-  grid-template-columns: .75fr 1fr .75fr;
+  grid-template-columns: .35fr .05fr .05fr 1fr;
   margin: 0 auto;
   grid-gap: 1rem;
   width: 98vw;
 }
 
 .roleList1, .roleList2, .roleList3 {
-  grid-column: 2;
-  padding-top: 2rem;
-  width: 40vw;
+  grid-column: 2 /span 3;
+  padding-top: 1rem;
 }
 
 /* GREEN DIVIDER 1*/
@@ -236,8 +217,8 @@ button.blue:hover {
   grid-column: 1fr;
   grid-row: 1fr;
   height: 10rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   width: 100vw;
 }
 
@@ -258,7 +239,6 @@ button.blue:hover {
   grid-column: 2;
   padding-top: 2rem;
 }
-
 
 /* DISCOVERY ETC HEADER */
 .discContainer {
@@ -284,34 +264,38 @@ button.blue:hover {
 .compContainer {
   display: grid;
   empty-cells: show;
-  grid-template-columns: 1fr .5fr 1fr;
+  grid-template-columns: .35fr .5fr .2fr .65fr;
   margin: 0 auto;
-  padding-top: 10rem;
+  margin-top: 5rem;
   grid-gap: 1rem;
   width: 98vw;
 }
 
+.compContainer h1, .compContainer h3 {
+  font-size: calc(14px + .8vw);
+}
+
 .compList1, .compList2, .compList3, .compList4 {
-  grid-column: 2;
-  width: 65vw;
+  grid-column: 2 /span 3;
 }
 
 /* USER SURVEYS MAIN*/
-
 .survContainer {
   display: grid;
   empty-cells: show;
   grid-template-columns: .95fr 1fr .95fr;
   grid-gap: 1rem;
   margin: 0 auto;
-  padding-top: 5rem;
+  margin-top: 5rem;
   width: 98vw;
 }
 
 .survContainer h1 {
   width: 35vw;
 }
-
+.survContainer img {
+  width: 5vw;
+}
 .survList1, .survList2, .survList3, .survList4 {
   grid-column: 2;
   margin-top: 2rem;
@@ -323,16 +307,14 @@ button.blue:hover {
   margin-top: 5rem;
 }
 
-
 /* USER PERSONAS MAIN */
-
 .persContainer {
   display: grid;
   empty-cells: show;
   grid-gap: 1rem;
   grid-template-columns: .05fr 1fr 1fr .05fr;
   margin: 0 auto;
-  padding-top: 10rem;
+  margin-top: 5rem;
   width: 98vw;
 }
 
@@ -341,8 +323,7 @@ button.blue:hover {
 }
 
 .persImg1 img , .persImg2 img {
-  max-width: 450px;
-  position: relative;
+  position: relative; top: 2rem;
   width: 40vw;
   z-index: 0;
 }
@@ -366,7 +347,7 @@ button.blue:hover {
   grid-template-columns: .5fr .1fr .1fr .1fr .5fr;
   grid-template-rows: 1fr 1fr;
   margin: 0 auto;
-  padding-top: 10rem;
+  margin-top: 5rem;
   grid-gap: 1rem;
   width: 98vw;
 }
@@ -378,70 +359,56 @@ button.blue:hover {
 .storButton {
   grid-column: 2;
   grid-row: 1;
-  margin-top: 2rem;
+  margin-top: 5rem;
   position: relative; top: -5rem;
   z-index: 1;
 }
 
-/* USER FLOWS + MAP MAIN
-
+/* USER FLOWS + MAP MAIN*/
 .flowContainer {
-  display: grid;
-  empty-cells: show;
-  grid-template-columns: .05fr .95fr 1fr .95fr .05fr;
-  grid-gap: 1rem;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  padding-top: 3rem;
-  width: 98vw;
-}*/
-
-.buttonFlowContainer {
 
   display: grid;
   empty-cells: show;
   grid-template-columns: 1fr .5fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-gap: 1rem;
   margin: 0 auto;
+  margin-top: 5rem;
   width: 98vw;
 }
 
 .flowImg {
   grid-column: 2 ;
-  grid-row: 2;
+  grid-row: 1;
 }
 
 .blueFlowButton {
   grid-column:2;
-  grid-row: 2;
-  margin-top: 3rem;
+  grid-row: 1;
   position: relative;
   z-index: 50;
 }
 
 .mapImg {
   grid-column: 2;
-  grid-row: 3;
+  grid-row: 2;
 }
 
-.blueFlow2Button {
+.blueMapButton {
   grid-column:2;
-  grid-row: 3;
-  margin-top: 3rem;
+  grid-row: 2;
+  margin-top: 2rem;
   position: relative;
   z-index: 50;
 }
 
 /* WIREFRAME MAIN */
-
 .wireContainer {
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: .05fr 1fr .05fr;
   margin: 0 auto;
-  padding-top: 5rem;
+  margin-top: 5rem;
   width: 98vw;
 }
 
@@ -460,16 +427,13 @@ button.blue:hover {
   width: 75vw;
 }
 
-
 /* BRAND 1 MAIN */
-
 .brandContainer {
   display: grid;
   empty-cells: show;
   grid-template-columns: .05fr 1fr .05fr;
   grid-gap: 1.5rem;
   margin: 0 auto;
-  padding-top: 5rem;
   margin-top: 5rem;
   width: 98vw;
 }
@@ -478,30 +442,20 @@ button.blue:hover {
   grid-column: 2;
 }
 
-.ourList {
-  grid-column: 2;
-  margin-top: 3rem;
-}
-
 .ourImg img {
   grid-column: 2;
   margin-top: 3rem;
 }
 
-/* APP + TESTING BAR */
-.apptBarContainer {
-  display: grid;
-  empty-cells: show;
-  grid-gap: 1rem;
-  grid-template-columns: .95fr 1fr .95fr;
-  padding-top: 5rem;
-  margin: 0 auto;
-  width: 98vw;
+.ourList {
+  grid-column: 2;
+  margin-top: 3rem;
 }
 
+/* APP + TESTING BAR */
 .apptMain {
   grid-column: 2;
-  grid-row: 7;
+  grid-row: 5;
   margin-top: 5rem;
   width: 85vw;
 }
@@ -517,7 +471,7 @@ button.blue:hover {
   grid-template-columns: .75fr 1fr .75fr;
   grid-gap: 1rem;
   margin: 0 auto;
-  padding-top: 5rem;
+  margin-top: 5rem;
   width: 98vw;
 }
 
@@ -542,7 +496,7 @@ button.blue:hover {
   grid-template-rows: .05fr .5fr .5fr .5fr .5fr .5fr 1fr;
   grid-gap: 1rem;
   margin: 0 auto;
-  padding-top: 4rem;
+  margin-top: 2rem;
   width: 98vw;
 }
 
@@ -585,7 +539,7 @@ button.blue:hover {
 .deskBody2 {
   grid-column: 2;
   grid-row: 7;
-  margin-top: 5rem;
+  margin-top: 1rem;
   width: 85vw;
 }
 
@@ -600,8 +554,7 @@ button.blue:hover {
   grid-template-columns: .05fr 1fr .05fr;
   grid-gap: 1rem;
   margin: 0 auto;
-  margin-top: 3rem;
-  padding-top: 5rem;
+  margin-top: 5rem;
   width: 98vw;
 }
 
@@ -627,8 +580,8 @@ button.blue:hover {
   padding-top: 2rem;
   width: 10vw;
 }
-/* APPLICATION 2 */
 
+/* APPLICATION 2 */
 .deskContainer2 {
   display: grid;
   empty-cells: show;
@@ -636,12 +589,11 @@ button.blue:hover {
   grid-template-columns: .75fr 1fr .75fr;
   margin: 0 auto;
   margin-top: 10rem;
-  padding-top: 5rem;
   width: 98vw;
 }
 
 .deskContainer2 img {
-  margin-top: 5rem;
+  margin-top: 3rem;
   max-width: 480px;
   width: 90vw;
 }
@@ -656,12 +608,12 @@ button.blue:hover {
   grid-gap: 1rem;
   grid-template-columns: .75fr 1fr .75fr;
   margin: 0 auto;
-  padding-top: 5rem;
+  margin-top: 5rem;
   width: 98vw;
 }
 
 .mobiContainer2 img {
-  margin-top: 5rem;
+  margin-top: 3rem;
   max-width: 460px;
   width: 90vw;
 }
@@ -671,14 +623,13 @@ button.blue:hover {
 }
 
 /* CONCLUSION */
-
 .concContainer {
   display: grid;
   empty-cells: show;
   grid-template-columns: .08fr 1fr 1fr 1fr .08fr;
   grid-gap: 1rem;
   margin: 0 auto;
-  margin-top: 7.5rem;
+  margin-top: 3rem;
   width: 98vw;
 }
 
@@ -897,33 +848,33 @@ button.blue:hover {
 .compContainer {
   display: grid;
   empty-cells: show;
-  grid-template-columns: .5fr .1fr .1fr .1fr .5fr;
+  grid-template-columns: .75fr 1fr 1fr 1fr .5fr;
   grid-template-rows: 1fr 1fr;
   margin: 0 auto;
-  padding-top: 10rem;
+  margin-top: 5rem;
   grid-gap: 1rem;
   width: 98vw;
 }
 
+.compContainer h1, .compContainer h2, .compContainer h3 {
+  font-size: calc(9px + .7vw);
+}
+
 .compList1 {
   grid-column: 2;
-  width: 25vw;
 }
 
 .compList2 {
   grid-column: 3;
-  width: 25vw;
 }
 
 .compList3 {
   grid-column: 4;
-  width: 25vw;
 }
 
 .compList4 {
   grid-column: 3;
   grid-row: 2;
-  width: 25vw;
 }
 /* USER SURVEYS MAIN*/
 .survContainer {
@@ -932,7 +883,6 @@ button.blue:hover {
   grid-template-columns: .95fr .5fr .5fr .5fr .5fr .95fr;
   grid-gap: 1rem;
   margin: 0 auto;
-  padding-top: 5rem;
   width: 98vw;
 }
 
