@@ -21,12 +21,17 @@
   border-radius: 4px;
 }
 
-.header img.logoH {
+.header img {
+  height: auto;
 }
 
 .header a:hover {
   background-color: #FFF;
   color: black;
+}
+
+.header-right img{
+  display: none;
 }
 
 .header-right {
@@ -40,7 +45,13 @@
     text-align: left;
   }
 
-  .header-right {
+  .header-right img{
+    display: flex;
+    float: right;
+  }
+
+  .header-right a{
+    display: none;
     float: none;
   }
 }
