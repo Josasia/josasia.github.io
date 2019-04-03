@@ -21,9 +21,7 @@
   border-radius: 4px;
 }
 
-.header a.logoH {
-  font-size: 25px;
-  font-weight: bold;
+.header img.logoH {
 }
 
 .header a:hover {
