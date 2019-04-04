@@ -21,39 +21,30 @@
   border-radius: 4px;
 }
 
-.header img {
-  height: auto;
-}
-
 .header a:hover {
-  background-color: #FFF;
-  color: black;
-}
-
-.header-right img{
-  display: none;
+   letter-spacing: .05rem;
 }
 
 .header-right {
   float: right;
 }
 
-@media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
+@media screen and (max-width: 415px) {
 
-  .header-right img{
-    display: flex;
-    float: right;
-  }
+.header-right {
+  float: right;
+}
 
-  .header-right a{
-    display: none;
-    float: none;
-  }
+.header-right a {
+  font-size: calc(12px + 1vw);
+}
+
+.header img {
+  display: none;
+}
+.heroText h1 {
+  font-size: 2.5rem;
+}
 }
 
 /* BODY PROPERTIES */
@@ -324,11 +315,6 @@ button.blue:hover {
 
 }
 */
-
-
-
-
-
 
 @media screen and (min-width: 700px) {
 
