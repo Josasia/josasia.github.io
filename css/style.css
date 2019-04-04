@@ -260,47 +260,66 @@ button.blue:hover {
 }
 
 
-
-
-.footerUl:hover {
-  background: #0070E0;
-  transition:.33s linear;
-}
-
 .footerContainer {
   background-color: #FCFCFC;
   background-image: url("/images/footerBg.png");
-  background-size:auto;
-  background-repeat:no-repeat;
-  grid-template-columns: .05fr 1fr 1fr 1fr .05fr;
-  grid-template-rows: .5fr 1fr .5fr .5fr;
   display: grid;
   empty-cells: show;
+  grid-template-rows: 1fr 1fr 1fr .5fr;
+  grid-template-columns: .05fr 1fr 1fr 1fr .05fr;
   margin-top: 5rem;
   position: absolute;
+  text-align: center;
   width: 100%;
 }
 
 .footer1text {
+  font-family: Montserrat;
   font-size: 2rem;
   font-weight: 500;
+  grid-column: 2 / span 3;
+  grid-row: 1;
+  padding-top: 2rem;
 }
 
 .footer2text {
-  font-size:3.8rem;
-  font-weight: 1000;
-  letter-spacing: 1px
+  font-family: Montserrat;
+  font-size: 3rem;
+  font-weight: 700;
+  grid-column: 2 / span 3;
+  grid-row: 2;
+}
+
+.footerContainer img {
+  padding-top: .2rem;
+  padding-bottom: 1rem;
+}
+
+.gitIcon {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.twitterIcon {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.mailIcon {
+  grid-column: 4;
+  grid-row: 3;
 }
 
 .footer3text {
+  grid-column: 2 / span 3;
+  grid-row: 4;
   font-size: 1.4rem;
   font-family: Encode Sans Condensed;
 }
 
-}
 /*********************************************/
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 850px) {
 
 html {
   font-size: .8rem;
