@@ -239,11 +239,12 @@ button.blue:hover {
 .footerContainer {
   background-color: #FCFCFC;
   background-image: url("/images/footerBg.png");
+  background-size: cover;
   display: grid;
   empty-cells: show;
   grid-gap: .5rem;
   grid-template-rows: 1fr 1fr 1fr .5fr;
-  grid-template-columns: .05fr 1fr 1fr 1fr .05fr;
+  grid-template-columns: auto minmax(0, 1fr) auto;
   margin-top: 5rem;
   position: absolute;
   text-align: center;
@@ -254,7 +255,7 @@ button.blue:hover {
   font-family: Montserrat;
   font-size: 2rem;
   font-weight: 500;
-  grid-column: 2 / span 3;
+  grid-column: 2;
   grid-row: 1;
   padding-top: 2rem;
 }
@@ -263,30 +264,35 @@ button.blue:hover {
   font-family: Montserrat;
   font-size: 3rem;
   font-weight: 700;
-  grid-column: 2 / span 3;
+  grid-column: 2;
   grid-row: 2;
 }
 
 .gitIcon {
   grid-column: 2;
   grid-row: 3;
+  margin-right: 15rem;
+  position: relative;
 }
 
 .linkIcon {
-  grid-column: 3;
+  grid-column: 2;
   grid-row: 3;
+  position: relative;
 }
 
 .mailIcon {
-  grid-column: 4;
+  grid-column: 2;
   grid-row: 3;
+  margin-left: 15rem;
 }
 
 .footer3text {
-  grid-column: 2 / span 3;
+  grid-column: 2;
   grid-row: 4;
   font-size: 1.8rem;
   font-family: Encode Sans Condensed;
+  margin-bottom: 2rem;
 }
 
 /*********************************************/
@@ -303,10 +309,18 @@ button.blue:hover {
 .header img {
   display: none;
 }
+
 .heroText h1 {
   font-size: 2.5rem;
 }
 }
+
+/********************************************/
+@media screen and (min-width: 600px) {
+
+}
+
+
 /********************************************/
 @media screen and (min-width: 850px) {
 
