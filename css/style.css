@@ -261,60 +261,44 @@ button.blue:hover {
 
 
 
-/* FOOTER
 
 .footerUl:hover {
   background: #0070E0;
   transition:.33s linear;
 }
 
-.footerUl {
+.footerContainer {
   background-color: #FCFCFC;
   background-image: url("/images/footerBg.png");
-  background-size: cover;
-  background-repeat: repeat;
+  background-size:auto;
+  background-repeat:no-repeat;
+  grid-template-columns: .05fr 1fr 1fr 1fr .05fr;
+  grid-template-rows: .5fr 1fr .5fr .5fr;
   display: grid;
   empty-cells: show;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-top: 5rem;
-  max-height: 25rem;
   position: absolute;
   width: 100%;
 }
 
 .footer1text {
-  grid-column: 2 / span 3;
   font-size: 2rem;
   font-weight: 500;
-
-  text-align: center;
 }
 
 .footer2text {
-  grid-column: 2 / span 3;
   font-size:3.8rem;
   font-weight: 1000;
   letter-spacing: 1px
 }
 
 .footer3text {
-  grid-column: 1 / span 4;
-  grid-row: 4;
   font-size: 1.4rem;
   font-family: Encode Sans Condensed;
 }
 
-.gitIcon img {
 }
-
-.twitterIcon img {
-
-}
-
-.mailIcon img {
-
-}
-*/
+/*********************************************/
 
 @media screen and (min-width: 700px) {
 
