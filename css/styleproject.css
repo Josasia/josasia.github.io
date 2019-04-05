@@ -397,7 +397,7 @@ button.blue:hover {
 .storButton {
   grid-column: 2;
   grid-row: 1;
-  margin-top: 5rem;
+  margin-top: 7rem;
   position: relative; top: -5rem;
   z-index: 1;
 }
