@@ -2,51 +2,6 @@
   box-sizing: border-box;
 }
 
-.header {
-  overflow: hidden;
-  background-color: #FFF;
-  padding: .5rem 10px;
-}
-
-.header a {
-  font-family: Montserrat;
-  font-weight: 700;
-  float: left;
-  color: #0070E0;
-  text-align: center;
-  padding: 2rem;
-  text-decoration:none;
-  font-size: calc(1.6rem + .1vw);
-  line-height: calc(.5rem + 0.5vw);
-  border-radius: 4px;
-}
-
-.header a:hover {
-   letter-spacing: .05rem;
-}
-
-.header-right {
-  float: right;
-}
-
-@media screen and (max-width: 415px) {
-
-.header-right {
-  float: right;
-}
-
-.header-right a {
-  font-size: calc(10px + 1vw);
-}
-
-.header img {
-  display: none;
-}
-.heroText h1 {
-  font-size: 2.5rem;
-}
-}
-
  /* BODY PROPERTIES */
 html {
   font-size: calc(9px + .8vw);
@@ -154,6 +109,38 @@ button.blue:hover {
   position: relative;
   z-index: 50;
 }
+/* HEADER */
+.header {
+  background-color: #FFF;
+  overflow: hidden;
+  padding: .5rem 10px;
+}
+
+.header a {
+  border-radius: 4px;
+  color: #0070E0;
+  float: left;
+  font-family: Montserrat;
+  font-size: calc(1.6rem + .1vw);
+  font-weight: 700;
+  line-height: calc(.5rem + 0.5vw);
+  padding: 2rem;
+  text-align: center;
+  text-decoration:none;
+}
+
+.header a:hover {
+  letter-spacing: .05rem;
+}
+
+.header img {
+  padding-top: .5rem;
+}
+
+.header-right {
+  float: right;
+}
+
 /*ALL SECTIONS BAR/HEADER*/
 .barContainer {
   display: grid;
@@ -1101,28 +1088,18 @@ button.blue:hover {
 .flowContainer {
   display: grid;
   empty-cells: show;
-  grid-template-columns: 1fr .5fr 1fr;
+  grid-template-columns: 1fr .15fr 1fr;
   grid-template-rows: .1fr .1fr;
   grid-gap: 1rem;
   margin: 0 auto;
   margin-top: 8rem;
   width: 98vw;
 }
-/*
-.flowImg {
-  grid-column: 2;
-  width: 35vw;
-}
 
-.mapImg {
-  background-image: url("../images/mapsImg.png");
-  grid-column: 1 / span 3;
-}
-*/
 .blueFlowButton {
   grid-column:2;
   grid-row: 1;
-  position: relative;
+  position: inherit;
   z-index: 50;
 }
 
@@ -1131,7 +1108,7 @@ button.blue:hover {
   grid-row: 2;
   margin-top: 3rem;
   margin-bottom: 5rem;
-  position: relative;
+  position: inherit;
   z-index: 50;
 }
 
@@ -1442,4 +1419,23 @@ button.blue:hover {
   grid-column: 2 / span 3;
   grid-row:1;
   max-width: 45vw;
+}
+
+/***********************************/
+@media screen and (max-width: 415px) {
+
+.header-right {
+  float: right;
+}
+
+.header-right a {
+  font-size: calc(10px + 1vw);
+}
+
+.header img {
+  display: none;
+}
+.heroText h1 {
+  font-size: 2.5rem;
+}
 }

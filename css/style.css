@@ -39,6 +39,10 @@ h6 {
     letter-spacing: .75rem;
 }
 
+a {
+  color: #FFF;
+}
+
 section {
   color: #312F30;
   margin-top: .5rem;
@@ -254,6 +258,10 @@ button.blue:hover {
   width: 100%;
 }
 
+.footerContainer a {
+  color: #0070E0;
+}
+
 .footer1text {
   font-family: Montserrat;
   font-size: 2rem;
@@ -307,6 +315,10 @@ button.blue:hover {
 
 .header-right a {
   font-size: calc(10px + 1vw);
+}
+
+.header-right a:hover {
+  letter-spacing: normal;
 }
 
 .header img {
