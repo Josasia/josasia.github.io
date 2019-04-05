@@ -169,11 +169,17 @@ button.blue:hover {
 }
 
 .middleText {
+  font-size: calc(24px + .5vw);
+  font-weight: 300;
   grid-column: 3 / 4;
   grid-row: 1;
   padding-top: 5rem;
   padding-bottom: 5rem;
   width: 90vw;
+}
+
+.middleTextB {
+  display: none;
 }
 
 /* CACHE */
@@ -331,10 +337,11 @@ button.blue:hover {
 }
 
 /********************************************/
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 700px) {
 
 html {
-  font-size: .8rem;
+  font-size: calc(8px + .3vw);
+  line-height: calc(.5em + 0.5vw);
 }
 
 button.blue {
@@ -387,7 +394,7 @@ button.blue:hover {
 .heroText  {
   grid-column: 3 / span 4;
   grid-row-start: 3;
-  position: relative;
+  position: relative; top: 1rem;
   z-index: 3;
 }
 
@@ -404,7 +411,8 @@ button.blue:hover {
 .middleContainer {
   display: grid;
   empty-cells: show;
-  grid-template-columns: 1fr 1fr .05fr;
+  grid-template-columns: .5fr 1fr .5fr;
+  grid-template-rows: .5fr .2fr .2fr;
   grid-gap: 1rem;
   margin: 0 auto;
   position: relative;
@@ -412,26 +420,30 @@ button.blue:hover {
 }
 
 .greenDiv {
-  grid-column: 2;
-  grid-row: 2;
+  grid-column: 2 / span 3;
+  grid-row:  3;
 }
 
 .greenDiv img {
   position: relative;left: 1rem;
-  width: 35vw;
+  max-width: 65%;
 }
 
 .middleText {
-  grid-column: 2;
-  grid-row: 1;
-  padding-top: 10rem;
-  padding-bottom: 3.5rem;
-  position: relative;left: 1rem;
-  width: 65vw;
+  display: none;
 }
 
-.middleText h2 {
-  font-size: calc( 1rem + 1.5vw);
+.middleTextB {
+  display: flex;
+  grid-column: 2 / span 3;
+  grid-row: 2;
+  padding-bottom: 3.5rem;
+  position: relative;left: 1rem;
+  width: 75vw;
+}
+
+.middleTextB h2 {
+  font-size: calc(24px + .5vw);
   font-weight: 300;
   letter-spacing: -.5px;
   line-height: 3rem;
@@ -444,7 +456,7 @@ button.blue:hover {
   grid-template-rows: .05fr .05fr .5fr .05fr;
   grid-gap: 1rem;
   margin: 0 auto;
-  margin-top: 5rem;
+  margin-top: 1rem;
   width: 95vw;
 }
 
@@ -487,6 +499,7 @@ button.blue:hover {
   grid-column: 3 / span 4;
   grid-row: 3 /span 4;
   margin-left: 8rem;
+  margin-bottom: 2rem;
   padding-left: 4rem;
   padding-bottom: 10rem;
   position: relative; top: -6rem;
