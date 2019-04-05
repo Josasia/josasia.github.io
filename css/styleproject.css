@@ -5,11 +5,11 @@
  /* BODY PROPERTIES */
 html {
   font-size: calc(6px + 1vw);
-  line-height: calc(.5em + 0.5vw);
+  line-height: calc(.5rem + 0.5vw);
 }
 
 body {
-  background-color: #fcfcfc;
+  background-color: #FCFCFC;
   font-family: Lato;
 }
 
