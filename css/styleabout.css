@@ -207,6 +207,7 @@ section {
   background-color: #FCFCFC;
   background-image: url("../images/footerBg.png");
   background-size: cover;
+  border-top: 1rem solid #312F30;
   display: grid;
   empty-cells: show;
   grid-gap: .5rem;
