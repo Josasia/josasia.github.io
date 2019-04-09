@@ -33,14 +33,14 @@ h3 {
 	color: #B8D8F6;
 	font-size: 3.4rem;
 	font-style: italic;
-	font-weight: 700;
+	font-weight: 500;
 	line-height: 90%;
 }
 h4 {
 	color: #BDE3E5;
 	font-size: 3.4rem;
 	font-style: italic;
-	font-weight: 700;
+	font-weight: 500;
 	line-height: 90%;
 }
 section {
@@ -371,7 +371,7 @@ button.blue:hover {
 		position: relative;
 		left: 2rem;
 	}
-	.about1body h1, .about1body h2 {}
+
 	.aboutDiv1 {
 		display: grid;
 		empty-cells: show;
@@ -381,8 +381,9 @@ button.blue:hover {
 	.quote1 {
 		grid-column: 2;
 		margin-top: 1rem;
-		max-width: 550px;
+		max-width: 600px;
 		padding-bottom: 5rem;
+		position: relative; left: -8rem;
 		text-indent: 2rem;
 		width: 90vw;
 	}
@@ -391,10 +392,10 @@ button.blue:hover {
 	}
 	#rectangleB {
 		background: #F5F9FE;
-		grid-column: 4;
+		grid-column: 2;
 		height: 15vw;
-		position: relative;
-		top: -25rem;
+		position: relative; left: 35rem;
+		top: -30rem;
 		width: 15vw;
 		z-index: 1;
 	}
