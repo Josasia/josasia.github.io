@@ -70,14 +70,14 @@ section {
 button.blue {
 	color: #FFF;
 	background: #0070E0;
-	border-top: 1rem solid #0070E0;
-	border-bottom: 1rem solid #0070E0;
-	border-left: 2.2rem solid #0070E0;
-	border-right: 2.2rem solid #0070E0;
+	border-top: .5rem solid #0070E0;
+	border-bottom: .5rem solid #0070E0;
+	border-left: .5rem solid #0070E0;
+	border-right: .5rem solid #0070E0;
 	font-family: Montserrat;
 	font-size: calc(1.2rem + .7vw);
 	font-weight: 500;
-	width: 15rem;
+	width: 33vw;
 }
 button.blue:hover {
 	letter-spacing: .05rem;
@@ -829,10 +829,12 @@ button a {
 	.nav2 {
 		align-items: center;
 		display: flex;
+		FONT-WEIGHT: 900;
 		justify-content: center;
 	}
 	.nav2 h2 {
-		word-spacing: 8vw;
+		position: relative; top: -1rem;
+		word-spacing: 9vw;
 	}
 	/* PROBLEM + SOLUTION */
 	.probContainer {

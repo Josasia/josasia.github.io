@@ -51,14 +51,14 @@ section {
 button.blue {
 	color: #FFF;
 	background: #0070E0;
-	border-top: 1rem solid #0070E0;
-	border-bottom: 1rem solid #0070E0;
-	border-left: 2.2rem solid #0070E0;
-	border-right: 2.2rem solid #0070E0;
+	border-top: .5rem solid #0070E0;
+	border-bottom: .5rem solid #0070E0;
+	border-left: .5rem solid #0070E0;
+	border-right: .5rem solid #0070E0;
 	font-family: Montserrat;
 	font-size: calc(1.2rem + .7vw);
 	font-weight: 500;
-	width: 15rem;
+	width: 33vw;
 }
 button.blue:hover {
 	letter-spacing: .05rem;
