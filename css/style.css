@@ -72,14 +72,14 @@ button.blue:hover {
 	padding: .5rem 10px;
 }
 .header a {
-	border-radius: 4px;
 	color: #0070E0;
 	float: left;
 	font-family: Montserrat;
 	font-size: calc(1.6rem + .1vw);
 	font-weight: 700;
 	line-height: calc(.5rem + 0.5vw);
-	padding: 2rem;
+	padding-top: 2rem;
+	padding-right: 2rem;
 	text-align: center;
 	text-decoration: none;
 }
@@ -87,10 +87,14 @@ button.blue:hover {
 	letter-spacing: .05rem;
 }
 .header img {
-	padding-top: .5rem;
+	padding-left: 1rem;
+	position: relative; top: -1.5rem;
+	z-index:0;
 }
 .header-right {
 	float: right;
+	position: relative;
+	z-index: 2;
 }
 /* HERO */
 
@@ -285,13 +289,11 @@ button.blue:hover {
 		float: right;
 	}
 	.header-right a {
+		padding-right: 1.75rem;
 		font-size: calc(10px + 1vw);
 	}
 	.header-right a:hover {
 		letter-spacing: normal;
-	}
-	.header img {
-		display: none;
 	}
 	.heroText h1 {
 		font-size: 2.5rem;
