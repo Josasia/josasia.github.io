@@ -1161,7 +1161,7 @@ button a {
 	.mobiContainer1 {
 		display: grid;
 		empty-cells: show;
-		grid-template-columns: 1fr .5fr .5fr 1fr;
+		grid-template-columns: repeat(auto-fit,minmax(35px, 1fr));
 		grid-gap: 1rem;
 		margin: 0 auto;
 		margin-top: 5rem;
@@ -1169,6 +1169,7 @@ button a {
 	}
 	.mobiContainer1 img {
 		margin-top: 3rem;
+		padding-left: 4rem;
 		width: 20vw;
 	}
 	.mobiContainer1 h2 {
@@ -1178,20 +1179,20 @@ button a {
 		left: 29vw;
 	}
 	.mobiList1 {
-		grid-column: 2;
+		grid-column: 1;
 		grid-row: 2;
 	}
 	.mobiList2 {
-		grid-column: 3;
+		grid-column: 2;
 		grid-row: 2;
 	}
 	.mobiList3 {
-		grid-column: 2;
-		grid-row: 3;
+		grid-column: 3;
+		grid-row: 2;
 	}
 	.mobiList4 {
-		grid-column: 3;
-		grid-row: 3;
+		grid-column: 4;
+		grid-row: 2;
 	}
 	.deskContainer1 {
 		display: grid;
