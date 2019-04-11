@@ -20,14 +20,12 @@ i {
 h1 {
 	font-size: 1.6rem;
 	font-weight: 300;
-	letter-spacing: -.05rem;
 	line-height: 125%;
 }
 h2 {
 	font-family: Montserrat;
 	font-size: 1.8rem;
 	font-weight: 700;
-	letter-spacing: -.05rem;
 }
 h3 {
 	font-size: 1.8rem;
@@ -935,7 +933,7 @@ button a {
 	.persContainer {
 		display: grid;
 		empty-cells: show;
-		grid-gap: 1rem;
+		grid-gap: 2.5rem;
 		grid-template-columns: .95fr .5fr .5fr .95fr;
 		margin: 0 auto;
 		margin-top: 5rem;
@@ -959,21 +957,18 @@ button a {
 	.persList1 {
 		grid-column: 2;
 		grid-row: 2;
-		line-height: 150%;
 		padding-top: 3rem;
 		width: 30vw;
 	}
 	.persList2 {
 		grid-column: 2;
 		grid-row: 3;
-		line-height: 150%;
 		padding-top: 3rem;
 		width: 30vw;
 	}
 	.persList3 {
 		grid-column: 2;
 		grid-row: 4;
-		line-height: 150%;
 		padding-top: 3rem;
 		width: 30vw;
 	}
@@ -995,21 +990,18 @@ button a {
 	.persList4 {
 		grid-column: 3;
 		grid-row: 2;
-		line-height: 150%;
 		padding-top: 3rem;
 		width: 30vw;
 	}
 	.persList5 {
 		grid-column: 3;
 		grid-row: 3;
-		line-height: 150%;
 		padding-top: 3rem;
 		width: 30vw;
 	}
 	.persList6 {
 		grid-column: 3;
 		grid-row: 4;
-		line-height: 150%;
 		padding-top: 3rem;
 		width: 30vw;
 	}
@@ -1020,30 +1012,37 @@ button a {
 		grid-template-rows: 1fr .25fr;
 		margin: 0 auto;
 		margin-top: 8rem;
-		grid-gap: 1rem;
+		grid-gap: 2rem;
 		width: 98vw;
 	}
 	.storContainer h1 {
 		font-size: calc(9px + .7vw);
+		line-height: .90;
+	}
+	.storContainer hr {
+		color: #BDE3E5;
 	}
 	.storList1 {
 		display: inline-table;
 		grid-column: 3;
+		padding-top: 2rem;
 		width: 18vw;
 	}
 	.storList2 {
 		display: inline-table;
 		grid-column: 4;
-		width: 30vw;
+		padding-top: 2rem;
+		width: 28vw;
 	}
 	.storList3 {
 		display: inline-table;
 		grid-column: 5;
+		padding-top: 2rem;
 		width: 18vw;
 	}
 	.storButton {
 		grid-column: 2;
-		grid-row: 2;
+		grid-row: 1;
 	}
 	.flowContainer {
 		display: grid;
