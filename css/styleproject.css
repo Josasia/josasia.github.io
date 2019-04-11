@@ -280,7 +280,7 @@ button a {
 	empty-cells: show;
 	grid-template-columns: .35fr .5fr .2fr .65fr;
 	margin: 0 auto;
-	margin-top: 5rem;
+	margin-top: 10rem;
 	grid-gap: 1rem;
 	width: 98vw;
 }
@@ -409,7 +409,7 @@ button a {
 	grid-gap: 1rem;
 	grid-template-columns: .05fr 1fr .05fr;
 	margin: 0 auto;
-	margin-top: 5rem;
+	margin-top: 10rem;
 	width: 98vw;
 }
 .wireList1, .wireList2, .wireList3, .wireList4 {
@@ -432,7 +432,7 @@ button a {
 	grid-template-columns: .05fr 1fr .05fr;
 	grid-gap: 1.5rem;
 	margin: 0 auto;
-	margin-top: 5rem;
+	margin-top: 10rem;
 	width: 98vw;
 }
 .ourImg {
@@ -441,6 +441,7 @@ button a {
 .ourImg img {
 	grid-column: 2;
 	margin-top: 3rem;
+	width: 40vw;
 }
 .ourList {
 	grid-column: 2;
@@ -539,8 +540,7 @@ button a {
 	width: 98vw;
 }
 .brand2Container img {
-	width: 90vw;
-	max-width: 170px
+	width: 40vw;
 }
 .cacheList {
 	grid-column: 2;
@@ -559,7 +559,7 @@ button a {
 	display: grid;
 	empty-cells: show;
 	grid-gap: 1rem;
-	grid-template-columns: .05fr .1fr;
+	grid-template-columns: 1fr .5fr 1fr;
 	margin: 0 auto;
 	margin-top: 15rem;
 	width: 98vw;
@@ -569,7 +569,6 @@ button a {
 	max-width: 480px;
 	width: 90vw;
 }
-
 .deskContainer2 h2 {
 	grid-column: 2;
 }
@@ -580,17 +579,20 @@ button a {
 	display: grid;
 	empty-cells: show;
 	grid-gap: 1rem;
-	grid-template-columns: .75fr 1fr .75fr;
+	grid-template-columns: 1fr .5fr 1fr;
 	margin: 0 auto;
 	margin-top: 5rem;
 	width: 98vw;
 }
 .mobiContainer2 img {
-	margin-top: 3rem;
+	border: solid #C4C4C4 .5px;
 	max-width: 460px;
 	width: 90vw;
 }
-.mobiListB, .mobiListB2 {
+.mobiContainer2 h2 {
+	grid-column: 2;
+}
+.mobiListB, .mobiListB1, .mobiListB2, .mobiListB3 {
 	grid-column: 2;
 }
 /* CONCLUSION */
@@ -1149,7 +1151,7 @@ button a {
 	.ourImg img {
 		grid-column: 3;
 		margin-top: 3rem;
-		width: 19rem;
+		width: 15vw;
 	}
 	/* APP + TESTING BAR*/
 	.apptMain {
@@ -1170,14 +1172,13 @@ button a {
 	}
 	.mobiContainer1 img {
 		margin-top: 3rem;
-		padding-left: 4rem;
-		width: 20vw;
+		width: 23vw;
 	}
 	.mobiContainer1 h2 {
 		grid-column: 2;
 		grid-row: 1;
 		position: relative;
-		left: 28vw;
+		left: 25vw;
 	}
 	.mobiList1 {
 		grid-column: 1;
@@ -1269,7 +1270,7 @@ button a {
 	.cacheImg img {
 		grid-column: 3;
 		margin-top: 3rem;
-		width: 19rem;
+		width: 15vw;
 	}
 	.brand2Container h5 {
 		font-size: 4rem;
@@ -1327,7 +1328,7 @@ button a {
 	.mobiContainer2 {
 		display: grid;
 		empty-cells: show;
-		grid-gap: 1rem;
+		grid-gap: 1.5rem;
 		grid-template-columns: .05fr 1fr 1fr 1fr 1fr .05fr;
 		margin: 0 auto;
 		margin-top: 5rem;
