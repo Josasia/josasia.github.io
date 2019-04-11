@@ -634,6 +634,10 @@ button a {
 .footerContainer a {
 	color: #0070E0;
 }
+.footerContainer a:hover {
+	letter-spacing: .05rem;
+	transition: .5s;
+}
 .footer1text {
 	font-family: Montserrat;
 	font-size: 2rem;
