@@ -257,20 +257,12 @@ button.blue:hover {
 	padding-bottom: 1rem;
 }
 .gitIcon {
-	grid-row: 3;
-	grid-column: 2;
-	position: inherit;
-	left: 10rem;
-}
-.linkIcon {
-	grid-row: 3;
 	grid-column: 2;
 }
-.mailIcon {
-	grid-row: 3;
-	grid-column: 2;
-	position: inherit;
-	right: 10rem;
+.gitIcon Img {
+	height: 2.4rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
 }
 .footer3text {
 	grid-row: 4;
@@ -511,27 +503,4 @@ button.blue:hover {
 		top: 0;
 		transform: skew(-20deg);
 		width: 68vw;
-	}
-	.gitIcon {
-		grid-row: 3;
-		grid-column: 2;
-		position: inherit;
-		left: 20rem;
-	}
-	.mailIcon {
-		position: inherit;
-		right: 20rem;
-	}
-	/********************************************/
-	@media screen and (min-width: 1440px) {
-		.gitIcon {
-			grid-row: 3;
-			grid-column: 2;
-			position: inherit;
-			left: 40rem;
-		}
-		.mailIcon {
-			position: inherit;
-			right: 40rem;
-		}
 	}
