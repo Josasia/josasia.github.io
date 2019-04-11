@@ -450,11 +450,10 @@ button a {
 
 .apptMain {
 	grid-column: 2;
-	grid-row: 5;
+	grid-row: 15;
 	width: 85vw;
 }
 .apptMain h3 {
-	margin-top: 5rem;
 	font-size: 1.5rem;
 }
 /* APP + TESTING */
@@ -462,19 +461,17 @@ button a {
 .mobiContainer1 {
 	display: grid;
 	empty-cells: show;
-	grid-template-columns: .75fr 1fr .75fr;
+	grid-template-columns: repeat(1,minmax(35px, .1fr));
 	grid-gap: 1rem;
 	margin: 0 auto;
 	margin-top: 5rem;
 	width: 98vw;
 }
 .mobiContainer1 img {
-	margin-top: 2rem;
-	width: 60vw;
+	margin-top: 3rem;
+	width: 75vw;
 }
 .mobiContainer1 h2 {
-	grid-column: 2;
-	grid-row: 1;
 }
 .mobiList1, .mobiList2, .mobiList3, .mobiList4 {
 	grid-column: 2;
@@ -482,7 +479,7 @@ button a {
 .deskContainer1 {
 	display: grid;
 	empty-cells: show;
-	grid-template-columns: .75fr 1fr .75fr;
+	grid-template-columns: .5fr 1fr .5fr;
 	grid-template-rows: .05fr .5fr .5fr .5fr .5fr .5fr 1fr;
 	grid-gap: 1rem;
 	margin: 0 auto;
@@ -490,12 +487,11 @@ button a {
 	width: 98vw;
 }
 .deskContainer1 img {
+	border: solid #C4C4C4 .5px;
 	margin-top: 1rem;
 	width: 80vw;
 }
 .deskContainer1 h2 {
-	grid-column: 2;
-	grid-row: 1;
 	margin-top: 3rem;
 }
 .deskList1 {
@@ -551,10 +547,6 @@ button a {
 }
 .brand2Container h5 {
 	font-size: 4rem;
-	grid-column: 2;
-	grid-row: 12;
-	text-indent: 1rem;
-	padding-top: 2rem;
 	width: 10vw;
 }
 /* APPLICATION 2 */
@@ -1154,7 +1146,8 @@ button a {
 	/* APP + TESTING BAR*/
 	.apptMain {
 		grid-column: 3 / span 5;
-		margin-top: 5rem;
+		grid-row: 10;
+		margin-top: 3rem;
 		width: 40vw;
 	}
 	/* APP + TESTING */
@@ -1176,7 +1169,7 @@ button a {
 		grid-column: 2;
 		grid-row: 1;
 		position: relative;
-		left: 29vw;
+		left: 28vw;
 	}
 	.mobiList1 {
 		grid-column: 1;
@@ -1212,7 +1205,7 @@ button a {
 		grid-column: 2;
 		grid-row: 1;
 		position: relative;
-		left: 29vw;
+		left: 15vw;
 	}
 	.deskList1 img {
 		grid-column: 2;
