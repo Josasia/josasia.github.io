@@ -548,51 +548,7 @@ button.blue:hover {
 			z-index: 50;
 		}
 
-/* GOAL BOOK
-
-	.projectContainerG2 {
-		display: grid;
-		empty-cells: show;
-		grid-template-columns: .5fr 1fr .5fr;
-		grid-template-rows: .1fr .01fr 1fr;
-		grid-gap: 1rem;
-		margin: 0 auto;
-		margin-top: 1rem;
-		width: 95vw;
-	}
-	.GBHeader {
-		grid-row: 1;
-		grid-column: 2;
-		padding-bottom: 1rem;
-		padding-top: 5rem;
-		z-index: 5;
-	}
-	.GBHeader p {
-		font-family: Raleway;
-		font-size: calc( 1rem + 5vw);
-		font-weight: 900;
-	}
-	.GBsub {
-		grid-column: 2;
-		grid-row: 2;
-		width: 35vw;
-		z-index: 7;
-	}/*
-	.GBsub h1 {
-		font-size: calc( .8rem + 1vw);
-	}
-	.GBMtn2 {
-		display: none;
-	}
-	.GBMtn1 {
-		display:block;
-		grid-column: 2 / span 3;
-		grid-row: 3;
-		z-index: 4;
-	}
-	.GBMtn1 img {
-		width: 70vw;
-	}*/
+/* GOAL BOOK */
 
 .projectContainerG2 {
 	justify-items: center;
