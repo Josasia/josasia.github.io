@@ -140,8 +140,8 @@ button.blue:hover {
 }
 .middleContainer {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: .5fr 1fr;
 	grid-gap: 1rem;
 	margin: 0 auto;
 	width: 95vw;
@@ -154,82 +154,17 @@ button.blue:hover {
 	width: 88vw;
 }
 .middleText {
-	font-size: calc(24px + .5vw);
+	font-size: 2.2rem;
 	font-weight: 300;
 	grid-column: 3 / 4;
 	grid-row: 1;
-	padding-top: 5rem;
-	padding-bottom: 5rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 	width: 90vw;
 }
 .middleTextB {
 	display: none;
 }
-/* CACHE */
-
-.projectContainer {
-	display: grid;
-	empty-cells: show;
-	grid-template-columns: 1fr 3fr 1fr;
-	grid-gap: 1rem;
-	margin: 0 auto;
-	padding-bottom: 5rem;
-	width: 95vw;
-}
-.cacheTriangle2 {
-	grid-column: 1 / span 3;
-	grid-row: 1 / span 3;
-	z-index: 4;
-}
-.cacheTriangle2 img {
-	width: 95vw;
-}
-.cacheTriangle3 {
-	display: none;
-}
-.cacheHeader {
-	grid-row: 1;
-	grid-column: 2 / 3;
-	padding-bottom: 5rem;
-	padding-top: 1.5rem;
-	text-align: center;
-	width: 55vw;
-	z-index: 5;
-}
-.cacheMockup {
-	grid-column: 1 / span 3;
-	grid-row: 2 / span 3;
-	position: relative;
-	bottom: 5rem;
-	z-index: 6;
-}
-.cacheMockup img {
-	margin-bottom: 3rem;
-	width: 95vw;
-}
-.cacheSub {
-	grid-column: 2 / span 3;
-	grid-row: 4;
-	padding-top: 5rem;
-	padding-bottom: 2rem;
-	position: relative;
-	left: -3rem;
-	z-index: 7;
-}
-.cacheSub h1 {
-	font-size: 2rem;
-	line-height: 2.5rem;
-}
-.studyButton {
-	grid-column: 2;
-	grid-row: 1;
-	z-index: 50;
-}
-.studyButton a {
-	text-decoration: none;
-}
-
-
 /* GOAL BOOK */
 
 .projectContainerG2 {
@@ -280,7 +215,7 @@ button.blue:hover {
 	padding-bottom: 1rem;
 	position: relative;
 	text-align: center;
-	width: 75vw;
+	width: 85vw;
 	z-index: 7;
 }
 .GBsub h1 {
@@ -291,12 +226,74 @@ button.blue:hover {
 	grid-column: 2;
 	grid-row: 1;
 	z-index: 50;
-	position: relative; top: -17rem;
+	position: relative; top: -3rem;
 }
 .studyButtonGB a {
 	text-decoration: none;
 }
 
+/* CACHE */
+
+.projectContainer {
+	display: grid;
+	empty-cells: show;
+	grid-template-columns: 1fr 3fr 1fr;
+	grid-gap: 1rem;
+	margin: 0 auto;
+	margin-top: 5rem;
+	justify-items: center;
+	padding-bottom: 3rem;
+	width: 95vw;
+}
+.cacheTriangle2 {
+	grid-column: 1 / span 2;
+	grid-row: 1 / span 2;
+	z-index: 4;
+}
+.cacheHeader {
+	grid-row: 1;
+	grid-column: 2 / 3;
+	padding-bottom: 5rem;
+	padding-top: 1.5rem;
+	text-align: center;
+	width: 55vw;
+	z-index: 5;
+}
+.cacheHeader p {
+	font-family: Montserrat Subrayada;
+	font-size: calc( 4rem + 1vw);
+}
+.cacheMockup {
+	grid-column: 1 / span 3;
+	grid-row: 2;
+	position: relative;
+	z-index: 6;
+}
+.cacheMockup img {
+	width: 95vw;
+}
+.cacheSub {
+	grid-column: 2;
+	grid-row: 1;
+	padding-top: 7rem;
+	padding-bottom: 2rem;
+	width: 85vw;
+	text-align: center;
+	z-index: 7;
+}
+.cacheSub h1 {
+	font-size: 2rem;
+	line-height: 2.5rem;
+}
+.studyButton {
+	grid-column: 2;
+	grid-row: 1;
+	z-index: 50;
+	position: relative; top: -3rem;
+}
+.studyButton a {
+	text-decoration: none;
+}
 /* FOOTER */
 
 .footerContainer {
@@ -469,7 +466,67 @@ button.blue:hover {
 		line-height: 3rem;
 	}
 
-
+	.projectContainer {
+		display: grid;
+		empty-cells: show;
+		grid-template-columns: 1fr 3fr 1fr;
+		grid-gap: 1rem;
+		margin: 0 auto;
+		margin-top: 10rem;
+		justify-items: center;
+		padding-bottom: 3rem;
+		width: 95vw;
+	}
+	.cacheTriangle2 {
+		grid-column: 1 / span 2;
+		grid-row: 1 / span 2;
+		z-index: 4;
+	}
+	.cacheHeader {
+		grid-row: 1;
+		grid-column: 2 / 3;
+		padding-bottom: 5rem;
+		padding-top: 1.5rem;
+		text-align: center;
+		width: 55vw;
+		z-index: 5;
+	}
+	.cacheHeader p {
+			font-family: Montserrat Subrayada;
+			font-size: calc( 1rem + 5vw);
+	}
+	.cacheMockup {
+		grid-column: 1 / span 3;
+		grid-row: 2;
+		position: relative;
+		z-index: 6;
+	}
+	.cacheMockup img {
+		width: 45vw;
+	}
+	.cacheSub {
+		grid-column: 2;
+		grid-row: 1;
+		padding-top: 10rem;
+		padding-bottom: 2rem;
+		width: 45vw;
+		text-align: center;
+		z-index: 7;
+	}
+	.cacheSub h1 {
+		font-size: calc( .8rem + 1vw);
+		line-height: 2.5rem;
+	}
+	.studyButton {
+		grid-column: 2;
+		grid-row: 1;
+		z-index: 50;
+		position: relative; top: -3rem;
+	}
+	.studyButton a {
+		text-decoration: none;
+	}
+/*
 		.projectContainer {
 			display: grid;
 			empty-cells: show;
@@ -557,17 +614,16 @@ button.blue:hover {
 	font-size: calc( 1rem + 5vw);
 }
 .GBsub {
-	grid-row: 3;
+	grid-row: 2;
 	max-width: 35vw;
 }
 .GBsub h1 {
 	font-size: calc( .8rem + 1vw);
 }
 .GBMtn2 img {
-	max-width: 75vw;
+	max-width: 45vw;
 }
 .studyButtonGB {
 	grid-column: 2;
-	position: relative; top: -20rem;
 	z-index: 50;
-	}
+}
