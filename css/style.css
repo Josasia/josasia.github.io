@@ -274,20 +274,15 @@ button.blue:hover {
 	bottom: 5rem;
 	z-index: 6;
 }
-.GBMockup img {
-	display:none;
-	margin-bottom: 3rem;
-	width: 95vw;
-}
 .GBsub {
 	grid-column: 2;
 	grid-row: 2;
-	padding-bottom: rem;
+	padding-bottom: 1rem;
 	position: relative;
+	text-align: center;
 	width: 75vw;
 	z-index: 7;
 }
-
 .GBsub h1 {
 	font-size: 2rem;
 	line-height: 2.5rem;
@@ -296,7 +291,7 @@ button.blue:hover {
 	grid-column: 2;
 	grid-row: 1;
 	z-index: 50;
-	position: relative; top: -15rem;
+	position: relative; top: -17rem;
 }
 .studyButtonGB a {
 	text-decoration: none;
@@ -553,64 +548,36 @@ button.blue:hover {
 			z-index: 50;
 		}
 
-/* GOAL BOOK */
+/* GOAL BOOK
 
 	.projectContainerG2 {
 		display: grid;
 		empty-cells: show;
-		grid-template-columns: .15fr .4fr .05fr .05fr;
-		grid-template-rows: .05fr .05fr .5fr .05fr;
+		grid-template-columns: .5fr 1fr .5fr;
+		grid-template-rows: .1fr .01fr 1fr;
 		grid-gap: 1rem;
 		margin: 0 auto;
 		margin-top: 1rem;
 		width: 95vw;
 	}
-	.buttonCaseStudy {
-		grid-column: 3;
-		grid-row: 3;
-		margin-left: 12rem;
-		position: relative;
-		top: 8rem;
-		z-index: 9;
-	}
 	.GBHeader {
-		grid-row: 2;
-		grid-column: 3 / 4;
-		margin-left: 10rem;
+		grid-row: 1;
+		grid-column: 2;
 		padding-bottom: 1rem;
 		padding-top: 5rem;
 		z-index: 5;
-		width: 15vw;
 	}
-
 	.GBHeader p {
 		font-family: Raleway;
 		font-size: calc( 1rem + 5vw);
 		font-weight: 900;
 	}
-	.GBMockup {
-		grid-column: 2 / span 3;
-		grid-row: 2 / span 3;
-		position: relative;
-		top: 3rem;
-		z-index: 6;
-	}
-	.GBMockup img {
-		margin-left: 2rem;
-		width: 30vw;
-	}
 	.GBsub {
-		grid-column: 3 / span 4;
-		grid-row: 3 /span 4;
-		margin-left: 8rem;
-		margin-bottom: 2rem;
-		padding-left: 4rem;
-		padding-bottom: 10rem;
-		position: relative;
-		top: -6rem;
+		grid-column: 2;
+		grid-row: 2;
+		width: 35vw;
 		z-index: 7;
-		width: 65%;
-	}
+	}/*
 	.GBsub h1 {
 		font-size: calc( .8rem + 1vw);
 	}
@@ -618,18 +585,33 @@ button.blue:hover {
 		display: none;
 	}
 	.GBMtn1 {
-		display: flex;
+		display:block;
 		grid-column: 2 / span 3;
-		grid-row: 2 / span 3;
+		grid-row: 3;
 		z-index: 4;
 	}
 	.GBMtn1 img {
-		width: 75vw;
-	}
-	.studyButton {
-		grid-column: 3;
-		margin-top: 5rem;
-		position: relative;
-		top: -16rem;
-		z-index: 50;
+		width: 70vw;
+	}*/
+
+.projectContainerG2 {
+	justify-items: center;
+}
+.GBHeader p {
+	font-size: calc( 1rem + 5vw);
+}
+.GBsub {
+	grid-row: 3;
+	max-width: 35vw;
+}
+.GBsub h1 {
+	font-size: calc( .8rem + 1vw);
+}
+.GBMtn2 img {
+	max-width: 75vw;
+}
+.studyButtonGB {
+	grid-column: 2;
+	position: relative; top: -20rem;
+	z-index: 50;
 	}
