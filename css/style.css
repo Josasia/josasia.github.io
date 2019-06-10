@@ -140,26 +140,28 @@ button.blue:hover {
 }
 .middleContainer {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	empty-cells: show;
+	justify-items: center;
+	grid-template-columns: 1fr .15fr 1fr ;
 	grid-template-rows: .5fr 1fr;
 	grid-gap: 1rem;
 	margin: 0 auto;
 	width: 95vw;
 }
 .greenDiv {
-	grid-column: 3 / 4;
+	grid-column: 2;
 	grid-row: 2;
 }
 .greenDiv img {
-	width: 88vw;
+	width: 85vw;
 }
 .middleText {
 	font-size: 2.2rem;
 	font-weight: 300;
-	grid-column: 3 / 4;
+	grid-column: 2;
 	grid-row: 1;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 	width: 90vw;
 }
 .middleTextB {
@@ -388,47 +390,9 @@ button.blue:hover {
 		margin: 0 auto;
 		width: 98vw;
 	}
+
+	/* ******************************************************************* aye */
 	.heroContainer {
-		display: grid;
-		empty-cells: show;
-		grid-template-columns: .65fr .85fr 1.5fr 1fr 1fr;
-		grid-template-rows: .75fr .5fr .5fr .05fr;
-		grid-gap: 1rem;
-		margin: 0 auto;
-		padding-bottom: 5rem;
-		width: 95vw;
-	}
-	.logoBg {
-		grid-column: 2;
-	}
-	.logoBg img {
-		max-width: 85vw;
-	}
-	.largeSelf {
-		grid-column: 4/ span 5;
-		grid-row: 2;
-		z-index: 1;
-	}
-	.largeSelf img {
-		position: relative;
-		left: -4em;
-		min-width: 17vw;
-	}
-	.heroText {
-		grid-column: 3 / span 4;
-		grid-row-start: 3;
-		position: relative;
-		top: 1rem;
-		z-index: 3;
-	}
-	.heroText h1 {
-		letter-spacing: -.5px;
-		line-height: calc( 4rem + 0.5vw);
-	}
-	#space10 {
-		letter-spacing: 1.5px;
-	}
-	.middleContainer {
 		display: grid;
 		empty-cells: show;
 		grid-template-columns: .5fr 1fr .5fr;
@@ -438,33 +402,65 @@ button.blue:hover {
 		position: relative;
 		width: 95vw;
 	}
-	.greenDiv {
+	.logoBg {
+		grid-column: 2;
+	}
+	.logoBg img {
+		max-width: 45vw;
+	}
+	.largeSelf {
+		grid-column: 3;
+		grid-row: 2;
+		z-index: 1;
+	}
+	.largeSelf img {
+		position: relative; left: -15rem;
+		width: 15vw;
+	}
+
+	.heroText {
 		grid-column: 2 / span 3;
-		grid-row: 3;
+		grid-row-start: 3;
+		position: relative;
+		top: -.25rem;
+		z-index: 3;
+	}
+
+
+	/* MIDDLE DIV */
+
+	#space10 {
+		letter-spacing: 1.5px;
+	}
+	.middleContainer {
+		display: grid;
+		empty-cells: show;
+		grid-template-columns: 1fr .15fr  1fr;
+		grid-template-rows: .5fr 1fr;
+		grid-gap: 1rem;
+		margin: 0 auto;
+		padding-top: 8rem;
+		position: relative;
+		width: 95vw;
+	}
+	.greenDiv {
+		grid-column: 2 / 3;
+		grid-row: 2;
 	}
 	.greenDiv img {
-		position: relative;
-		left: 1rem;
-		max-width: 65%;
+		max-width: 45vw;
 	}
+
 	.middleText {
-		display: none;
-	}
-	.middleTextB {
-		display: flex;
-		grid-column: 2 / span 3;
-		grid-row: 2;
-		padding-bottom: 3.5rem;
-		position: relative;
-		left: 1rem;
-		width: 75vw;
-	}
-	.middleTextB h2 {
-		font-size: calc(24px + .5vw);
+		font-size: 2.2rem;
 		font-weight: 300;
-		letter-spacing: -.5px;
-		line-height: 3rem;
+		grid-column: 2;
+		grid-row: 1;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		width: 45vw;
 	}
+
 
 	.projectContainer {
 		display: grid;
@@ -526,84 +522,7 @@ button.blue:hover {
 	.studyButton a {
 		text-decoration: none;
 	}
-/*
-		.projectContainer {
-			display: grid;
-			empty-cells: show;
-			grid-template-columns: .15fr .4fr .05fr .05fr;
-			grid-template-rows: .05fr .05fr .5fr .05fr;
-			grid-gap: 1rem;
-			margin: 0 auto;
-			margin-top: 1rem;
-			width: 95vw;
-		}
-		.buttonCaseStudy {
-			grid-column: 3;
-			grid-row: 3;
-			margin-left: 12rem;
-			position: relative;
-			top: 8rem;
-			z-index: 9;
-		}
-		.cacheHeader {
-			grid-row: 2;
-			grid-column: 3 / 4;
-			margin-left: 10rem;
-			padding-bottom: 1rem;
-			padding-top: 5rem;
-			z-index: 5;
-			width: 15vw;
-		}
-		.cacheHeader h6 {
-			font-size: calc( 1rem + 5vw);
-			letter-spacing: .75rem;
-		}
-		.cacheMockup {
-			grid-column: 2 / span 3;
-			grid-row: 2 / span 3;
-			position: relative;
-			top: 3rem;
-			z-index: 6;
-		}
-		.cacheMockup img {
-			margin-left: 2rem;
-			width: 30vw;
-		}
-		.cacheSub {
-			grid-column: 3 / span 4;
-			grid-row: 3 /span 4;
-			margin-left: 8rem;
-			margin-bottom: 2rem;
-			padding-left: 4rem;
-			padding-bottom: 10rem;
-			position: relative;
-			top: -6rem;
-			z-index: 7;
-			width: 65%;
-		}
-		.cacheSub h1 {
-			font-size: calc( .8rem + 1vw);
-		}
-		.cacheTriangle2 {
-			display: none;
-		}
-		.cacheTriangle3 {
-			display: flex;
-			grid-column: 2 / span 3;
-			grid-row: 2 / span 3;
-			z-index: 4;
-		}
-		.cacheTriangle3 img {
-			height: 30vw;
-			width: 75vw;
-		}
-		.studyButton {
-			grid-column: 3;
-			margin-top: 5rem;
-			position: relative;
-			top: -16rem;
-			z-index: 50;
-		}
+
 
 /* GOAL BOOK */
 
