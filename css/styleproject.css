@@ -1273,13 +1273,11 @@ button a {
 		width: 15vw;
 	}
 	.brand2Container h5 {
-		font-size: 4rem;
+		font-size: 6rem;
 		grid-column: 3;
 		grid-row: 6;
-		text-indent: 1rem;
-		padding-top: 3rem;
-		position: relative;
-		top: -12rem;
+		padding-top: 1rem;
+		position: relative; left: -16rem;
 	}
 	/* APPLICATION 2 */
 	.deskContainer2 {
