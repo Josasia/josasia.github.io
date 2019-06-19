@@ -97,62 +97,61 @@ body {
 
 
 
-/******************FOOTER***************************/
+/* FOOTER */
 
 .footerContainer {
-background-color: #FCFCFC;
-background-image: url("../images/footerBg.png");
-background-size: cover;
-border-top: 1rem solid #312F30;
-display: grid;
-empty-cells: show;
-grid-gap: .5rem;
-grid-template-columns: auto minmax(0, 1fr) auto;
-margin-top: 5rem;
-position: absolute;
-text-align: center;
-width: 100%;
+	background-color: #FCFCFC;
+	background-image: url("../images/footerBg.png");
+	background-size: cover;
+	border-top: 1rem solid #312F30;
+	display: grid;
+	empty-cells: show;
+	grid-gap: .5rem;
+	grid-template-columns: auto minmax(0, 1fr) auto;
+	margin-top: 5rem;
+	position: absolute;
+	text-align: center;
+	width: 100%;
 }
 .footerContainer a {
-color: #0070E0;
+	color: #0070E0;
 }
 .footerContainer a:hover {
-letter-spacing: .05rem;
-transition: .5s;
+	letter-spacing: .05rem;
+	transition: .5s;
 }
 .footer1text {
-font-family: Montserrat;
-font-size: 2rem;
-font-weight: 500;
-grid-column: 2;
-grid-row: 1;
-padding-top: 2rem;
+	font-family: Montserrat;
+	font-size: 2rem;
+	font-weight: 500;
+	grid-column: 2;
+	grid-row: 1;
+	padding-top: 2rem;
 }
 .footer2text {
-font-family: Montserrat;
-font-size: 3rem;
-font-weight: 700;
-grid-row: 2;
-grid-column: 2;
-padding-bottom: 1rem;
+	font-family: Montserrat;
+	font-size: 3rem;
+	font-weight: 700;
+	grid-row: 2;
+	grid-column: 2;
+	padding-bottom: 1rem;
 }
 .gitIcon {
-grid-column: 2;
+	grid-column: 2;
 }
 .gitIcon Img {
-height: 2.4rem;
-padding-left: 2rem;
-padding-right: 2rem;
+	height: 2.4rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
 }
 .footer3text {
-grid-row: 4;
-font-size: 1.8rem;
-font-family: Encode Sans Condensed;
-padding-top: 1rem;
-margin-bottom: 2rem;
-grid-column: 2;
+	grid-row: 4;
+	font-size: 1.8rem;
+	font-family: Encode Sans Condensed;
+	padding-top: 1rem;
+	margin-bottom: 2rem;
+	grid-column: 2;
 }
-
 /*****************HEADER MEDIA****************************/
 @media screen and (max-width: 415px) {
 .header-right {
