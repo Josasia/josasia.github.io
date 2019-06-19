@@ -1,8 +1,7 @@
 * {
 	box-sizing: border-box;
 }
-/* BODY PROPERTIES */
-
+/***************** BODY PROPERTIES *****************/
 html {
 	font-size: 10px;
 }
@@ -10,11 +9,16 @@ body {
 	background-color: #FCFCFC;
 	font-family: Roboto;
 }
-
+h1 {
+	font-size: 1.6rem;
+	font-weight: 300;
+	line-height: 125%;
+}
+a {
+	color: #FFF;
+}
 
 /****************** HEADER *****************************/
-
-
 .header {
 	background-color: #FFF;
 	display: flex;
@@ -47,7 +51,7 @@ body {
 	position: relative;
 	z-index: 2;
 }
-}
+
 /*********************************************/
 
 
