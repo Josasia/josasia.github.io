@@ -10,9 +10,8 @@ body {
 	font-family: Roboto;
 }
 h1 {
-	font-size: 1.6rem;
-	font-weight: 300;
-	line-height: 125%;
+	font-family: Raleway;
+	font-weight: 900;
 }
 a {
 	color: #FFF;
@@ -54,9 +53,10 @@ a {
 
 /**********************FIRST SECTION***********************/
 
-.firstContainer {
+.firstCon {
 	display: grid;
 	empty-cells: show;
+	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 1rem;
 	justify-items: center;
 	align-items: center;
@@ -64,12 +64,19 @@ a {
 	width: 98vw;
 }
 .mtn1 {
-	grid-column: 1;
+	grid-column: 2;
 }
 .mtn1 img {
 	width: 98vw;
 }
 
+.mck1 {
+	grid-column: 2;
+}
+
+.mck1 img {
+	width: 35vw;
+}
 
 
 
