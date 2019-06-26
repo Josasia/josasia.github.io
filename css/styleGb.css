@@ -142,12 +142,51 @@ button.pink a {
 	width: 15vw;
 }
 
+#lineB {
+	border-radius: 5px;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+	outline-color: #ABE0F7;
+	outline-style: solid;
+	outline-width: 1px;
+	position: relative;
+	width: 60vw;
+}
+
+#lineP {
+	border-radius: 5px;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+	outline-color: #FFA8F6;
+	outline-style: solid;
+	outline-width: 1px;
+	position: relative;
+	width: 60vw;
+}
+.probCont {
+	display: grid;
+	empty-cells: show;
+	grid-gap: 1rem;
+	justify-items: center;
+	align-items: center;
+	margin: 0 auto;
+	width: 85vw;
+}
+
+.probCont h2 {
+	color: #1E0075;
+}
 
 
+.mtnDiv2 img {
+	padding-bottom: 5rem;
+	width: 98vw;
+}
 
-
-
-
+h4 {
+	font-size: 2.5rem;
+	text-align: center;
+}
 
 
 
