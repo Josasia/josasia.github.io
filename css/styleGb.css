@@ -8,6 +8,7 @@ html {
 body {
 	background-color: #FCFCFC;
 	font-family: Roboto;
+	line-height: 200%;
 }
 h1 {
 	font-family: Raleway;
@@ -53,31 +54,48 @@ a {
 
 /**********************FIRST SECTION***********************/
 
-.firstCon {
+.firstCont {
 	display: grid;
 	empty-cells: show;
-	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 1rem;
 	justify-items: center;
 	align-items: center;
 	margin: 0 auto;
 	width: 98vw;
 }
-.mtn1 {
-	grid-column: 2;
+.cld1, .cld1 img {
+	position: relative; left: -6rem;
+	width:15vw
 }
-.mtn1 img {
-	width: 98vw;
+
+.firstHed, .firstHed h1{
+	color: #1E0075;
+	font-size: 4.8rem;
+	padding-bottom: 1rem;
 }
 
 .mck1 {
-	grid-column: 2;
 }
-
 .mck1 img {
-	width: 35vw;
+	max-width: 80vw;
 }
 
+.firstSub {
+	color: #1E0075;
+	font-family: Merriweather;
+	font-size: 1.8rem;
+	font-weight: 700;
+	text-align: center;
+	width: 80vw;
+}
+
+.cld2, .cld2 img {
+	width: 15vw;
+}
+
+.mtndiv1 img {
+	width: 98vw;
+}
 
 
 
