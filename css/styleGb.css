@@ -8,7 +8,7 @@ html {
 body {
 	background-color: #FCFCFC;
 	font-family: Roboto;
-	line-height: 200%;
+	line-height: 250%;
 }
 h1 {
 	font-family: Raleway;
@@ -52,6 +52,26 @@ a {
 	z-index: 2;
 }
 
+button.pink {
+	color: #FFF;
+  cursor: pointer;
+	background: #FCFCFC;
+	box-shadow: 0px 1px 8px #ABABAB;
+	border-top: .2rem solid #FF28FF;
+	border-bottom: .2rem solid #FF28FF;
+	border-left: .2rem solid #FF28FF;
+	border-right: .2rem solid #FF28FF;
+	border-radius: 3px;
+	font-family: Roboto;
+	font-size: 1.4rem;
+	font-weight: 700;
+  padding: 10px 15px;
+	width: 35vw;
+}
+button.pink a {
+	color: #FF28FF;
+	text-decoration: none;
+}
 /**********************FIRST SECTION***********************/
 
 .firstCont {
@@ -83,14 +103,18 @@ a {
 .firstSub {
 	color: #1E0075;
 	font-family: Merriweather;
-	font-size: 1.8rem;
-	font-weight: 700;
+	font-size: 2rem;
+	font-weight: 300;
 	text-align: center;
 	width: 80vw;
 }
 
+.protoButton {
+
+}
 .cld2, .cld2 img {
-	width: 15vw;
+	position: relative; left: -6rem;
+	width: 10vw;
 }
 
 .mtndiv1 img {
