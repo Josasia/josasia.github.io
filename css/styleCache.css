@@ -67,11 +67,11 @@ section {
 }
 button.blue {
 	color: #FFF;
-	background: #0070E0;
-	border-top: .5rem solid #0070E0;
-	border-bottom: .5rem solid #0070E0;
-	border-left: .5rem solid #0070E0;
-	border-right: .5rem solid #0070E0;
+	background: #1D02C2;
+	border-top: .5rem solid #1D02C2;
+	border-bottom: .5rem solid #1D02C2;
+	border-left: .5rem solid #1D02C2;
+	border-right: .5rem solid #1D02C2;
 	font-family: Montserrat;
 	font-size: calc(1.2rem + .7vw);
 	font-weight: 500;
@@ -111,7 +111,7 @@ button a {
 	padding: .5rem 10px;
 }
 .header a {
-	color: #0070E0;
+	color: #1D02C2;
 	float: left;
 	font-family: Montserrat;
 	font-size: calc(1.6rem + .1vw);
@@ -633,7 +633,7 @@ button a {
 	width: 100%;
 }
 .footerContainer a {
-	color: #0070E0;
+	color: #1D02C2;
 }
 .footerContainer a:hover {
 	letter-spacing: .05rem;

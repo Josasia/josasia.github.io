@@ -48,7 +48,7 @@ b {
 	padding: .5rem 10px;
 }
 .header a {
-	color: #0070E0;
+	color: #1D02C2;
 	float: left;
 	font-family: Montserrat;
 	font-size: calc(1.6rem + .1vw);
@@ -232,7 +232,7 @@ button.pink a {
 
 
 
-/* COLORS Blue:#ABE0F7; /// Pink: #FFA8F6; //// Purple:#1E0075; */
+/* COLORS Blue:#ABE0F7; /// Pink: #FFA8F6; //// Purple:#1E0075; purple2 #1D02C2
 
 
 
@@ -269,7 +269,7 @@ button.pink a {
 	width: 100%;
 }
 .footerContainer a {
-	color: #0070E0;
+	color: #1D02C2;
 }
 .footerContainer a:hover {
 	letter-spacing: .05rem;
