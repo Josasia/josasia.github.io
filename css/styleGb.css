@@ -349,6 +349,18 @@ button.pink a {
 	grid-column: 1/3;
 	grid-row: 10;
 }
+
+
+.compX {
+	grid-column: 1/ span 3;
+	grid-row: 11;
+	width: 90vw;
+}
+
+.bottomLine4 {
+	grid-column: 1/3;
+	grid-row: 12
+}
 /* COLORS Blue:#ABE0F7; /// Pink: #FFA8F6; //// Purple:#1E0075; purple2 #1D02C2
 
 
