@@ -25,6 +25,13 @@ h3 {
 	font-size: 1.6rem;
 	font-weight: 300;
 }
+h4 {
+	color:#1E0075;
+	font-family: Raleway;
+	font-size: 3rem;
+	font-weight:700;
+	text-align:center;
+}
 h6 {
 	font-family: Raleway;
 	font-weight: 900;
@@ -188,47 +195,106 @@ button.pink a {
 	margin-top: 1rem;
 	width: 98vw;
 }
-
+.mtnDiv2 h1 {
+	 color:#1E0075;
+	 font-family: Raleway;
+	 font-size: 3rem;
+	 font-weight:700;
+	 text-align: center;
+}
 .mtnDiv2 h2 {
+	color:#ACDBFD;
 	font-size: 2rem;
 	font-weight: 900;
 	letter-spacing: -1px;
 	position: relative; top: 3.5rem; left: -5rem;
 	text-align: center;
-	color:#ACDBFD;
 }
 .mtnDiv2 img {
-	padding-bottom: .5rem;
+	padding-bottom: 2rem;
 	width: 98vw;
 }
-
 .sur90 img, .sur50 img {
+	border-width: .5rem;
+	border-style: solid;
+	border-color: #FCFCFC;
 	float: left;
-	width: 10vw;
+	width: 50px;
 }
  .sur65 img {
+	 border-width: .5rem;
+	 border-style: solid;
+	 border-color: #fcfcfc;
 	 float: right;
-	 width: 10vw;
+	 width: 50px;
  }
 .sur90,.sur65, .sur50  {
 	color: #1E0075;
 	width: 85vw;
 }
-
-.sur90,.sur65, .sur50 h2
-
 .surX {
-	padding-top: .25rem;
 	width: 90vw;
 }
 
+/**********************COMPET SECTION***********************/
+.compCont {
+	display: grid;
+	empty-cells: show;
+  grid-gap: 1rem;
+  grid-template-columns:  minmax(0, auto);
+  grid-template-rows: minmax(0, auto);
+  align-items: center;
+	justify-items: center;
+}
 
+.compHed {
+	grid-column: 1/ span 3;
+	grid-row: 1;
+	padding-bottom: 2rem;
+}
 
+.loopLogo {
+	grid-column: 1 / span 3;
+  grid-row: 2/ span 3;
+}
+.loopLogo h2 {
+	font-size: 2rem;
+	color:#1E0075;
+	width: 65vw;
+	padding-bottom: 2rem;
+}
+.loopLogo img{
+	float: left;
+	width: 8vw;
+}
 
+.loopMck {
+	grid-column: 2/3;
+  grid-row: 4 / span 5;
+}
+.loopMck img {
+	padding-bottom: 7rem;
+	width: 90vw;
+}
 
+.grnMrk1{
+	grid-column: 1 / span 3;
+	grid-row: 7;
+	width: 90vw;
+}
+.grnMrk2 {
+	grid-column: 1 / span 3;
+	grid-row: 8;
+	width: 90vw;
+}
+.grnMrk1 img, .grnMrk2 img {
+	float: left;
+	width: 6vw;
+}
 
-
-
+.bottomLine {
+	grid-row: 7;
+}
 
 
 
