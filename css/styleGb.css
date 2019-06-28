@@ -295,7 +295,7 @@ button.pink a {
 	grid-column: 1/3;
 	grid-row: 9;
 }
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*!!!!!!!!!!!!!!!!!CAN COMBINE THESE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 .hubLogo, .bulLogo {
 	grid-column: 1 / span 3;
@@ -350,7 +350,6 @@ button.pink a {
 	grid-row: 10;
 }
 
-
 .compX {
 	grid-column: 1/ span 3;
 	grid-row: 11;
@@ -361,6 +360,40 @@ button.pink a {
 	grid-column: 1/3;
 	grid-row: 12
 }
+
+/*!!!!!!!!!!!!!!!!!!!PERSONAS SECTION!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* COLORS Blue:#ABE0F7; /// Pink: #FFA8F6; //// Purple:#1E0075; purple2 #1D02C2
 
 
