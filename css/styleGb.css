@@ -366,7 +366,6 @@ button.pink a {
 
 .persCont {
 	display: grid;
-	empty-cells: show;
   grid-gap: 1rem;
   grid-template-columns:  minmax(0, auto);
   grid-template-rows: minmax(0, auto);
@@ -374,8 +373,7 @@ button.pink a {
 	justify-items: center;
 }
 .persHed {
-	grid-column: 1/ span 3;
-	grid-row: 1;
+	width: 98vw;
 	padding-bottom: 2rem;
 }
 
@@ -390,7 +388,7 @@ button.pink a {
 .persList1{
 		grid-column: 2;
 		grid-row: 3;
-		width: 90vw;
+		width: 95vw;
 }
 .bottomLine5 {
 	grid-column: 1/3;
