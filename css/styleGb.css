@@ -202,7 +202,6 @@ button.pink a {
 .mtnDiv2 img {
 	width: 95vw;
 }
-
 .mtnDiv3 h2 {
 	color:#FFA8F6;
 	font-size: calc(1rem + 2vw);
@@ -451,8 +450,32 @@ button.pink a {
 }
 ---------------------------------------------------------------------------------------------------*/
 
-
-
+.wireCont {
+	display: grid;
+	empty-cells: show;
+	grid-gap: 1rem;
+  grid-template-columns:  minmax(0, auto);
+  grid-template-rows: minmax(0, auto);
+	justify-items: center;
+	margin: 0 auto;
+	margin-top: 1rem;
+	width: 98vw;
+}
+.wireHed {
+	padding-bottom: 2rem;
+}
+.wire1 img {
+	float: left;
+	width: 35vw;
+}
+.wireMrk {
+	width: 90vw;
+}
+.wireMrk img{
+	float: left;
+	margin-right: .25rem;
+	width: 20px;
+}
 
 
 
