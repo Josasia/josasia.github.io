@@ -152,8 +152,14 @@ button.pink a {
 	position: relative; left: 6rem;
 	width: 15vw;
 }
+
+.outer-div {
+	text-align: center;
+}
 #lineB {
+	display: inline-block;
 	border-radius: 5px;
+	margin: 0 auto;
 	margin-bottom: 2rem;
 	margin-top: 2rem;
 	outline-color: #ABE0F7;
@@ -163,7 +169,9 @@ button.pink a {
 	width: 60vw;
 }
 #lineP {
+	display: inline-block;
 	border-radius: 5px;
+	margin: 0 auto;
 	margin-bottom: 2rem;
 	margin-top: 2rem;
 	outline-color: #FFA8F6;
@@ -190,6 +198,8 @@ button.pink a {
 	display: grid;
 	empty-cells: show;
 	grid-gap: 1rem;
+  grid-template-columns:  minmax(0, auto);
+  grid-template-rows: minmax(0, auto);
 	justify-items: center;
 	margin: 0 auto;
 	margin-top: 1rem;
@@ -201,6 +211,9 @@ button.pink a {
 	 font-size: 3rem;
 	 font-weight:700;
 	 text-align: center;
+}
+.mtnDiv2 {
+	grid-column: 1;
 }
 .mtnDiv2 h2 {
 	color:#ACDBFD;
@@ -214,6 +227,7 @@ button.pink a {
 	padding-bottom: 2rem;
 	width: 98vw;
 }
+
 .sur90 img, .sur50 img {
 	border-width: .5rem;
 	border-style: solid;
@@ -229,13 +243,18 @@ button.pink a {
 	 width: 50px;
  }
 .sur90,.sur65, .sur50  {
+	grid-column: 1;
 	color: #1E0075;
-	width: 85vw;
+	width: 90vw;
 }
 .surX {
+	grid-column: 1;
 	width: 90vw;
 }
 
+.survButton {
+	grid-column: 1;
+}
 /**********************COMPET SECTION***********************/
 .compCont {
 	display: grid;
@@ -245,6 +264,7 @@ button.pink a {
   grid-template-rows: minmax(0, auto);
   align-items: center;
 	justify-items: center;
+	width: 98vw;
 }
 
 .compHed {
