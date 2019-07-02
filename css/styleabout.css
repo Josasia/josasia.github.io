@@ -187,7 +187,6 @@ button.blue:hover {
 .contSub {
 	margin-top: 10rem;
 	grid-column: 1;
-	height: 90vw;
 	width: 90vw;
 	z-index: 1000;
 }
