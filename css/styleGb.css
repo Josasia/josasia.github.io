@@ -420,20 +420,18 @@ button.pink a {
 	margin-top: 1rem;
 	width: 98vw;
 }
-
-.wireHed {
-	padding-bottom: 2rem;
-}
-.brand1 img {
-	width: 35vw;
-}
-.wireMrk {
+.brand1 {
+	grid-column: 1;
+	grid-row: 1;
 	width: 90vw;
 }
-.wireMrk img{
-	float: left;
-	margin-right: .25rem;
-	width: 20px;
+.brand1 img {
+	width: 90vw;
+	padding: 1.5rem;
+}
+.brand1 h1 {
+	color:#1E0075;
+	text-align: center;
 }
 
 
