@@ -170,10 +170,14 @@ button.blue:hover {
 	align-items: center;
 	display: grid;
 	empty-cells: show;
+	font-weight: 300;
+	font-size: 2rem;
 	grid-gap: 1rem;
   grid-template-columns:  minmax(0, auto);
   grid-template-rows: minmax(0, auto);
 	justify-items: center;
+	letter-spacing: -1px;
+	line-height: 200%;
 	margin: 0 auto;
 	margin-top: 1rem;
 	text-align: center;
@@ -181,13 +185,11 @@ button.blue:hover {
 }
 
 .contSub {
-	margin-top: 20rem;
+	margin-top: 10rem;
 	grid-column: 1;
-	height: 35vw;
-}
-
-.contLink {
-	grid-column: 1;
+	height: 90vw;
+	width: 90vw;
+	z-index: 1000;
 }
 /* CONTACT PAGE */
 
