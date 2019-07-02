@@ -422,7 +422,6 @@ button.pink a {
 }
 .brand1 {
 	grid-column: 1;
-	grid-row: 1;
 	width: 90vw;
 }
 .brand1 img {
@@ -433,6 +432,69 @@ button.pink a {
 	color:#1E0075;
 	text-align: center;
 }
+.brand2 {
+	grid-column: 1;
+	width: 90vw;
+}
+.brand2 img {
+	width: 120px;
+}
+.brand2 h1 {
+	color:#1E0075;
+	text-align: center;
+}
+
+
+
+
+#primary1 {
+  width: 100px;
+  height: 100px;
+  background: #1E0075;
+}
+#secondary1 {
+  width: 100px;
+  height: 100px;
+  background: #109AE8;
+}
+#accent1 {
+  width: 100px;
+  height: 100px;
+  background: #ABE0F7;
+}
+
+#cta{
+	width: 100px;
+	height: 100px;
+	background: #00F0C5;
+}
+#cta2 {
+	width: 100px;
+	height: 100px;
+	background: #FF62FF;
+}
+#black {
+	width: 100px;
+	height: 100px;
+	background: #37474F;
+}
+
+#grey{
+	width: 100px;
+	height: 100px;
+	background: #D6D6D6;
+}
+#grey2 {
+	width: 100px;
+	height: 100px;
+	background: #EAEAEA;
+}
+#white {
+	width: 100px;
+	height: 100px;
+	background: #FCFCFC;
+}
+
 
 
 
