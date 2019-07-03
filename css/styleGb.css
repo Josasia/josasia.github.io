@@ -15,6 +15,10 @@ h1 {
 	font-size: 1.8rem;
 	font-weight: 900;
 }
+h2 {
+	font-family: Raleway;
+	font-size: 1.8rem;
+}
 h3 {
 	font-family: Roboto;
 	font-size: 1.6rem;
@@ -414,26 +418,31 @@ button.pink a {
 	color:#1E0075;
 	text-align: center;
 }
-
+.typList h1, .typList h2,.typList h3 ,.typList h5 {
+	display: inline;
+}
 .typList {
+	font-size: 1.6rem;
 	grid-column: 1;
 	width: 90vw;
 }
 
-
-.brand2 {
+.ctaList {
 	grid-column: 1;
 	width: 90vw;
 }
-.brand2 img {
-	width: 120px;
+
+.ctaList img {
+	width: 35vw;
 }
 .brand2 h1 {
 	color:#1E0075;
 	text-align: center;
 }
 
-
+.cta2 img {
+	width: 300px;
+}
 
 
 #primary1 {
