@@ -277,6 +277,7 @@ button.pink a {
 }
 .compHed {
 	padding-bottom: 2rem;
+
 }
 .compLogo {
 	width: 90vw;
@@ -493,6 +494,10 @@ button.pink a {
 	background: #FCFCFC;
 }
 
+
+.mckList img {
+	width: 30vw;
+}
 
 
 
