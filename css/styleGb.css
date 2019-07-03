@@ -15,11 +15,6 @@ h1 {
 	font-size: 1.8rem;
 	font-weight: 900;
 }
-h2 {
-	font-family: Roboto;
-	font-size: 1.8rem;
-	font-weight: 500;
-}
 h3 {
 	font-family: Roboto;
 	font-size: 1.6rem;
@@ -32,9 +27,8 @@ h4 {
 	font-weight:700;
 	text-align:center;
 }
-h6 {
-	font-family: Raleway;
-	font-weight: 900;
+h5 {
+	font-family: Merriweather;
 }
 a {
 	color: #FFF;
@@ -145,7 +139,7 @@ button.pink a {
 	margin: 0 auto;
 	width: 98vw;
 }
-.roleCont h2 {
+.roleCont h1 {
 	color: #1E0075;
 }
 .cld3, .cld3 img {
@@ -190,7 +184,7 @@ button.pink a {
 	position: relative;
 	width: 30vw;
 }
-.mtnDiv2 h2 {
+.mtnDiv2 h1 {
 	color:#ACDBFD;
 	font-size: calc(1rem + 2vw);
 	font-weight: 500;
@@ -202,7 +196,7 @@ button.pink a {
 .mtnDiv2 img {
 	width: 95vw;
 }
-.mtnDiv3 h2 {
+.mtnDiv3 h1 {
 	color:#FFA8F6;
 	font-size: calc(1rem + 2vw);
 	font-weight: 500;
@@ -225,7 +219,7 @@ button.pink a {
 	margin: 0 auto;
 	width: 85vw;
 }
-.probCont h2 {
+.probCont h1 {
 	color: #1E0075;
 }
 /**********************SURVEY SECTION***********************/
@@ -408,30 +402,25 @@ button.pink a {
 
 /* BRAND IDENTITY -----------------------------------*/
 
-.brandCont{
-	align-items: center;
-	display: grid;
-	empty-cells: show;
-	grid-gap: 1rem;
-  grid-template-columns:  minmax(0, auto);
-  grid-template-rows: minmax(0, auto);
-	justify-items: center;
-	margin: 0 auto;
-	margin-top: 1rem;
-	width: 98vw;
-}
-.brand1 {
+.logList {
 	grid-column: 1;
 	width: 90vw;
 }
-.brand1 img {
+.logList img {
 	width: 90vw;
 	padding: 1.5rem;
 }
-.brand1 h1 {
+.logList h1 {
 	color:#1E0075;
 	text-align: center;
 }
+
+.typList {
+	grid-column: 1;
+	width: 90vw;
+}
+
+
 .brand2 {
 	grid-column: 1;
 	width: 90vw;
