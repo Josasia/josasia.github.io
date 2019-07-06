@@ -494,17 +494,33 @@ button.pink a {
 	background: #FCFCFC;
 }
 
-
-.mckList img {
-	width: 30vw;
+.mckCont {
+	align-items: center;
+	display: grid;
+	empty-cells: show;
+	grid-gap: 1rem;
+  grid-template-columns:  minmax(0, auto);
+  grid-template-rows: minmax(0, auto);
+	justify-items: center;
+	margin: 0 auto;
+	margin-top: 1rem;
+	width: 98vw;
 }
 
+.mckList {
+	grid-column: 1/2;
+}
+.mckList img {
+	width: 40vw;
+}
 
+.mckMrks {
+	grid-column: 1;
+}
 .mckMrks img {
 	float: left;
 	margin-right: .25rem;
 	width: 20px;
-
 }
 
 
