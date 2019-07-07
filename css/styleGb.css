@@ -387,7 +387,7 @@ button.pink a {
 	justify-items: center;
 	margin: 0 auto;
 	margin-top: 1rem;
-	width: 98vw;
+	width: 90vw;
 }
 .wireHed {
 	padding-bottom: 2rem;
@@ -419,6 +419,15 @@ button.pink a {
 	color:#1E0075;
 	text-align: center;
 }
+
+li#colors1 img{
+	width: 300px;
+}
+
+li#colors2 img{
+	width: 70vw;
+}
+
 .typList h1, .typList h2,.typList h3 ,.typList h5 {
 	display: inline;
 }
@@ -428,22 +437,18 @@ button.pink a {
 	width: 90vw;
 }
 
-.ctaList {
-	grid-column: 1;
-	width: 90vw;
+.cta1, .cta2{
 }
 
-.ctaList img {
-	width: 35vw;
+.cta1 img {
+	width: 125px;
 }
-.brand2 h1 {
-	color:#1E0075;
-	text-align: center;
-}
-
 .cta2 img {
 	width: 300px;
 }
+
+
+
 
 
 #primary1 {
