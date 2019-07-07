@@ -437,14 +437,14 @@ li#colors2 img{
 	width: 90vw;
 }
 
-.cta1, .cta2{
+li#cta1 img {
+
+		width: 125px;
 }
 
-.cta1 img {
-	width: 125px;
-}
-.cta2 img {
-	width: 300px;
+li#cta2 img {
+
+		width: 300px;
 }
 
 
@@ -472,7 +472,7 @@ li#colors2 img{
 	height: 100px;
 	background: #00F0C5;
 }
-#cta2 {
+#cta22 {
 	width: 100px;
 	height: 100px;
 	background: #FF62FF;
@@ -517,6 +517,8 @@ li#colors2 img{
 }
 .mckList img {
 	width: 40vw;
+	max-width: 250px;
+
 }
 
 .mckMrks {
