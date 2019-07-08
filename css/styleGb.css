@@ -248,16 +248,17 @@
 }
 .mainCont h1 {
     color:#1E0075;
+    padding-bottom: 1rem;
 }
  .chkMrk img{
      float: left;
      margin-right: .25rem;
      width: 20px;
 }
- .chkMrk, .cldMrk{
+ .chkMrk, .prpMrk{
      width: 90vw;
 }
-.cldMrk img, .cldMrk2 img{
+.prpMrk img{
     float: left;
     margin-right: .25rem;
     width: 10px;
@@ -389,7 +390,7 @@
      width: 125px;
 }
  li#cta2 img {
-     width: 300px;
+     width: 325px;
 }
  #primary1 {
      width: 100px;
@@ -435,20 +436,6 @@
      width: 100px;
      height: 100px;
      background: #FCFCFC;
-}
- .mckCont {
-     align-items: center;
-     display: grid;
-     empty-cells: show;
-     grid-gap: 1rem;
-     grid-template-columns: minmax(0, auto);
-     grid-template-rows: minmax(0, auto);
-     justify-items: center;
-     margin: 0 auto;
-     margin-top: 1rem;
-     width: 98vw;
-}
- .mckList {
 }
  .mckList img {
      width: 40vw;
