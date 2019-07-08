@@ -14,7 +14,7 @@
  h1 {
      font-family: Roboto;
      font-size: 1.8rem;
-     font-weight: 900;
+     font-weight: 700;
 }
  h2 {
      font-family: Raleway;
@@ -26,6 +26,7 @@
      font-weight: 300;
 }
  h4 {
+		 color:#1E0075;
      font-family: Raleway;
      font-size: 3rem;
      font-weight:700;
@@ -97,6 +98,7 @@
      font-family: Roboto;
      font-size: 1.4rem;
      font-weight: 700;
+		 margin-top: 2rem;
      padding: 10px 15px;
      width: 135px;
 }
@@ -105,18 +107,7 @@
      text-decoration: none;
 }
 /**********************FIRST SECTION***********************/
- .firstCont {
-     align-items: center;
-     display: grid;
-     empty-cells: show;
-     grid-gap: 1rem;
-     grid-template-columns: minmax(0, auto);
-     grid-template-rows: minmax(0, auto);
-     justify-items: center;
-     margin: 0 auto;
-     margin-top: 8rem;
-     width: 98vw;
-}
+
  .cld1, .cld1 img {
 	 	margin-bottom: 2rem;
      position: relative;
@@ -158,6 +149,7 @@
 	    width: 98vw;
 }
  .mtnDiv1 img, .mtnDiv2 img, .mtnDiv3 img {
+ padding-bottom: 3rem;
 	 	 max-width: 800px;
      width: 95vw;
 }
@@ -203,8 +195,8 @@
      display: inline-block;
      border-radius: 5px;
      margin: 0 auto;
-     margin-bottom: 2rem;
-     margin-top: 2rem;
+     margin-bottom: 5rem;
+     margin-top: 5rem;
      outline-color: #FFA8F6;
      outline-style: solid;
      outline-width: 1px;
@@ -238,6 +230,18 @@
      margin-top: 1rem;
      width: 98vw;
 }
+.thinCont {
+     align-items: center;
+     display: grid;
+     empty-cells: show;
+     grid-gap: 1rem;
+     grid-template-columns: minmax(0, auto);
+     grid-template-rows: minmax(0, auto);
+     justify-items: center;
+     margin: 0 auto;
+     margin-top: 1rem;
+     width: 80vw;
+}
  .mainHed {
      padding-bottom: 2rem;
 }
@@ -257,34 +261,13 @@
      margin-right: .25rem;
      width: 20px;
 }
-/*-----------------------------------PROBLEM AND SOLUTION-------------------------*/
-
- .thinCont {
-     align-items: center;
-     display: grid;
-     empty-cells: show;
-     grid-gap: 1rem;
-     grid-template-columns: minmax(0, auto);
-     grid-template-rows: minmax(0, auto);
-     justify-items: center;
-     margin: 0 auto;
-     margin-top: 1rem;
-     width: 80vw;
+.mainList {
+		width: 90vw;
 }
- .roleCont h1 {
-     color: #1E0075;
+.mainList h1{
+		color: #1E0075;
 }
-
- .probCont {
-     display: grid;
-     empty-cells: show;
-     grid-gap: 1rem;
-     justify-items: center;
-     align-items: center;
-     margin: 0 auto;
-     width: 85vw;
-}
- .probCont h1 {
+ .roleList h1 {
      color: #1E0075;
 }
 /**********************SURVEY SECTION***********************/
@@ -330,22 +313,7 @@
      grid-row: 11;
      width: 90vw;
 }
-/*!!!!!!!!!!!!!!!!!!!PERSONAS SECTION!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
- .persCont {
-     align-items: center;
-     display: grid;
-     empty-cells: show;
-     grid-gap: 1rem;
-     grid-template-columns: minmax(0, auto);
-     grid-template-rows: minmax(0, auto);
-     justify-items: center;
-     margin: 0 auto;
-     margin-top: 1rem;
-     width: 98vw;
-}
- .persHed {
-     padding-bottom: 2rem;
-}
+/*-----------------------------------PERSONAS SECTION-----------------------*/
  .persMat {
      grid-column: 1;
      grid-row: 1;
@@ -361,23 +329,13 @@
      grid-column: 1;
      width: 90vw;
 }
-/*!!!!!!!!!!!!!!!!!!STORIES AND FLOWS SECTION!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!/!!!!!!!!!!!*/
- .storCont {
-     display: grid;
-     empty-cells: show;
-     grid-gap: 1rem;
-     grid-template-columns: minmax(0, auto);
-     grid-template-rows: minmax(0, auto);
-     justify-items: center;
-     margin: 0 auto;
-     margin-top: 1rem;
-     width: 98vw;
+/*------------------STORIES AND FLOWS SECTION--------------------------------*/
+.storCont {
+	display: none;
 }
  .storCont hr, .storCont h1{
      color: #1D02C2;
 }
- .storHed {
-     width: 90vw;
 }
  .storList1, .storList2, .storList3 {
      display:none;
@@ -396,19 +354,8 @@
      display: inline-table;
      grid-column: 3;
      padding-top: 2rem;
-}
- ---------------------------------------------------------------------------------------------------*/
- .wireCont {
-     display: grid;
-     empty-cells: show;
-     grid-gap: 1rem;
-     grid-template-columns: minmax(0, auto);
-     grid-template-rows: minmax(0, auto);
-     justify-items: center;
-     margin: 0 auto;
-     margin-top: 1rem;
-     width: 90vw;
-}
+}-------------------------------------------------------------------------------*/
+
  .wire1 img {
      float: left;
      width: 35vw;
