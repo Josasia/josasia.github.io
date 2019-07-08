@@ -243,32 +243,30 @@
      width: 80vw;
 }
  .mainHed {
-     padding-bottom: 2rem;
+     padding-bottom: 2.5rem;
+     width: 98vw;
 }
- .grnMrk {
-     width: 90vw;
+.mainCont h1 {
+    color:#1E0075;
 }
- .grnMrk img{
+ .chkMrk img{
      float: left;
      margin-right: .25rem;
      width: 20px;
 }
- .redMrk {
+ .chkMrk, .cldMrk{
      width: 90vw;
 }
- .redMrk img{
-     float: left;
-     margin-right: .25rem;
-     width: 20px;
+.cldMrk img, .cldMrk2 img{
+    float: left;
+    margin-right: .25rem;
+    width: 10px;
 }
 .mainList {
 		width: 90vw;
 }
-.mainList h1{
+.mainList h1, .roleList h1{
 		color: #1E0075;
-}
- .roleList h1 {
-     color: #1E0075;
 }
 /**********************SURVEY SECTION***********************/
  .sur90 img, .sur50 img {
@@ -359,14 +357,6 @@
  .wire1 img {
      float: left;
      width: 35vw;
-}
- .wireMrk {
-     width: 90vw;
-}
- .wireMrk img{
-     float: left;
-     margin-right: .25rem;
-     width: 20px;
 }
 /* BRAND IDENTITY -----------------------------------*/
  .logList {
