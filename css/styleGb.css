@@ -513,7 +513,6 @@ li#cta2 img {
 }
 
 .mckList {
-	grid-column: 1/2;
 }
 .mckList img {
 	width: 40vw;
@@ -522,7 +521,7 @@ li#cta2 img {
 }
 
 .mckMrks {
-	grid-column: 1;
+	width: 50vw;
 }
 .mckMrks img {
 	float: left;
