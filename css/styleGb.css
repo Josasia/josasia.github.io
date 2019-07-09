@@ -251,6 +251,9 @@
     color:#1E0075;
     padding-bottom: 1rem;
 }
+.mainCont img {
+  max-width: 300px;
+}
  .chkMrk img{
      float: left;
      margin-right: .25rem;
@@ -388,7 +391,6 @@
      display: inline;
 }
  .typList {
-     font-size: 1.6rem;
      grid-column: 1;
      width: 90vw;
 }
@@ -406,16 +408,8 @@
      border-width: 3px;
      width: 80vw;
 }
-.mckList {
-  width: 98vw;
-}
- .mckList img {
-     width: 80vw;
-     max-width: 250px;
-}
 .mckCont {
     align-items: center;
-    text-align: center;
     display: grid;
     empty-cells: show;
     grid-gap: 1rem;
@@ -427,8 +421,19 @@
     width: 98vw;
 }
 
+.mckList {
+  grid-column: 1;
+		width: 90vw;
+    text-align: center;
+}
+.mckList img {
+    max-width: 255px;
+    width:90vw;
+}
 
-
+.mckTxt {
+		width: 90vw;
+}
 
 
 
