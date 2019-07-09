@@ -267,6 +267,11 @@
 .mainList {
 		width: 90vw;
 }
+.mainList img {
+    max-width: 255px;
+    width:90vw;
+
+}
 .mainList h1, .roleList h1{
 		color: #1E0075;
 }
@@ -393,65 +398,7 @@
  li#cta2 img {
      width: 325px;
 }
- #primary1 {
-     width: 100px;
-     height: 100px;
-     background: #1E0075;
-}
- #secondary1 {
-     width: 100px;
-     height: 100px;
-     background: #109AE8;
-}
- #accent1 {
-     width: 100px;
-     height: 100px;
-     background: #ABE0F7;
-}
- #cta{
-     width: 100px;
-     height: 100px;
-     background: #00F0C5;
-}
- #cta22 {
-     width: 100px;
-     height: 100px;
-     background: #FF62FF;
-}
- #black {
-     width: 100px;
-     height: 100px;
-     background: #37474F;
-}
- #grey{
-     width: 100px;
-     height: 100px;
-     background: #D6D6D6;
-}
- #grey2 {
-     width: 100px;
-     height: 100px;
-     background: #EAEAEA;
-}
- #white {
-     width: 100px;
-     height: 100px;
-     background: #FCFCFC;
-}
- .mckList img {
-     width: 40vw;
-     max-width: 250px;
-}
- .mckMrks {
-     width: 80vw;
-}
- .mckMrks img {
-     float: left;
-     margin-right: .25rem;
-     width: 20px;
-}
-/* FINAL MOCKUPS ///////////////////////////////////////////////////////////
-/*/
+/* ---------MOCKUPS ----------------------------------------------------------*/
  li#mckupGD img{
      border-color: #FFA8F6;
      border-radius: 2px;
@@ -459,10 +406,88 @@
      border-width: 3px;
      width: 80vw;
 }
+.mckList {
+  width: 98vw;
+}
+ .mckList img {
+     width: 80vw;
+     max-width: 250px;
+}
+.mckCont {
+    align-items: center;
+    text-align: center;
+    display: grid;
+    empty-cells: show;
+    grid-gap: 1rem;
+    grid-template-columns: minmax(0, auto);
+    grid-template-rows: minmax(0, auto);
+    justify-items: center;
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 98vw;
+}
+
+
+
+
+
+
 /* COLORS Blue:#ABE0F7;
  /// Pink: #FFA8F6;
  //// Purple:#1E0075;
  purple2 #1D02C2
+
+
+
+
+  #primary1 {
+      width: 100px;
+      height: 100px;
+      background: #1E0075;
+ }
+  #secondary1 {
+      width: 100px;
+      height: 100px;
+      background: #109AE8;
+ }
+  #accent1 {
+      width: 100px;
+      height: 100px;
+      background: #ABE0F7;
+ }
+  #cta{
+      width: 100px;
+      height: 100px;
+      background: #00F0C5;
+ }
+  #cta22 {
+      width: 100px;
+      height: 100px;
+      background: #FF62FF;
+ }
+  #black {
+      width: 100px;
+      height: 100px;
+      background: #37474F;
+ }
+  #grey{
+      width: 100px;
+      height: 100px;
+      background: #D6D6D6;
+ }
+  #grey2 {
+      width: 100px;
+      height: 100px;
+      background: #EAEAEA;
+ }
+  #white {
+      width: 100px;
+      height: 100px;
+      background: #FCFCFC;
+ }
+
+
+
 /* FOOTER */
  .footerContainer {
      background-color: #FCFCFC;
