@@ -18,7 +18,7 @@
 }
  h2 {
      font-family: Raleway;
-     font-size: 1.8rem;
+     font-size: 1.6rem;
 }
  h3 {
      font-family: Roboto;
@@ -259,12 +259,13 @@
      margin-right: .25rem;
      width: 20px;
 }
- .chkMrk, .prpMrk{
+ .chkMrk, .cldMrk{
      width: 90vw;
 }
-.prpMrk img{
+.cldMrk img{
     float: left;
     margin-right: .25rem;
+    position: relative; top:.5rem;
     width: 10px;
 }
 .mainList {
@@ -311,7 +312,7 @@
 }
  .compLogo img{
      float: left;
-     width: 35px;
+     width: 35px;9
 }
  .compMck img {
      width: 85vw;
@@ -435,16 +436,12 @@
 		width: 90vw;
 }
 
-
-
-/* COLORS Blue:#ABE0F7;
- /// Pink: #FFA8F6;
- //// Purple:#1E0075;
- purple2 #1D02C2
-
-
-
-
+.grow {
+transition: all .2s ease-in-out;
+}
+.grow:hover {
+transform: scale(1.1);
+}
   #primary1 {
       width: 100px;
       height: 100px;
