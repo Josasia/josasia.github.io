@@ -176,8 +176,9 @@ button.pink a {
 
 .mtnDiv2 h1 {
   color: #ACDBFD;
+  font-family: Raleway;
   font-size: calc(1.4rem + 2vw);
-  font-weight: 500;
+  font-weight: 900;
   letter-spacing: -1px;
   position: relative;
   top: 4rem;
@@ -465,6 +466,7 @@ li#cta2 img {
 }
 /* ---------MOCKUPS ----------------------------------------------------------*/
 li#mckupGD img {
+  max-width: 750px;
   width: 80vw;
 }
 
@@ -488,7 +490,7 @@ li#mckupGD img {
 }
 
 .mckList img {
-  max-width: 255px;
+  max-width: 275px;
   width: 80vw;
 }
 
@@ -641,4 +643,23 @@ li#mckupGD img {
     font-size: 2.5rem;
   }
 }
-/*********************************************/
+/*************DESKTOP MEDIA*************************/
+@media screen and (min-width: 600px) {
+
+.mainCont {
+  align-items: center;
+  display: grid;
+  empty-cells: show;
+  grid-gap: 1rem;
+  grid-template-columns: .5fr 1fr .5fr;
+  grid-template-rows: minmax(0, auto);
+  justify-items: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 98vw;
+}
+
+.mainList {
+  grid-column:2;
+}
+*******
