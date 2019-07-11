@@ -383,8 +383,8 @@
 }
 /* BRAND IDENTITY -----------------------------------*/
 
- li#brndImg img{
-     width: 10vw;
+.brndImg img{
+     width: 80vw;
 }
  .brndList {
      grid-column: 1;
@@ -417,10 +417,6 @@
 }
 /* ---------MOCKUPS ----------------------------------------------------------*/
  li#mckupGD img{
-     border-color: #FFA8F6;
-     border-radius: 2px;
-     border-style: solid;
-     border-width: 3px;
      width: 80vw;
 }
 .mckCont {
@@ -442,8 +438,8 @@
     text-align: center;
 }
 .mckList img {
-    max-width: 255px;
-    width:90vw;
+  max-width: 255px;
+    width:80vw;
 }
 
 .mckTxt {
