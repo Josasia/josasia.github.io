@@ -33,7 +33,9 @@
      text-align:center;
 }
  h5 {
-     font-family: Merriweather;
+   font-family: Roboto;
+   font-size: 1.6rem;
+   font-weight: 300;
 }
  h6 {
 		color:#1E0075;
@@ -370,6 +372,10 @@
      width: 35vw;
 }
 /* BRAND IDENTITY -----------------------------------*/
+
+ li#colors2 img{
+     width: 70vw;
+}
  .logList {
      grid-column: 1;
      width: 90vw;
@@ -382,19 +388,21 @@
      color:#1E0075;
      text-align: center;
 }
- li#colors1 img{
-     width: 300px;
+.logList a {
+    color: #FFA8F6;
 }
- li#colors2 img{
-     width: 70vw;
+
+.logList h5 {
+  display: inline;
 }
- .typList h1, .typList h2,.typList h3 ,.typList h5 {
-     display: inline;
+.logList span {
+  font-size: 2rem;
+  font-weight: 500;
 }
- .typList {
-     grid-column: 1;
-     width: 90vw;
-}
+
+
+
+
  li#cta1 img {
      width: 125px;
 }
