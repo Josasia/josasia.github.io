@@ -217,7 +217,17 @@
      position: relative;
      width: 30vw;
 }
-
+#dArro {
+  display: inline-block;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 12px solid  #FFA8F6;
+  position: relative;
+}
 
 /* MAIN CSSGRID CONTAINER AND CHILDREN */
  .mainCont {
@@ -373,29 +383,25 @@
 }
 /* BRAND IDENTITY -----------------------------------*/
 
- li#colors2 img{
-     width: 70vw;
+ li#brndImg img{
+     width: 10vw;
 }
- .logList {
+ .brndList {
      grid-column: 1;
      width: 90vw;
 }
- .logList img {
-     width: 90vw;
-     padding: 1.5rem;
-}
- .logList h1 {
+ .brndList h1 {
      color:#1E0075;
      text-align: center;
 }
-.logList a {
+.brndList a {
     color: #FFA8F6;
 }
 
-.logList h5 {
+.brndList h5 {
   display: inline;
 }
-.logList span {
+.brndList span {
   font-size: 2rem;
   font-weight: 500;
 }
