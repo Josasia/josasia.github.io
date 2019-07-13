@@ -123,19 +123,86 @@ button.pink a {
   color: #FF28FF;
   text-decoration: none;
 }
-/**********************FIRST SECTION***********************/
+/***********
 
-.mck1 img {
-  max-width: 800px;
+/* MAIN CSSGRID CONTAINER AND CHILDREN */
+.mainCont {
+  align-items: center;
+  display: grid;
+  empty-cells: show;
+  grid-gap: 1rem;
+  grid-template-columns: minmax(0, auto);
+  grid-template-rows: minmax(0, auto);
+  justify-items: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 98vw;
+}
+
+.thinCont {
+  align-items: center;
+  display: grid;
+  empty-cells: show;
+  grid-gap: 1rem;
+  grid-template-columns: minmax(0, auto);
+  grid-template-rows: minmax(0, auto);
+  justify-items: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 80vw;
+}
+
+.mainHed {
+  text-align: center;
+  padding-bottom: 2.5rem;
+  width: 98vw;
+}
+
+.mainCont h1 {
+  color: #1E0075;
+  padding-bottom: 1rem;
+}
+
+.mainCont img {
+  max-width: 300px;
+}
+
+.chkMrk img {
+  float: left;
+  margin-right: .25rem;
+  width: 20px;
+}
+
+.chkMrk, .cldMrk {
   width: 90vw;
 }
 
-.mck1 {
-  text-align: center;
-  max-width: 800px;
-  width: 85vw;
+.cldMrk img {
+  float: left;
+  margin-right: .25rem;
+  position: relative;
+  top: .5rem;
+  width: 10px;
 }
 
+.mainList {
+  width: 90vw;
+}
+
+.mainList img {
+  max-width: 255px;
+  width: 90vw;
+}
+
+.mainList h1, .roleList h1 {
+  color: #1E0075;
+}
+/**********************FIRST SECTION***********************/
+
+.mck1 {
+  text-align: center;
+  width: 85vw;
+}
 .mck1 h2 {
   color: #1E0075;
   font-size: 2.4rem;
@@ -254,78 +321,6 @@ button.pink a {
   position: relative;
 }
 
-/* MAIN CSSGRID CONTAINER AND CHILDREN */
-.mainCont {
-  align-items: center;
-  display: grid;
-  empty-cells: show;
-  grid-gap: 1rem;
-  grid-template-columns: minmax(0, auto);
-  grid-template-rows: minmax(0, auto);
-  justify-items: center;
-  margin: 0 auto;
-  margin-top: 1rem;
-  width: 98vw;
-}
-
-.thinCont {
-  align-items: center;
-  display: grid;
-  empty-cells: show;
-  grid-gap: 1rem;
-  grid-template-columns: minmax(0, auto);
-  grid-template-rows: minmax(0, auto);
-  justify-items: center;
-  margin: 0 auto;
-  margin-top: 1rem;
-  width: 80vw;
-}
-
-.mainHed {
-  text-align: center;
-  padding-bottom: 2.5rem;
-  width: 98vw;
-}
-
-.mainCont h1 {
-  color: #1E0075;
-  padding-bottom: 1rem;
-}
-
-.mainCont img {
-  max-width: 300px;
-}
-
-.chkMrk img {
-  float: left;
-  margin-right: .25rem;
-  width: 20px;
-}
-
-.chkMrk, .cldMrk {
-  width: 90vw;
-}
-
-.cldMrk img {
-  float: left;
-  margin-right: .25rem;
-  position: relative;
-  top: .5rem;
-  width: 10px;
-}
-
-.mainList {
-  width: 90vw;
-}
-
-.mainList img {
-  max-width: 255px;
-  width: 90vw;
-}
-
-.mainList h1, .roleList h1 {
-  color: #1E0075;
-}
 /**********************SURVEY SECTION***********************/
 .sur90 img, .sur50 img {
   border-width: .5rem;
@@ -643,5 +638,369 @@ li#mckupGD img {
     font-size: 2.5rem;
   }
 }
-/*************DESKTOP MEDIA************************/
+/*************DESKTOP MEDIAQ************************/
 @media screen and (min-width: 700px) {
+
+/**FIRST SECTION***/
+.mck1 {
+    width: 35vw;
+}
+.mainHed h6 {
+  font-size: calc(2rem + 5vw);
+}
+
+  .cld1, .cld1 img {
+    margin-bottom: 2rem;
+    position: relative;
+    left: -6rem;
+    width: 70px;
+  }
+
+  .cld2, .cld2 img {
+    position: relative;
+    right: -6rem;
+    width: 10vw;
+  }
+
+  .cld3, .cld3 img {
+    position: relative;
+    left: 6rem;
+    width: 15vw;
+  }
+
+  .mtnDiv1, .mtnDiv2, .mtnDiv3 {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    max-width: 800px;
+    width: 98vw;
+  }
+
+  .mtnDiv1 img, .mtnDiv2 img, .mtnDiv3 img {
+    padding-bottom: 3rem;
+    max-width: 800px;
+    width: 95vw;
+  }
+
+  .mtnDiv2 h1 {
+    color: #ACDBFD;
+    font-family: Raleway;
+    font-size: calc(1.4rem + 2vw);
+    font-weight: 900;
+    letter-spacing: -1px;
+    position: relative;
+    top: 4rem;
+    left: -2rem;
+    text-align: center;
+    max-width: 80vw;
+  }
+
+  .mtnDiv3 h1 {
+    color: #FFA8F6;
+    font-size: calc(1.4rem + 2vw);
+    font-weight: 500;
+    letter-spacing: -1px;
+    position: relative;
+    top: 4rem;
+    left: 7rem;
+    text-align: center;
+    max-width: 80vw;
+  }
+
+  .outer-div {
+    text-align: center;
+  }
+
+  #lineB {
+    display: inline-block;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    outline-color: #ABE0F7;
+    outline-style: solid;
+    outline-width: 1px;
+    position: relative;
+    width: 75vw;
+  }
+
+  #lineP {
+    display: inline-block;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    outline-color: #FFA8F6;
+    outline-style: solid;
+    outline-width: 1px;
+    position: relative;
+    width: 75vw;
+  }
+
+  #lineR {
+    display: inline-block;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    outline-color: #BDC3FF;
+    outline-style: solid;
+    outline-width: 1px;
+    position: relative;
+    width: 30vw;
+  }
+
+  #dArro {
+    display: inline-block;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid  #FFA8F6;
+    position: relative;
+  }
+
+  /* MAIN CSSGRID CONTAINER AND CHILDREN */
+  .mainCont {
+    align-items: center;
+    display: grid;
+    empty-cells: show;
+    grid-gap: 1rem;
+    grid-template-columns: minmax(0, auto);
+    grid-template-rows: minmax(0, auto);
+    justify-items: center;
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 98vw;
+  }
+
+  .thinCont {
+    align-items: center;
+    display: grid;
+    empty-cells: show;
+    grid-gap: 1rem;
+    grid-template-columns: minmax(0, auto);
+    grid-template-rows: minmax(0, auto);
+    justify-items: center;
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 80vw;
+  }
+
+  .mainHed {
+    text-align: center;
+    padding-bottom: 2.5rem;
+    width: 98vw;
+  }
+
+  .mainCont h1 {
+    color: #1E0075;
+    padding-bottom: 1rem;
+  }
+
+  .mainCont img {
+    max-width: 300px;
+  }
+
+  .chkMrk img {
+    float: left;
+    margin-right: .25rem;
+    width: 20px;
+  }
+
+  .chkMrk, .cldMrk {
+    width: 90vw;
+  }
+
+  .cldMrk img {
+    float: left;
+    margin-right: .25rem;
+    position: relative;
+    top: .5rem;
+    width: 10px;
+  }
+
+  .mainList {
+    width: 90vw;
+  }
+
+  .mainList img {
+    max-width: 255px;
+    width: 90vw;
+  }
+
+  .mainList h1, .roleList h1 {
+    color: #1E0075;
+  }
+  /**********************SURVEY SECTION***********************/
+  .sur90 img, .sur50 img {
+    border-width: .5rem;
+    border-style: solid;
+    border-color: #FCFCFC;
+    float: left;
+    width: 50px;
+  }
+
+  .sur65 img {
+    border-width: .5rem;
+    border-style: solid;
+    border-color: #fcfcfc;
+    float: right;
+    width: 50px;
+  }
+
+  .sur90,.sur65, .sur50 {
+    grid-column: 1;
+    color: #1E0075;
+    width: 90vw;
+  }
+
+  .surX {
+    grid-column: 1;
+    width: 90vw;
+  }
+  /**********************COMPET SECTION***********************/
+  .compLogo {
+    width: 90vw;
+  }
+
+  .compLogo h1 {
+    color: #1E0075;
+  }
+
+  .compLogo img {
+    float: left;
+    width: 35px;
+    9;
+  }
+
+  .compMck img {
+    width: 85vw;
+  }
+
+  .compX {
+    grid-column: 1;
+    grid-row: 11;
+    width: 90vw;
+  }
+  /*-----------------------------------PERSONAS SECTION-----------------------*/
+  .persMat {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+    width: 65vw;
+  }
+
+  .persList {
+    grid-column: 1;
+    grid-row: 2;
+    width: 85vw;
+  }
+
+  .persX {
+    grid-column: 1;
+    width: 90vw;
+  }
+  /*------------------STORIES AND FLOWS SECTION--------------------------------*/
+  .storCont {
+    display: none;
+  }
+
+  .storCont hr, .storCont h1 {
+    color: #1D02C2;
+  }
+  }
+
+  .storList1, .storList2, .storList3 {
+    display: none;
+  }
+  /*!-LARGE USER STORIES KINDA DONE------------ .storList1 {
+       display: inline-table;
+       grid-column: 1;
+       padding-top: 2rem;
+  }
+   .storList2 {
+       display: inline-table;
+       grid-column: 2;
+       padding-top: 2rem;
+  }
+   .storList3 {
+       display: inline-table;
+       grid-column: 3;
+       padding-top: 2rem;
+  }-------------------------------------------------------------------------------*/
+
+  .wire1 img {
+    float: left;
+    width: 35vw;
+  }
+  /* BRAND IDENTITY -----------------------------------*/
+
+  .brndImg img {
+    width: 80vw;
+  }
+
+  .brndList {
+    grid-column: 1;
+    width: 90vw;
+  }
+
+  .brndList h1 {
+    color: #1E0075;
+    text-align: center;
+  }
+
+  .brndList a {
+    color: #FFA8F6;
+  }
+
+  .brndList h5 {
+    display: inline;
+  }
+
+  .brndList span {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  li#cta1 img {
+    width: 125px;
+  }
+
+  li#cta2 img {
+    width: 325px;
+  }
+  /* ---------MOCKUPS ----------------------------------------------------------*/
+  li#mckupGD img {
+    max-width: 750px;
+    width: 80vw;
+  }
+
+  .mckCont {
+    align-items: center;
+    display: grid;
+    empty-cells: show;
+    grid-gap: 1rem;
+    grid-template-columns: minmax(0, auto);
+    grid-template-rows: minmax(0, auto);
+    justify-items: center;
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 98vw;
+  }
+
+  .mckList {
+    grid-column: 1;
+    width: 90vw;
+    text-align: center;
+  }
+
+  .mckList img {
+    max-width: 750px;
+    width: 90vw;
+  }
+
+  .mckTxt {
+    width: 90vw;
+  }
