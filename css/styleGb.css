@@ -2,21 +2,6 @@
   box-sizing: border-box;
 }
 /***************** BODY PROPERTIES *****************/
-.pageWrap {
-align-items: center;
-display: grid;
-empty-cells: show;
-grid-gap: 1rem;
-grid-template-columns:1fr 1fr 1fr;
-grid-template-rows: minmax(0, auto);
-justify-items: center;
-margin: 0 auto;
-margin-top: 1rem;
-width: 98vw;
-}
-.pageColumn {
-  grid-column:1;
-}
 html {
   color: #1B181B;
   font-size: 10px;
@@ -140,13 +125,6 @@ button.pink a {
 }
 /**********************FIRST SECTION***********************/
 
-.cld1, .cld1 img {
-  margin-bottom: 2rem;
-  position: relative;
-  left: -6rem;
-  width: 15vw;
-}
-
 .mck1 img {
   max-width: 800px;
   width: 90vw;
@@ -162,6 +140,13 @@ button.pink a {
   color: #1E0075;
   font-size: 2.4rem;
   font-weight: 500;
+}
+
+.cld1, .cld1 img {
+  margin-bottom: 2rem;
+  position: relative;
+  left: -6rem;
+  width: 70px;
 }
 
 .cld2, .cld2 img {
@@ -660,7 +645,3 @@ li#mckupGD img {
 }
 /*************DESKTOP MEDIA************************/
 @media screen and (min-width: 700px) {
-
-  .mainCont {
-    width: 75vw;
-}
