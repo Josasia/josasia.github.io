@@ -124,6 +124,44 @@ button.pink a {
   text-decoration: none;
 }
 /***********
+TEMPTEMPTEMPTEMPTEMP*/
+.TEMPCont {
+  align-items: center;
+  display: grid;
+  empty-cells: show;
+  grid-gap: 1rem;
+  grid-template-columns: minmax(0, auto);
+  grid-template-rows: minmax(0, auto);
+  justify-items: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 98vw;
+}
+.TEMPCont h1 {
+  color: #1E0075;
+  padding-bottom: 1rem;
+}
+.TEMPCont img {
+  max-width: 300px;
+}
+/***********
+TEMPTEMPTEMPTEMPTEMP*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* MAIN CSSGRID CONTAINER AND CHILDREN */
 .mainCont {
@@ -228,14 +266,20 @@ button.pink a {
 }
 
 .mtnDiv2, .mtnDiv3 {
-  padding-top: 1rem;
-  padding-bottom: 3rem;
-  width: 98vw;
+  align-items: center;
+  display: grid;
+  empty-cells: show;
+  grid-gap: 1rem;
+  grid-template-columns: minmax(0, auto);
+  grid-template-rows: minmax(0, auto);
+  justify-items: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 80vw;
 }
 
 .mtnDiv2 img, .mtnDiv3 img {
   padding-bottom: 3rem;
-  max-width: 800px;
   width: 95vw;
 }
 
@@ -638,6 +682,19 @@ li#mckupGD img {
 }
 /*************DESKTOP MEDIAQ************************/
 @media screen and (min-width: 700px) {
+/* TEMPCONT *//* TEMPCONT *//* TEMPCONT *//* TEMPCONT */
+.TEMPCont {
+  align-items: center;
+  display: grid;
+  empty-cells: show;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr .75fr 1fr;
+  grid-template-rows: minmax(0, auto);
+  justify-items: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 70vw;
+}/* TEMPCONT *//* TEMPCONT *//* TEMPCONT */
 
 /**FIRST SECTION***/
 .mck1 {
@@ -776,11 +833,14 @@ li#mckupGD img {
 
 
   .mainHed {
+    grid-column: 2;
     text-align: center;
     padding-bottom: 2.5rem;
-    width: 98vw;
+    width: 70vw;
   }
-
+button.pink {
+  grid-column: 2;
+}
   .mainCont h1 {
     color: #1E0075;
     padding-bottom: 1rem;
@@ -820,32 +880,14 @@ li#mckupGD img {
   .mainList h1, .roleList h1 {
     color: #1E0075;
   }
-  /**********************SURVEY SECTION***********************/
-  .sur90 img, .sur50 img {
-    border-width: .5rem;
-    border-style: solid;
-    border-color: #FCFCFC;
-    float: left;
-    width: 50px;
-  }
-
-  .sur65 img {
-    border-width: .5rem;
-    border-style: solid;
-    border-color: #fcfcfc;
-    float: right;
-    width: 50px;
-  }
-
+  /**SURVEY SECTION***/
   .sur90,.sur65, .sur50 {
-    grid-column: 1;
-    color: #1E0075;
-    width: 90vw;
+    grid-column: 2;
+    width: 70vw;
   }
-
   .surX {
-    grid-column: 1;
-    width: 90vw;
+    grid-column: 2;
+    width: 70vw;
   }
   /**********************COMPET SECTION***********************/
   .compLogo {
