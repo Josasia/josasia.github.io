@@ -147,22 +147,6 @@ TEMPTEMPTEMPTEMPTEMP*/
 /***********
 TEMPTEMPTEMPTEMPTEMP*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* MAIN CSSGRID CONTAINER AND CHILDREN */
 .mainCont {
   align-items: center;
@@ -690,7 +674,8 @@ li#mckupGD img {
   margin: 0 auto;
   margin-top: 1rem;
   width: 70vw;
-}/* TEMPCONT *//* TEMPCONT *//* TEMPCONT */
+}//* TEMPCONT *//* TEMPCONT */
+/* TEMPCONT *//* TEMPCONT *//* TEMPCONT */
 
 /**FIRST SECTION***/
 .mck1 {
@@ -699,7 +684,6 @@ li#mckupGD img {
 .mainHed h6 {
   font-size: calc(2rem + 5vw);
 }
-
 .thinCont {
     align-items: center;
     display: grid;
@@ -720,19 +704,17 @@ li#mckupGD img {
   grid-row: 2;
   position: relative; left: -4rem;
 }
-   .mtnDiv2, .mtnDiv3 {
-    padding-top: 1rem;
-    padding-bottom: 3rem;
-    max-width: 800px;
-    width: 98vw;
-  }
-
+.mtnDiv2, .mtnDiv3 {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  max-width: 800px;
+  width: 98vw;
+}
   .mtnDiv2 img, .mtnDiv3 img {
     padding-bottom: 3rem;
     max-width: 800px;
     width: 95vw;
   }
-
   .mtnDiv2 h1 {
     color: #ACDBFD;
     font-family: Raleway;
@@ -745,7 +727,6 @@ li#mckupGD img {
     text-align: center;
     max-width: 80vw;
   }
-
   .mtnDiv3 h1 {
     color: #FFA8F6;
     font-size: calc(1.4rem + 2vw);
@@ -756,61 +737,6 @@ li#mckupGD img {
     left: 7rem;
     text-align: center;
     max-width: 80vw;
-  }
-
-  .outer-div {
-    text-align: center;
-  }
-
-  #lineB {
-    display: inline-block;
-    border-radius: 5px;
-    margin: 0 auto;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-    outline-color: #ABE0F7;
-    outline-style: solid;
-    outline-width: 1px;
-    position: relative;
-    width: 75vw;
-  }
-
-  #lineP {
-    display: inline-block;
-    border-radius: 5px;
-    margin: 0 auto;
-    margin-bottom: 5rem;
-    margin-top: 5rem;
-    outline-color: #FFA8F6;
-    outline-style: solid;
-    outline-width: 1px;
-    position: relative;
-    width: 75vw;
-  }
-
-  #lineR {
-    display: inline-block;
-    border-radius: 5px;
-    margin: 0 auto;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-    outline-color: #BDC3FF;
-    outline-style: solid;
-    outline-width: 1px;
-    position: relative;
-    width: 30vw;
-  }
-
-  #dArro {
-    display: inline-block;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    width: 0;
-    height: 0;
-    border-left: 12px solid transparent;
-    border-right: 12px solid transparent;
-    border-top: 12px solid  #FFA8F6;
-    position: relative;
   }
 
   /* MAIN CSSGRID CONTAINER AND CHILDREN */
@@ -841,9 +767,9 @@ button.pink {
     color: #1E0075;
     padding-bottom: 1rem;
   }
-
   .mainCont img {
-    max-width: 300px;
+    width: 35vw;
+    max-width: 500px;
   }
 
   .chkMrk img {
@@ -853,7 +779,8 @@ button.pink {
   }
 
   .chkMrk, .cldMrk {
-    width: 90vw;
+    grid-column: 2;
+    width: 70vw;
   }
 
   .cldMrk img {
@@ -876,6 +803,8 @@ button.pink {
   .mainList h1, .roleList h1 {
     color: #1E0075;
   }
+
+
   /**SURVEY SECTION***/
   .sur90,.sur65 {
     grid-column: 2;
@@ -891,29 +820,27 @@ button.pink {
     grid-column: 2;
     width: 70vw;
   }
-  /**********************COMPET SECTION***********************/
+
+
+  /*****COMPET SECTION******/
   .compLogo {
-    width: 90vw;
+    grid-column: 2;
+    width: 70vw;
   }
 
-  .compLogo h1 {
-    color: #1E0075;
-  }
 
   .compLogo img {
     float: left;
     width: 35px;
-    9;
   }
-
-  .compMck img {
-    width: 85vw;
-  }
+.compMck {
+  grid-column: 2;
+}
 
   .compX {
     grid-column: 1;
     grid-row: 11;
-    width: 90vw;
+    width: 70vw;
   }
   /*-----------------------------------PERSONAS SECTION-----------------------*/
   .persMat {
@@ -1025,11 +952,6 @@ button.pink {
     grid-column: 1;
     width: 90vw;
     text-align: center;
-  }
-
-  .mckList img {
-    max-width: 750px;
-    width: 90vw;
   }
 
   .mckTxt {
