@@ -364,22 +364,14 @@ TEMPTEMPTEMPTEMPTEMP*/
 }
 
 /**********************SURVEY SECTION***********************/
-.sur90 img{
+.sur90 img, .sur65 img{
   border-width: .5rem;
   border-style: solid;
   border-color: #FCFCFC;
   float: left;
-  width: 5vw;
+  width: 50px;
 }
-
-.sur65 img {
-  border-width: .5rem;
-  border-style: solid;
-  border-color: #fcfcfc;
-  float: right;
-  width: 5vw;
-}
-.sur65 h1 {
+ .sur65 img {
   float: right;
 }
 .sur90,.sur65 {
@@ -685,7 +677,7 @@ li#mckupGD img {
   }
 }
 /*************DESKTOP MEDIAQ************************/
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 750px) {
 /* TEMPCONT *//* TEMPCONT *//* TEMPCONT *//* TEMPCONT */
 .TEMPCont {
   align-items: center;
@@ -885,9 +877,12 @@ button.pink {
     color: #1E0075;
   }
   /**SURVEY SECTION***/
-  .sur90,.sur65, .sur50 {
+  .sur90,.sur65 {
     grid-column: 2;
-    width: 65vw;
+    width: 75vw;
+  }
+  .sur90 img, .sur65 img{
+    width: 5vw;
   }
   .sur65 h1{
     float:right;
