@@ -758,7 +758,7 @@ li#mckupGD img {
     grid-column: 2;
     text-align: center;
     padding-bottom: 2.5rem;
-    width: 70vw;
+    width: 55vw;
   }
 button.pink {
   grid-column: 2;
@@ -780,7 +780,7 @@ button.pink {
 
   .chkMrk, .cldMrk {
     grid-column: 2;
-    width: 70vw;
+    width: 55vw;
   }
 
   .cldMrk img {
@@ -825,7 +825,7 @@ button.pink {
   /*****COMPET SECTION******/
   .compLogo {
     grid-column: 2;
-    width: 70vw;
+    width: 60vw;
   }
 
 
@@ -838,8 +838,7 @@ button.pink {
 }
 
   .compX {
-    grid-column: 1;
-    grid-row: 11;
+    grid-column: 2;
     width: 70vw;
   }
   /*-----------------------------------PERSONAS SECTION-----------------------*/
