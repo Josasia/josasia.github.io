@@ -696,7 +696,6 @@ li#mckupGD img {
 .mtnDiv2, .mtnDiv3 {
   padding-top: 1rem;
   padding-bottom: 3rem;
-  position: relative;
   max-width: 800px;
   width: 98vw;
 }
@@ -759,6 +758,7 @@ button.pink {
   }
   .mainCont img {
     width: 35vw;
+    max-width: 500px;
   }
 
   .chkMrk img {
@@ -877,11 +877,11 @@ button.pink {
 }----
 
 .wire1 {
-  display: inline;
     grid-column: 2;
     width: 70vw;
   }
-.wire1 img {display: inline;
+.wire1 img {
+  width: 70vw;
 }
 
   /*****COMPET SECTION******/
