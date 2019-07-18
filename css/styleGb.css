@@ -186,7 +186,6 @@ TEMPTEMPTEMPTEMPTEMP*/
 }
 
 .mainCont img {
-  max-width: 300px;
 }
 
 .chkMrk img {
@@ -229,7 +228,9 @@ TEMPTEMPTEMPTEMPTEMP*/
   font-size: 2.4rem;
   font-weight: 500;
 }
-
+.mck1 img {
+  width: 75vw;
+}
 .cld1, .cld1 img {
   margin-bottom: 2rem;
   position: relative;
@@ -663,16 +664,24 @@ li#mckupGD img {
 
 /**FIRST SECTION***/
 .mck1 {
-  grid-column: 2;
-}
-.mck1 {
   text-align: center;
-  width: 35vw;
+}
+.mck1 h2 {
+  color: #1E0075;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+.mck1 img {
+}
+.mck1 h6 {
+  font-size: calc(2rem + 5vw);
+  color: #1E0075;
+  font-family: Raleway;
+  font-weight: 900;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
 }
 
-.mainHed h6 {
-  font-size: calc(2rem + 5vw);
-}
 .thinCont {
     align-items: center;
     display: grid;
@@ -688,6 +697,10 @@ li#mckupGD img {
 .roleList {
   grid-column: 2;
 }
+.cld1, .cld1 img {display: none;
+}
+
+.cld2, .cld2 img {display: none;}
 .cld3 {
   grid-column: 3;
   grid-row: 2;
@@ -757,8 +770,7 @@ button.pink {
     padding-bottom: 1rem;
   }
   .mainCont img {
-    width: 35vw;
-    max-width: 500px;
+    max-width: 700px;
   }
 
   .chkMrk img {
