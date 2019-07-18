@@ -663,8 +663,13 @@ li#mckupGD img {
 
 /**FIRST SECTION***/
 .mck1 {
-    width: 35vw;
+  grid-column: 2;
 }
+.mck1 {
+  text-align: center;
+  width: 35vw;
+}
+
 .mainHed h6 {
   font-size: calc(2rem + 5vw);
 }
@@ -691,6 +696,7 @@ li#mckupGD img {
 .mtnDiv2, .mtnDiv3 {
   padding-top: 1rem;
   padding-bottom: 3rem;
+  position: relative;
   max-width: 800px;
   width: 98vw;
 }
@@ -753,7 +759,6 @@ button.pink {
   }
   .mainCont img {
     width: 35vw;
-    max-width: 500px;
   }
 
   .chkMrk img {
@@ -872,11 +877,11 @@ button.pink {
 }----
 
 .wire1 {
+  display: inline;
     grid-column: 2;
     width: 70vw;
   }
-.wire1 img {
-  width: 70vw;
+.wire1 img {display: inline;
 }
 
   /*****COMPET SECTION******/
