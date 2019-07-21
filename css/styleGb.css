@@ -896,14 +896,18 @@ button.pink {
 
   /*****COMPET SECTION******/
   /* BRAND IDENTITY -----------------------------------*/
+.brndImg {
+  grid-column: 2/3;
+    width: 70vw;
 
+}
   .brndImg img {
-    width: 80vw;
+    max-width: 400px;
   }
 
   .brndList {
-    grid-column: 1;
-    width: 90vw;
+    grid-column: 2;
+    width: 70vw;
   }
 
   .brndList h1 {
@@ -923,7 +927,10 @@ button.pink {
     font-size: 2rem;
     font-weight: 500;
   }
-
+li#cta1, li#cta2 {
+  grid-column: 2;
+  width: 70vw;
+}
   li#cta1 img {
     width: 125px;
   }
