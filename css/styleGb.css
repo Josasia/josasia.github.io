@@ -897,8 +897,9 @@ button.pink {
   /*****COMPET SECTION******/
   /* BRAND IDENTITY -----------------------------------*/
 .brndImg {
-  grid-column: 2/3;
-    width: 70vw;
+    grid-column: 2;
+    text-align: center;
+    width: 55vw;
 
 }
   .brndImg img {
@@ -922,47 +923,29 @@ button.pink {
   .brndList h5 {
     display: inline;
   }
-
   .brndList span {
     font-size: 2rem;
     font-weight: 500;
   }
 li#cta1, li#cta2 {
+    grid-column: 2;
+    text-align: center;
+    width: 55vw;
+  }
+  /* ---MOCKUPS ----*/
+  li#mckupGD img {
+    width: 55vw;
+  }
+  li#mckupGD {
+    grid-column: 2;
+    width: 70vw;
+    text-align: left;
+  }
+.mckList {
   grid-column: 2;
   width: 70vw;
+  text-align: left;
 }
-  li#cta1 img {
-    width: 125px;
-  }
-
-  li#cta2 img {
-    width: 325px;
-  }
-  /* ---------MOCKUPS ----------------------------------------------------------*/
-  li#mckupGD img {
-    max-width: 750px;
-    width: 80vw;
-  }
-
-  .mckCont {
-    align-items: center;
-    display: grid;
-    empty-cells: show;
-    grid-gap: 1rem;
-    grid-template-columns: minmax(0, auto);
-    grid-template-rows: minmax(0, auto);
-    justify-items: center;
-    margin: 0 auto;
-    margin-top: 1rem;
-    width: 98vw;
-  }
-
-  .mckList {
-    grid-column: 1;
-    width: 90vw;
-    text-align: center;
-  }
-
-  .mckTxt {
-    width: 90vw;
-  }
+.mckList img {
+  width: 70vw;
+}
