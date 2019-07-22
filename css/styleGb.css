@@ -386,7 +386,7 @@ TEMPTEMPTEMPTEMPTEMP*/
 .compLogo img {
   float: left;
   width: 35px;
-  9;
+  
 }
 
 .compMck img {
@@ -429,7 +429,7 @@ TEMPTEMPTEMPTEMPTEMP*/
 /* BRAND IDENTITY -----------------------------------*/
 
 .brndImg img {
-  width: 80vw;
+  width: 65vw;
 }
 
 .brndList {
@@ -622,7 +622,7 @@ li#mckupGD img {
   padding-top: 1rem;
   margin-bottom: 2rem;
   grid-column: 2;
-  9;
+  
 }
 /*****************HEADER MEDIA****************************/
 @media screen and (max-width: 415px) {
@@ -657,8 +657,7 @@ li#mckupGD img {
   margin: 0 auto;
   margin-top: 1rem;
   width: 70vw;
-}//* TEMPCONT *//* TEMPCONT */
-/* TEMPCONT *//* TEMPCONT *//* TEMPCONT */
+}
 
 /**FIRST SECTION***/
 .mck1 {
@@ -884,24 +883,16 @@ button.pink {
        display: flex;
        grid-column: 3;
        padding-top: 2rem;
-}----
-
-.wire1 {
-    grid-column: 1;
-  }
-.wire1 img {
-  float: left;
-  width: 30vw;
 }
+
   /* BRAND IDENTITY -----*/
 .brndImg {
     grid-column: 2;
     text-align: center;
     width: 55vw;
-
 }
   .brndImg img {
-    max-width: 400px;
+    max-width: 15vw;
   }
 
   .brndList {
@@ -946,4 +937,5 @@ li#cta1, li#cta2 {
 }
 .mckList img {
   width: 70vw;
+}
 }
