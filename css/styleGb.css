@@ -426,10 +426,6 @@ TEMPTEMPTEMPTEMPTEMP*/
   display: none;
 }
 
-.wire1 img {
-  float: left;
-  width: 30vw;
-}
 /* BRAND IDENTITY -----------------------------------*/
 
 .brndImg img {
@@ -440,7 +436,9 @@ TEMPTEMPTEMPTEMPTEMP*/
   grid-column: 1;
   width: 90vw;
 }
-
+.brndList img {
+  width: 30vw;
+}
 .brndList h1 {
   color: #1E0075;
   text-align: center;
