@@ -123,8 +123,7 @@ button.pink a {
   color: #FF28FF;
   text-decoration: none;
 }
-/***********
-TEMPTEMPTEMPTEMPTEMP*/
+
 .TEMPCont {
   align-items: center;
   display: grid;
@@ -144,8 +143,6 @@ TEMPTEMPTEMPTEMPTEMP*/
 .TEMPCont img {
   max-width: 300px;
 }
-/***********
-TEMPTEMPTEMPTEMPTEMP*/
 
 /* MAIN CSSGRID CONTAINER AND CHILDREN */
 .mainCont {
@@ -184,10 +181,6 @@ TEMPTEMPTEMPTEMPTEMP*/
   color: #1E0075;
   padding-bottom: 1rem;
 }
-
-.mainCont img {
-}
-
 .chkMrk img {
   float: left;
   margin-right: .25rem;
@@ -205,7 +198,6 @@ TEMPTEMPTEMPTEMPTEMP*/
   top: .5rem;
   width: 10px;
 }
-
 .mainList {
   width: 90vw;
 }
@@ -217,8 +209,8 @@ TEMPTEMPTEMPTEMPTEMP*/
 .mainList h1, .roleList h1 {
   color: #1E0075;
 }
-/**********************FIRST SECTION***********************/
 
+/*HERO*/
 .mck1 {
   text-align: center;
   width: 85vw;
@@ -427,9 +419,12 @@ TEMPTEMPTEMPTEMPTEMP*/
 }
 
 /* BRAND IDENTITY -----------------------------------*/
-
+.brndImg {
+  grid-column: 1;
+  text-align: center;
+}
 .brndImg img {
-  width: 65vw;
+  width: 90vw;
 }
 
 .brndList {
@@ -466,8 +461,8 @@ li#cta2 img {
 }
 /* ---------MOCKUPS ----------------------------------------------------------*/
 li#mckupGD img {
-  max-width: 750px;
-  width: 80vw;
+  width: 70vw;
+  max-width: 800px;
 }
 
 .mckCont {
@@ -645,7 +640,7 @@ li#mckupGD img {
 }
 /*************DESKTOP MEDIAQ************************/
 @media screen and (min-width: 750px) {
-/* TEMPCONT *//* TEMPCONT *//* TEMPCONT *//* TEMPCONT */
+/* TEMP IS NOW MAIN CONT*/
 .TEMPCont {
   align-items: center;
   display: grid;
@@ -659,7 +654,7 @@ li#mckupGD img {
   width: 70vw;
 }
 
-/**FIRST SECTION***/
+/*HERO*/
 .mck1 {
   text-align: center;
 }
@@ -667,8 +662,6 @@ li#mckupGD img {
   color: #1E0075;
   font-size: 2.4rem;
   font-weight: 500;
-}
-.mck1 img {
 }
 .mck1 h6 {
   font-size: calc(2rem + 5vw);
@@ -694,10 +687,9 @@ li#mckupGD img {
 .roleList {
   grid-column: 2;
 }
-.cld1, .cld1 img {display: none;
+.cld1, .cld1 img {
+  display: none;
 }
-
-.cld2, .cld2 img {display: none;}
 .cld3 {
   grid-column: 3;
   grid-row: 2;
@@ -751,8 +743,6 @@ li#mckupGD img {
     margin-top: 1rem;
     width: 98vw;
   }
-
-
   .mainHed {
     grid-column: 2;
     text-align: center;
@@ -802,7 +792,6 @@ button.pink {
     color: #1E0075;
   }
 
-
   /**SURVEY SECTION***/
   .sur90,.sur65 {
     grid-column: 2;
@@ -827,7 +816,6 @@ button.pink {
     grid-column: 2;
     width: 60vw;
   }
-
 
   .compLogo img {
     float: left;
@@ -889,11 +877,8 @@ button.pink {
 .brndImg {
     grid-column: 2;
     text-align: center;
-    width: 55vw;
+    width: 70vw;
 }
-  .brndImg img {
-    max-width: 15vw;
-  }
 
   .brndList {
     grid-column: 2;
@@ -905,6 +890,9 @@ button.pink {
     text-align: center;
   }
 
+  .brndList h3 {
+    text-align: center;
+  }
   .brndList a {
     color: #FFA8F6;
   }
@@ -922,13 +910,10 @@ li#cta1, li#cta2 {
     width: 55vw;
   }
   /* ---MOCKUPS ----*/
-  li#mckupGD img {
-    width: 55vw;
-  }
   li#mckupGD {
     grid-column: 2;
     width: 70vw;
-    text-align: left;
+    text-align: center;
   }
 .mckList {
   grid-column: 2;
@@ -939,3 +924,44 @@ li#cta1, li#cta2 {
   width: 70vw;
 }
 }
+/*************DESKTOP MEDIAQ************************/
+@media screen and (min-width: 1200px) {
+/* TEMP IS NOW MAIN CONT*
+.TEMPCont {
+  align-items: center;
+  display: grid;
+  empty-cells: show;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr .5fr 1fr;
+  grid-template-rows: minmax(0, auto);
+  justify-items: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 50vw;
+}
+
+.thinCont {
+    align-items: center;
+    display: grid;
+    empty-cells: show;
+    grid-gap: 1rem;
+    grid-template-columns: .5fr 1fr .5fr;
+    grid-template-rows: minmax(0, auto);
+    justify-items: center;
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 80vw;
+  }
+
+  .mtnDiv2, .mtnDiv3 {
+    align-items: center;
+    display: grid;
+    empty-cells: show;
+    grid-gap: 1rem;
+    grid-template-columns: minmax(0, auto);
+    grid-template-rows: minmax(0, auto);
+    justify-items: center;
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 50vw;
+  }
