@@ -221,6 +221,8 @@ button.pink a {
   font-weight: 500;
 }
 .mck1 img {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   width: 75vw;
 }
 .cld1, .cld1 img {
@@ -393,14 +395,12 @@ button.pink a {
 /*-----------------------------------PERSONAS SECTION-----------------------*/
 .persMat {
   grid-column: 1;
-  grid-row: 1;
   text-align: center;
   width: 65vw;
 }
 
 .persList {
   grid-column: 1;
-  grid-row: 2;
   width: 85vw;
 }
 
@@ -669,7 +669,7 @@ li#mckupGD img {
   font-family: Raleway;
   font-weight: 900;
   margin-top: 6rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .thinCont {
@@ -824,7 +824,9 @@ button.pink {
 .compMck {
   grid-column: 2;
 }
-
+.compMck img {
+  width: 90vw;
+}
   .compX {
     grid-column: 2;
     width: 70vw;
@@ -926,18 +928,18 @@ li#cta1, li#cta2 {
 }
 /*************DESKTOP MEDIAQ************************/
 @media screen and (min-width: 1200px) {
-/* TEMP IS NOW MAIN CONT*
+
 .TEMPCont {
   align-items: center;
   display: grid;
   empty-cells: show;
   grid-gap: 1rem;
-  grid-template-columns: 1fr .5fr 1fr;
+  grid-template-columns: 1fr .75fr 1fr;
   grid-template-rows: minmax(0, auto);
   justify-items: center;
   margin: 0 auto;
   margin-top: 1rem;
-  width: 50vw;
+  width: 70vw;
 }
 
 .thinCont {
@@ -965,3 +967,42 @@ li#cta1, li#cta2 {
     margin-top: 1rem;
     width: 50vw;
   }
+
+  
+  /**SURVEY SECTION***/
+  .sur90,.sur65 {
+    grid-column: 2;
+    width: 50vw;
+  }
+  .sur90 img, .sur65 img{
+    width: 3vw;
+  }
+  .sur65 h1{
+    float:right;
+  }
+
+.surX {
+    grid-column: 2;
+    width: 50vw;
+  }
+.surX img {
+  width: 50vw;
+}
+.compLogo {
+  width: 35vw;
+}
+.persMat {
+  grid-column: 2;
+}
+
+.persList {
+  grid-column: 2;
+  width: 35vw;
+}
+.surX, .chkMrk {
+  width: 35vw;
+}
+
+.brndList {
+  width: 60vw;
+}
