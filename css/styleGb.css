@@ -427,6 +427,16 @@ button.pink a {
   width: 90vw;
 }
 
+/* DAILY UI----------------------------------*/
+.brndImgUI {
+  grid-column: 1;
+  text-align: center;
+}
+.brndImgUI img {
+  width: 90vw;
+}
+
+
 .brndList {
   grid-column: 1;
   width: 90vw;
@@ -460,14 +470,6 @@ li#cta2 img {
   width: 325px;
 }
 
-/* DAILY UI----------------------------------*/
-.brndImgUI {
-  grid-column: 1;
-  text-align: center;
-}
-.brndImgUI img {
-  width: 90vw;
-}
 
 
 
@@ -901,7 +903,7 @@ button.pink {
 }
 .brndListUI {
   grid-column: 2;
-  width: 90vw;
+  width: 40vw;
 }
 
   .brndList {
