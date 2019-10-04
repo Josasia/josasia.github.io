@@ -459,6 +459,19 @@ li#cta1 img {
 li#cta2 img {
   width: 325px;
 }
+
+/* DAILY UI----------------------------------*/
+.brndImgUI {
+  grid-column: 1;
+  text-align: center;
+}
+.brndImgUI img {
+  width: 90vw;
+}
+
+
+
+
 /* ---------MOCKUPS ----------------------------------------------------------*/
 li#mckupGD img {
   width: 70vw;
@@ -880,6 +893,15 @@ button.pink {
     grid-column: 2;
     text-align: center;
     width: 70vw;
+}
+.brndImgUI {
+    grid-column: 2;
+    text-align: center;
+    width: 70vw;
+}
+.brndListUI {
+  grid-column: 2;
+  width: 90vw;
 }
 
   .brndList {
