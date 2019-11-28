@@ -122,9 +122,9 @@ button.blue:hover {
 }
 .largeSelf {
 	grid-column: 2;
-	grid-row: 2;
+	grid-row: 1 /span 2;
 	position: relative;
-	left: -2rem;
+	top: 1rem;
 	z-index: 1;
 }
 .largeSelf img {
@@ -550,4 +550,5 @@ button.blue:hover {
 .studyButtonGB {
 	grid-column: 2;
 	z-index: 50;
+}
 }
